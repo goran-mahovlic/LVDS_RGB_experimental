@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "EEZ DIB MCU r1B1")(type KiCad)(uri "${KIPRJMOD}/KiCad/EEZ DIB MCU r1B1.pretty")(options "")(descr ""))
+  (lib (name KiCad)(type KiCad)(uri ${KIPRJMOD}/KiCad)(options "")(descr ""))
+  (lib (name 691327310016)(type KiCad)(uri ${KIPRJMOD}/parts/691327310016)(options "")(descr ""))
+  (lib (name ADS8556IPM)(type KiCad)(uri ${KIPRJMOD}/parts/ADS8556IPM)(options "")(descr ""))
+  (lib (name OPA2211)(type KiCad)(uri ${KIPRJMOD}/parts/OPA2211)(options "")(descr ""))
+  (lib (name DS90CF364AMTD)(type KiCad)(uri ${KIPRJMOD}/parts/DS90CF364AMTD)(options "")(descr ""))
+)

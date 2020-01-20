@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name LCD_PMOD-rescue)(type Legacy)(uri ${KIPRJMOD}/LCD_PMOD-rescue.lib)(options "")(descr ""))
+  (lib (name EEZ_DIB_MCU_r1B1-eagle-import)(type Legacy)(uri ${KIPRJMOD}/KiCad/EEZ_DIB_MCU_r1B1-eagle-import.lib)(options "")(descr ""))
+  (lib (name EEZ_DIB_MCU_r1B2-eagle-import)(type Legacy)(uri ${KIPRJMOD}/KiCad/EEZ_DIB_MCU_r1B2-eagle-import.lib)(options "")(descr ""))
+  (lib (name ADS8556IPM)(type Legacy)(uri ${KIPRJMOD}/parts/ADS8556IPM/ADS8556IPM.lib)(options "")(descr ""))
+  (lib (name OPA2211AIDDA)(type Legacy)(uri ${KIPRJMOD}/parts/OPA2211/OPA2211AIDDA.lib)(options "")(descr ""))
+  (lib (name 691327310016)(type Legacy)(uri ${KIPRJMOD}/parts/691327310016/691327310016.lib)(options "")(descr ""))
+  (lib (name DS90CF364AMTD)(type Legacy)(uri ${KIPRJMOD}/parts/DS90CF364AMTD/DS90CF364AMTD.lib)(options "")(descr ""))
+  (lib (name DS90CF363AMTD)(type Legacy)(uri ${KIPRJMOD}/parts/DS90CF343AMDT/DS90CF363AMTD.lib)(options "")(descr ""))
+)
