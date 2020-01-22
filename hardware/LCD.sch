@@ -1437,12 +1437,12 @@ Wire Notes Line
 	7900 5300 7900 6450
 Wire Notes Line
 	7900 6450 11200 6450
+Text Notes 7900 5300 0    50   ~ 0
+Decoupling U3
 Wire Bus Line
 	6175 2700 6175 3200
 Wire Bus Line
 	6175 3500 6175 4000
 Wire Bus Line
 	6175 1900 6175 2400
-Text Notes 7900 5250 0    50   ~ 0
-Decoupling U3
 $EndSCHEMATC
