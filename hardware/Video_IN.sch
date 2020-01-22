@@ -419,7 +419,7 @@ Wire Wire Line
 	4750 3600 4200 3600
 Text Label 4200 3600 0    50   ~ 0
 DISP
-Text Notes 8000 6350 0    50   ~ 0
+Text Notes 10000 4500 0    50   ~ 0
 Confirmed working as INPUT\n\nGP12 CLK+\nGN12 CLK-\nGP11 D2+\nGN11 D2-\nGP10 D1+\nGN10 D1-\nGP9 D0+\nGN9 D0-
 Text GLabel 9350 4900 2    50   BiDi ~ 0
 12P
@@ -461,6 +461,258 @@ Wire Wire Line
 	9300 4600 9350 4600
 Wire Wire Line
 	9300 4700 9350 4700
+Text Notes 4100 1200 3    118  ~ 0
+STM32 connected with cable to LCD connector
+Text Notes 9750 2100 3    118  ~ 0
+ULX3S differential bidirectional PINS
+Text GLabel 900  1050 1    50   Input ~ 0
+3V3
+Text GLabel 900  1550 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E357C16
+P 900 1300
+F 0 "C?" H 1015 1346 50  0000 L CNN
+F 1 "100n" H 1015 1255 50  0000 L CNN
+F 2 "" H 938 1150 50  0001 C CNN
+F 3 "~" H 900 1300 50  0001 C CNN
+	1    900  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1050 900  1150
+Wire Wire Line
+	900  1450 900  1550
+Text GLabel 1300 1050 1    50   Input ~ 0
+3V3
+Text GLabel 1300 1550 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E35F376
+P 1300 1300
+F 0 "C?" H 1415 1346 50  0000 L CNN
+F 1 "100n" H 1415 1255 50  0000 L CNN
+F 2 "" H 1338 1150 50  0001 C CNN
+F 3 "~" H 1300 1300 50  0001 C CNN
+	1    1300 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1050 1300 1150
+Wire Wire Line
+	1300 1450 1300 1550
+Text GLabel 1700 1050 1    50   Input ~ 0
+3V3
+Text GLabel 1700 1550 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E362C7A
+P 1700 1300
+F 0 "C?" H 1815 1346 50  0000 L CNN
+F 1 "100n" H 1815 1255 50  0000 L CNN
+F 2 "" H 1738 1150 50  0001 C CNN
+F 3 "~" H 1700 1300 50  0001 C CNN
+	1    1700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1050 1700 1150
+Wire Wire Line
+	1700 1450 1700 1550
+Text GLabel 2100 1050 1    50   Input ~ 0
+3V3
+Text GLabel 2100 1550 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E362C84
+P 2100 1300
+F 0 "C?" H 2215 1346 50  0000 L CNN
+F 1 "100n" H 2215 1255 50  0000 L CNN
+F 2 "" H 2138 1150 50  0001 C CNN
+F 3 "~" H 2100 1300 50  0001 C CNN
+	1    2100 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1050 2100 1150
+Wire Wire Line
+	2100 1450 2100 1550
+Text GLabel 900  2150 1    50   Input ~ 0
+3V3
+Text GLabel 900  2650 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E371170
+P 900 2400
+F 0 "C?" H 1015 2446 50  0000 L CNN
+F 1 "100n" H 1015 2355 50  0000 L CNN
+F 2 "" H 938 2250 50  0001 C CNN
+F 3 "~" H 900 2400 50  0001 C CNN
+	1    900  2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2150 900  2250
+Wire Wire Line
+	900  2550 900  2650
+Text GLabel 1300 2150 1    50   Input ~ 0
+3V3
+Text GLabel 1300 2650 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E37117A
+P 1300 2400
+F 0 "C?" H 1415 2446 50  0000 L CNN
+F 1 "100n" H 1415 2355 50  0000 L CNN
+F 2 "" H 1338 2250 50  0001 C CNN
+F 3 "~" H 1300 2400 50  0001 C CNN
+	1    1300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2150 1300 2250
+Wire Wire Line
+	1300 2550 1300 2650
+Text GLabel 1700 2150 1    50   Input ~ 0
+3V3
+Text GLabel 1700 2650 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E371184
+P 1700 2400
+F 0 "C?" H 1815 2446 50  0000 L CNN
+F 1 "100n" H 1815 2355 50  0000 L CNN
+F 2 "" H 1738 2250 50  0001 C CNN
+F 3 "~" H 1700 2400 50  0001 C CNN
+	1    1700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2150 1700 2250
+Wire Wire Line
+	1700 2550 1700 2650
+Text GLabel 2100 2150 1    50   Input ~ 0
+3V3
+Text GLabel 2100 2650 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E37118E
+P 2100 2400
+F 0 "C?" H 2215 2446 50  0000 L CNN
+F 1 "100n" H 2215 2355 50  0000 L CNN
+F 2 "" H 2138 2250 50  0001 C CNN
+F 3 "~" H 2100 2400 50  0001 C CNN
+	1    2100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2150 2100 2250
+Wire Wire Line
+	2100 2550 2100 2650
+Wire Notes Line
+	700  750  700  2950
+Wire Notes Line
+	700  2950 2550 2950
+Wire Notes Line
+	2550 2950 2550 750 
+Wire Notes Line
+	2550 750  700  750 
+Text Notes 700  700  0    50   ~ 0
+Decoupling U4
+Text GLabel 10350 1050 1    50   BiDi ~ 0
+11N
+Text GLabel 10350 1550 3    50   BiDi ~ 0
+11P
+$Comp
+L antena:R R?
+U 1 1 5E39D56A
+P 10350 1300
+F 0 "R?" H 10420 1346 50  0000 L CNN
+F 1 "200" H 10420 1255 50  0000 L CNN
+F 2 "" V 10280 1300 50  0001 C CNN
+F 3 "~" H 10350 1300 50  0001 C CNN
+	1    10350 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 10100 1050 1    50   BiDi ~ 0
+10N
+Text GLabel 10100 1550 3    50   BiDi ~ 0
+10P
+$Comp
+L antena:R R?
+U 1 1 5E3A1838
+P 10100 1300
+F 0 "R?" H 10170 1346 50  0000 L CNN
+F 1 "200" H 10170 1255 50  0000 L CNN
+F 2 "" V 10030 1300 50  0001 C CNN
+F 3 "~" H 10100 1300 50  0001 C CNN
+	1    10100 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 9850 1050 1    50   BiDi ~ 0
+9N
+Text GLabel 9850 1550 3    50   BiDi ~ 0
+9P
+$Comp
+L antena:R R?
+U 1 1 5E3A8DA8
+P 9850 1300
+F 0 "R?" H 9920 1346 50  0000 L CNN
+F 1 "200" H 9920 1255 50  0000 L CNN
+F 2 "" V 9780 1300 50  0001 C CNN
+F 3 "~" H 9850 1300 50  0001 C CNN
+	1    9850 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 10600 1050 1    50   BiDi ~ 0
+12N
+Text GLabel 10600 1550 3    50   BiDi ~ 0
+12P
+$Comp
+L antena:R R?
+U 1 1 5E3A8DB0
+P 10600 1300
+F 0 "R?" H 10670 1346 50  0000 L CNN
+F 1 "200" H 10670 1255 50  0000 L CNN
+F 2 "" V 10530 1300 50  0001 C CNN
+F 3 "~" H 10600 1300 50  0001 C CNN
+	1    10600 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 1050 9850 1150
+Wire Wire Line
+	10100 1050 10100 1150
+Wire Wire Line
+	10350 1050 10350 1150
+Wire Wire Line
+	10600 1050 10600 1150
+Wire Wire Line
+	10600 1450 10600 1550
+Wire Wire Line
+	10350 1450 10350 1550
+Wire Wire Line
+	10100 1450 10100 1550
+Wire Wire Line
+	9850 1450 9850 1550
+Wire Notes Line
+	9750 750  10850 750 
+Wire Notes Line
+	10850 750  10850 1850
+Wire Notes Line
+	10850 1850 9750 1850
+Wire Notes Line
+	9750 1850 9750 750 
+Text Notes 9750 700  0    50   ~ 0
+Termination resistors on FPGA side
 Wire Bus Line
 	7050 2150 7050 2750
 Wire Bus Line
@@ -473,8 +725,4 @@ Wire Bus Line
 	6100 3200 6100 3900
 Wire Bus Line
 	6100 4050 6100 4700
-Text Notes 4100 1200 3    118  ~ 0
-STM32 connected with cable to LCD connector
-Text Notes 9950 2100 3    118  ~ 0
-ULX3S differential bidirectional PINS
 $EndSCHEMATC

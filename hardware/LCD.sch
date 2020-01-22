@@ -1129,7 +1129,7 @@ Wire Wire Line
 	9900 3550 10000 3550
 Wire Wire Line
 	9900 2350 10000 2350
-Text Notes 8450 5900 0    50   ~ 0
+Text Notes 10150 4750 0    50   ~ 0
 GP6 CLK+\nGN6 CLK-\nGP5 D2+\nGN5 D2-\nGP4 D1+\nGN4 D1-\nGP3 D0+\nGN3 D0-
 Text GLabel 8000 2350 0    50   Output ~ 0
 6N
@@ -1259,12 +1259,190 @@ Text GLabel 5650 7550 2    39   Output ~ 0
 13N
 Wire Wire Line
 	5500 7550 5650 7550
+Text GLabel 8000 3350 0    50   Input ~ 0
+~RESET
+Text GLabel 9700 5650 1    50   Input ~ 0
+3V3
+Text GLabel 9700 6150 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E384C70
+P 9700 5900
+AR Path="/5E22D431/5E384C70" Ref="C?"  Part="1" 
+AR Path="/5E224865/5E384C70" Ref="C?"  Part="1" 
+F 0 "C?" H 9815 5946 50  0000 L CNN
+F 1 "100n" H 9815 5855 50  0000 L CNN
+F 2 "" H 9738 5750 50  0001 C CNN
+F 3 "~" H 9700 5900 50  0001 C CNN
+	1    9700 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5650 9700 5750
+Wire Wire Line
+	9700 6050 9700 6150
+Text GLabel 10100 5650 1    50   Input ~ 0
+3V3
+Text GLabel 10100 6150 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E384C7B
+P 10100 5900
+AR Path="/5E22D431/5E384C7B" Ref="C?"  Part="1" 
+AR Path="/5E224865/5E384C7B" Ref="C?"  Part="1" 
+F 0 "C?" H 10215 5946 50  0000 L CNN
+F 1 "100n" H 10215 5855 50  0000 L CNN
+F 2 "" H 10138 5750 50  0001 C CNN
+F 3 "~" H 10100 5900 50  0001 C CNN
+	1    10100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5650 10100 5750
+Wire Wire Line
+	10100 6050 10100 6150
+Text GLabel 10500 5650 1    50   Input ~ 0
+3V3
+Text GLabel 10500 6150 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E384C86
+P 10500 5900
+AR Path="/5E22D431/5E384C86" Ref="C?"  Part="1" 
+AR Path="/5E224865/5E384C86" Ref="C?"  Part="1" 
+F 0 "C?" H 10615 5946 50  0000 L CNN
+F 1 "100n" H 10615 5855 50  0000 L CNN
+F 2 "" H 10538 5750 50  0001 C CNN
+F 3 "~" H 10500 5900 50  0001 C CNN
+	1    10500 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 5650 10500 5750
+Wire Wire Line
+	10500 6050 10500 6150
+Text GLabel 10900 5650 1    50   Input ~ 0
+3V3
+Text GLabel 10900 6150 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E384C91
+P 10900 5900
+AR Path="/5E22D431/5E384C91" Ref="C?"  Part="1" 
+AR Path="/5E224865/5E384C91" Ref="C?"  Part="1" 
+F 0 "C?" H 11015 5946 50  0000 L CNN
+F 1 "100n" H 11015 5855 50  0000 L CNN
+F 2 "" H 10938 5750 50  0001 C CNN
+F 3 "~" H 10900 5900 50  0001 C CNN
+	1    10900 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 5650 10900 5750
+Wire Wire Line
+	10900 6050 10900 6150
+Text GLabel 8050 5650 1    50   Input ~ 0
+3V3
+Text GLabel 8050 6150 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E384C9C
+P 8050 5900
+AR Path="/5E22D431/5E384C9C" Ref="C?"  Part="1" 
+AR Path="/5E224865/5E384C9C" Ref="C?"  Part="1" 
+F 0 "C?" H 8165 5946 50  0000 L CNN
+F 1 "100n" H 8165 5855 50  0000 L CNN
+F 2 "" H 8088 5750 50  0001 C CNN
+F 3 "~" H 8050 5900 50  0001 C CNN
+	1    8050 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5650 8050 5750
+Wire Wire Line
+	8050 6050 8050 6150
+Text GLabel 8450 5650 1    50   Input ~ 0
+3V3
+Text GLabel 8450 6150 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E384CA7
+P 8450 5900
+AR Path="/5E22D431/5E384CA7" Ref="C?"  Part="1" 
+AR Path="/5E224865/5E384CA7" Ref="C?"  Part="1" 
+F 0 "C?" H 8565 5946 50  0000 L CNN
+F 1 "100n" H 8565 5855 50  0000 L CNN
+F 2 "" H 8488 5750 50  0001 C CNN
+F 3 "~" H 8450 5900 50  0001 C CNN
+	1    8450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5650 8450 5750
+Wire Wire Line
+	8450 6050 8450 6150
+Text GLabel 8850 5650 1    50   Input ~ 0
+3V3
+Text GLabel 8850 6150 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E384CB2
+P 8850 5900
+AR Path="/5E22D431/5E384CB2" Ref="C?"  Part="1" 
+AR Path="/5E224865/5E384CB2" Ref="C?"  Part="1" 
+F 0 "C?" H 8965 5946 50  0000 L CNN
+F 1 "100n" H 8965 5855 50  0000 L CNN
+F 2 "" H 8888 5750 50  0001 C CNN
+F 3 "~" H 8850 5900 50  0001 C CNN
+	1    8850 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5650 8850 5750
+Wire Wire Line
+	8850 6050 8850 6150
+Text GLabel 9250 5650 1    50   Input ~ 0
+3V3
+Text GLabel 9250 6150 3    50   Input ~ 0
+GND
+$Comp
+L antena:C C?
+U 1 1 5E384CBD
+P 9250 5900
+AR Path="/5E22D431/5E384CBD" Ref="C?"  Part="1" 
+AR Path="/5E224865/5E384CBD" Ref="C?"  Part="1" 
+F 0 "C?" H 9365 5946 50  0000 L CNN
+F 1 "100n" H 9365 5855 50  0000 L CNN
+F 2 "" H 9288 5750 50  0001 C CNN
+F 3 "~" H 9250 5900 50  0001 C CNN
+	1    9250 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 5650 9250 5750
+Wire Wire Line
+	9250 6050 9250 6150
+Wire Notes Line
+	11200 6450 11200 5300
+Wire Notes Line
+	11200 5300 7900 5300
+Wire Notes Line
+	7900 5300 7900 6450
+Wire Notes Line
+	7900 6450 11200 6450
 Wire Bus Line
 	6175 2700 6175 3200
 Wire Bus Line
 	6175 3500 6175 4000
 Wire Bus Line
 	6175 1900 6175 2400
-Text GLabel 8000 3350 0    50   Input ~ 0
-~RESET
+Text Notes 7900 5250 0    50   ~ 0
+Decoupling U3
 $EndSCHEMATC
