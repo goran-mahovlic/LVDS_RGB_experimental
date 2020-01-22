@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# THS4551IDGKT
+#
+DEF THS4551IDGKT U 0 40 Y Y 1 L N
+F0 "U" -401 501 50 H V L BNN
+F1 "THS4551IDGKT" -400 -500 50 H V L BNN
+F2 "SOP65P490X110-8N" 0 0 50 H I L BNN
+F3 "Texas Instruments Incorporated" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 500 400 500 N
+P 2 0 0 10 400 500 400 -400 N
+P 2 0 0 10 400 -400 -400 -400 N
+P 2 0 0 10 -400 -400 -400 500 N
+X VS+ 3 500 400 100 L 40 40 0 0 W 
+X VOCM 2 -500 -200 100 R 40 40 0 0 W 
+X IN+ 8 -500 100 100 R 40 40 0 0 I 
+X IN- 1 -500 0 100 R 40 40 0 0 I 
+X OUT- 5 500 0 100 L 40 40 0 0 O 
+X OUT+ 4 500 100 100 L 40 40 0 0 O 
+X VS- 6 500 -300 100 L 40 40 0 0 W 
+X ~PD~ 7 -500 400 100 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library
