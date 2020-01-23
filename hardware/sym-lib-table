@@ -7,4 +7,7 @@
   (lib (name 691327310016)(type Legacy)(uri ${KIPRJMOD}/parts/691327310016/691327310016.lib)(options "")(descr ""))
   (lib (name DS90CF364AMTD)(type Legacy)(uri ${KIPRJMOD}/parts/DS90CF364AMTD/DS90CF364AMTD.lib)(options "")(descr ""))
   (lib (name DS90CF363AMTD)(type Legacy)(uri ${KIPRJMOD}/parts/DS90CF343AMDT/DS90CF363AMTD.lib)(options "")(descr ""))
+  (lib (name REF5025AIDR)(type Legacy)(uri ${KIPRJMOD}/parts/REF5025/REF5025AIDR.lib)(options "")(descr ""))
+  (lib (name THS4032ID)(type Legacy)(uri ${KIPRJMOD}/parts/THS4032/THS4032ID.lib)(options "")(descr ""))
+  (lib (name THS4551IDGKT)(type Legacy)(uri ${KIPRJMOD}/parts/THS4551/THS4551IDGKT.lib)(options "")(descr ""))
 )

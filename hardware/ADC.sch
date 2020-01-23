@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -15,40 +15,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L OPA2211AIDDA:OPA2211AIDDA U2
-U 1 1 5E22E416
-P 2100 6600
-F 0 "U2" H 2100 7270 50  0000 C CNN
-F 1 "OPA2211AIDDA" H 2100 7179 50  0000 C CNN
-F 2 "OPA2211:SOIC127P600X170-9N" H 2100 6600 50  0001 L BNN
-F 3 "OPA2211AIDDA" H 2100 6600 50  0001 L BNN
-F 4 "SOIC-6" H 2100 6600 50  0001 L BNN "Field4"
-F 5 "1754985" H 2100 6600 50  0001 L BNN "Field5"
-F 6 "Texas Instruments" H 2100 6600 50  0001 L BNN "Field6"
-F 7 "24R9889" H 2100 6600 50  0001 L BNN "Field7"
-	1    2100 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L 691327310016:691327310016 J4
 U 1 1 5E22E920
-P 3200 7000
-F 0 "J4" V 2750 7000 50  0000 C CNN
-F 1 "691327310016" V 3800 7000 50  0000 C CNN
-F 2 "691327310016:691327310016" H 3200 7000 50  0001 L BNN
-F 3 "" H 3200 7000 50  0001 C CNN
-	1    3200 7000
+P 4300 2850
+F 0 "J4" V 3850 2850 50  0000 C CNN
+F 1 "691327310016" V 4900 2850 50  0000 C CNN
+F 2 "691327310016:691327310016" H 4300 2850 50  0001 L BNN
+F 3 "" H 4300 2850 50  0001 C CNN
+	1    4300 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L 691327310016:691327310016 J5
 U 1 1 5E22E9DD
-P 900 7050
-F 0 "J5" V 450 7050 50  0000 C CNN
-F 1 "691327310016" V 1500 7050 50  0000 C CNN
-F 2 "691327310016:691327310016" H 900 7050 50  0001 L BNN
-F 3 "" H 900 7050 50  0001 C CNN
-	1    900  7050
+P 6050 2850
+F 0 "J5" V 5600 2850 50  0000 C CNN
+F 1 "691327310016" V 6650 2850 50  0000 C CNN
+F 2 "691327310016:691327310016" H 6050 2850 50  0001 L BNN
+F 3 "" H 6050 2850 50  0001 C CNN
+	1    6050 2850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -434,79 +419,79 @@ Wire Wire Line
 $Comp
 L antena:C C?
 U 1 1 5E327225
-P 1250 4750
-F 0 "C?" H 1365 4796 50  0000 L CNN
-F 1 "10uF" H 1365 4705 50  0000 L CNN
-F 2 "" H 1288 4600 50  0001 C CNN
-F 3 "~" H 1250 4750 50  0001 C CNN
-	1    1250 4750
+P 1250 4800
+F 0 "C?" H 1365 4846 50  0000 L CNN
+F 1 "10uF" H 1365 4755 50  0000 L CNN
+F 2 "" H 1288 4650 50  0001 C CNN
+F 3 "~" H 1250 4800 50  0001 C CNN
+	1    1250 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L antena:C C?
 U 1 1 5E327301
-P 2150 4750
-F 0 "C?" H 2265 4796 50  0000 L CNN
-F 1 "10uF" H 2265 4705 50  0000 L CNN
-F 2 "" H 2188 4600 50  0001 C CNN
-F 3 "~" H 2150 4750 50  0001 C CNN
-	1    2150 4750
+P 2100 4800
+F 0 "C?" H 2215 4846 50  0000 L CNN
+F 1 "10uF" H 2215 4755 50  0000 L CNN
+F 2 "" H 2138 4650 50  0001 C CNN
+F 3 "~" H 2100 4800 50  0001 C CNN
+	1    2100 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L antena:C C?
 U 1 1 5E327389
-P 850 4750
-F 0 "C?" H 965 4796 50  0000 L CNN
-F 1 "100n" H 965 4705 50  0000 L CNN
-F 2 "" H 888 4600 50  0001 C CNN
-F 3 "~" H 850 4750 50  0001 C CNN
-	1    850  4750
+P 850 4800
+F 0 "C?" H 965 4846 50  0000 L CNN
+F 1 "100n" H 965 4755 50  0000 L CNN
+F 2 "" H 888 4650 50  0001 C CNN
+F 3 "~" H 850 4800 50  0001 C CNN
+	1    850  4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L antena:C C?
 U 1 1 5E32742F
-P 1750 4750
-F 0 "C?" H 1865 4796 50  0000 L CNN
-F 1 "100n" H 1865 4705 50  0000 L CNN
-F 2 "" H 1788 4600 50  0001 C CNN
-F 3 "~" H 1750 4750 50  0001 C CNN
-	1    1750 4750
+P 1700 4800
+F 0 "C?" H 1815 4846 50  0000 L CNN
+F 1 "100n" H 1815 4755 50  0000 L CNN
+F 2 "" H 1738 4650 50  0001 C CNN
+F 3 "~" H 1700 4800 50  0001 C CNN
+	1    1700 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 850  5000 3    50   Input ~ 0
+Text GLabel 850  5050 3    50   Input ~ 0
 AGND
-Text GLabel 1750 5000 3    50   Input ~ 0
+Text GLabel 1700 5050 3    50   Input ~ 0
 AGND
 Text GLabel 7950 4950 0    50   Input ~ 0
 HVSS
 Wire Wire Line
 	7950 4950 8150 4950
-Text GLabel 850  4500 1    50   Input ~ 0
+Text GLabel 850  4550 1    50   Input ~ 0
 HVDD
-Text GLabel 1750 4500 1    50   Input ~ 0
+Text GLabel 1700 4550 1    50   Input ~ 0
 HVSS
 Wire Wire Line
-	850  4600 1250 4600
+	850  4650 1250 4650
 Wire Wire Line
-	1250 4900 850  4900
+	1250 4950 850  4950
 Wire Wire Line
-	850  4500 850  4600
-Connection ~ 850  4600
+	850  4550 850  4650
+Connection ~ 850  4650
 Wire Wire Line
-	850  4900 850  5000
-Connection ~ 850  4900
+	850  4950 850  5050
+Connection ~ 850  4950
 Wire Wire Line
-	1750 4500 1750 4600
+	1700 4550 1700 4650
 Wire Wire Line
-	1750 4900 1750 5000
+	1700 4950 1700 5050
 Wire Wire Line
-	2150 4600 1750 4600
-Connection ~ 1750 4600
+	2100 4650 1700 4650
+Connection ~ 1700 4650
 Wire Wire Line
-	2150 4900 1750 4900
-Connection ~ 1750 4900
+	2100 4950 1700 4950
+Connection ~ 1700 4950
 Text GLabel 7650 2350 0    50   Input ~ 0
 ADC_RESET
 Wire Wire Line
@@ -648,8 +633,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 4050 8150 4050
 Wire Wire Line
-	7550 3950 8150 3950
-Wire Wire Line
 	7500 3850 8150 3850
 $Comp
 L ADS8556IPM:ADS8556IPM U?
@@ -666,251 +649,6 @@ F 7 "ADS8556IPM" H 9350 3550 50  0001 L BNN "Field7"
 	1    9350 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 1900 3    50   Input ~ 0
-AGND
-Text GLabel 2700 900  1    50   Input ~ 0
-AVDD
-$Comp
-L antena:R R?
-U 1 1 5E474B06
-P 2700 1150
-F 0 "R?" H 2770 1196 50  0000 L CNN
-F 1 "R0" H 2770 1105 50  0000 L CNN
-F 2 "" V 2630 1150 50  0001 C CNN
-F 3 "~" H 2700 1150 50  0001 C CNN
-	1    2700 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L antena:R R?
-U 1 1 5E4753A6
-P 2700 1650
-F 0 "R?" H 2770 1696 50  0000 L CNN
-F 1 "R0" H 2770 1605 50  0000 L CNN
-F 2 "" V 2630 1650 50  0001 C CNN
-F 3 "~" H 2700 1650 50  0001 C CNN
-	1    2700 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 900  2700 1000
-Wire Wire Line
-	2700 1800 2700 1900
-Wire Wire Line
-	2700 1300 2700 1400
-Text GLabel 2850 1400 2    50   Input ~ 0
-ADC_WORD
-Wire Wire Line
-	2850 1400 2700 1400
-Connection ~ 2700 1400
-Wire Wire Line
-	2700 1400 2700 1500
-Text GLabel 3500 1900 3    50   Input ~ 0
-AGND
-Text GLabel 3500 900  1    50   Input ~ 0
-AVDD
-$Comp
-L antena:R R?
-U 1 1 5E48C1B2
-P 3500 1150
-F 0 "R?" H 3570 1196 50  0000 L CNN
-F 1 "R0" H 3570 1105 50  0000 L CNN
-F 2 "" V 3430 1150 50  0001 C CNN
-F 3 "~" H 3500 1150 50  0001 C CNN
-	1    3500 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L antena:R R?
-U 1 1 5E48C1B8
-P 3500 1650
-F 0 "R?" H 3570 1696 50  0000 L CNN
-F 1 "R0" H 3570 1605 50  0000 L CNN
-F 2 "" V 3430 1650 50  0001 C CNN
-F 3 "~" H 3500 1650 50  0001 C CNN
-	1    3500 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 900  3500 1000
-Wire Wire Line
-	3500 1800 3500 1900
-Wire Wire Line
-	3500 1300 3500 1400
-Text GLabel 3650 1400 2    50   Input ~ 0
-ADC_PAR
-Wire Wire Line
-	3650 1400 3500 1400
-Connection ~ 3500 1400
-Wire Wire Line
-	3500 1400 3500 1500
-Text GLabel 6300 1400 2    50   Input ~ 0
-ADC_HW_SW
-Text GLabel 6150 1900 3    50   Input ~ 0
-AGND
-Text GLabel 6150 900  1    50   Input ~ 0
-AVDD
-$Comp
-L antena:R R?
-U 1 1 5E4967CE
-P 6150 1150
-F 0 "R?" H 6220 1196 50  0000 L CNN
-F 1 "R0" H 6220 1105 50  0000 L CNN
-F 2 "" V 6080 1150 50  0001 C CNN
-F 3 "~" H 6150 1150 50  0001 C CNN
-	1    6150 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L antena:R R?
-U 1 1 5E4967D4
-P 6150 1650
-F 0 "R?" H 6220 1696 50  0000 L CNN
-F 1 "R0" H 6220 1605 50  0000 L CNN
-F 2 "" V 6080 1650 50  0001 C CNN
-F 3 "~" H 6150 1650 50  0001 C CNN
-	1    6150 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 900  6150 1000
-Wire Wire Line
-	6150 1800 6150 1900
-Wire Wire Line
-	6150 1300 6150 1400
-Wire Wire Line
-	6300 1400 6150 1400
-Connection ~ 6150 1400
-Wire Wire Line
-	6150 1400 6150 1500
-Text GLabel 5300 1400 2    50   Input ~ 0
-ADC_REF_EN_WR
-Text GLabel 5150 1900 3    50   Input ~ 0
-AGND
-Text GLabel 5150 900  1    50   Input ~ 0
-AVDD
-$Comp
-L antena:R R?
-U 1 1 5E4A694C
-P 5150 1150
-F 0 "R?" H 5220 1196 50  0000 L CNN
-F 1 "R0" H 5220 1105 50  0000 L CNN
-F 2 "" V 5080 1150 50  0001 C CNN
-F 3 "~" H 5150 1150 50  0001 C CNN
-	1    5150 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L antena:R R?
-U 1 1 5E4A6952
-P 5150 1650
-F 0 "R?" H 5220 1696 50  0000 L CNN
-F 1 "R0" H 5220 1605 50  0000 L CNN
-F 2 "" V 5080 1650 50  0001 C CNN
-F 3 "~" H 5150 1650 50  0001 C CNN
-	1    5150 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 900  5150 1000
-Wire Wire Line
-	5150 1800 5150 1900
-Wire Wire Line
-	5150 1300 5150 1400
-Wire Wire Line
-	5300 1400 5150 1400
-Connection ~ 5150 1400
-Wire Wire Line
-	5150 1400 5150 1500
-Text GLabel 4400 1400 2    50   Input ~ 0
-ADC_RANGE
-Text GLabel 4250 1900 3    50   Input ~ 0
-AGND
-Text GLabel 4250 900  1    50   Input ~ 0
-AVDD
-$Comp
-L antena:R R?
-U 1 1 5E4ACC4E
-P 4250 1150
-F 0 "R?" H 4320 1196 50  0000 L CNN
-F 1 "R0" H 4320 1105 50  0000 L CNN
-F 2 "" V 4180 1150 50  0001 C CNN
-F 3 "~" H 4250 1150 50  0001 C CNN
-	1    4250 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L antena:R R?
-U 1 1 5E4ACC54
-P 4250 1650
-F 0 "R?" H 4320 1696 50  0000 L CNN
-F 1 "R0" H 4320 1605 50  0000 L CNN
-F 2 "" V 4180 1650 50  0001 C CNN
-F 3 "~" H 4250 1650 50  0001 C CNN
-	1    4250 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 900  4250 1000
-Wire Wire Line
-	4250 1800 4250 1900
-Wire Wire Line
-	4250 1300 4250 1400
-Wire Wire Line
-	4400 1400 4250 1400
-Connection ~ 4250 1400
-Wire Wire Line
-	4250 1400 4250 1500
-Wire Notes Line
-	4150 600  4150 2200
-Wire Notes Line
-	4150 2200 5000 2200
-Wire Notes Line
-	5000 2200 5000 600 
-Wire Notes Line
-	5000 600  4150 600 
-Wire Notes Line
-	5050 2200 5050 600 
-Wire Notes Line
-	5050 600  6000 600 
-Wire Notes Line
-	6000 600  6000 2200
-Wire Notes Line
-	6000 2200 5050 2200
-Wire Notes Line
-	6050 600  6050 2200
-Wire Notes Line
-	6050 2200 6850 2200
-Wire Notes Line
-	6850 2200 6850 600 
-Wire Notes Line
-	6850 600  6050 600 
-Wire Notes Line
-	2600 2200 2600 600 
-Wire Notes Line
-	2600 600  3350 600 
-Wire Notes Line
-	3350 600  3350 2200
-Wire Notes Line
-	3350 2200 2600 2200
-Wire Notes Line
-	3400 600  3400 2200
-Wire Notes Line
-	3400 2200 4100 2200
-Wire Notes Line
-	4100 2200 4100 600 
-Wire Notes Line
-	4100 600  3400 600 
-Text Notes 2600 600  0    50   ~ 0
-WORD(0)/BYTE(1)
-Text Notes 3400 600  0    50   ~ 0
-PAR(0)/SER(1)
-Text Notes 4150 600  0    50   ~ 0
-+-4(0)/+-2(1) VREF
-Text Notes 5050 600  0    50   ~ 0
-(1)Enable internal REF
-Text Notes 6050 600  0    50   ~ 0
-HW(0)/SW(1)
 Wire Notes Line
 	750  600  2500 600 
 Wire Notes Line
@@ -921,10 +659,40 @@ Wire Notes Line
 	750  4050 750  600 
 Text Notes 750  600  0    50   ~ 0
 Decopling
-Text GLabel 2700 2800 1    50   Input ~ 0
-ADC_STBY
-Text GLabel 2700 3100 3    50   Input ~ 0
-AVDD
+$Sheet
+S 800  6800 1500 900 
+U 5E7660D0
+F0 "Temperature REF" 50
+F1 "Temperature REF.sch" 50
+$EndSheet
+$Sheet
+S 800  5600 1500 900 
+U 5E776450
+F0 "ADC_settings" 50
+F1 "ADC_settings.sch" 50
+$EndSheet
+$Sheet
+S 2550 5600 1500 900 
+U 5E785EBD
+F0 "ADC_buffer" 50
+F1 "ADC_buffer.sch" 50
+$EndSheet
+Text GLabel 4000 2550 0    50   Input ~ 0
+A0_IN
+Text GLabel 4600 2550 2    50   Input ~ 0
+A0_GND
 Wire Wire Line
-	2700 2800 2700 3100
+	4500 2550 4600 2550
+Wire Wire Line
+	4000 2550 4100 2550
+Text GLabel 4000 2650 0    50   Input ~ 0
+A1P_IN
+Text GLabel 4600 2650 2    50   Input ~ 0
+A1N_IN
+Wire Wire Line
+	4600 2650 4500 2650
+Wire Wire Line
+	4000 2650 4100 2650
+Wire Wire Line
+	7500 3950 8150 3950
 $EndSCHEMATC

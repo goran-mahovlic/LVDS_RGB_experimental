@@ -1,0 +1,364 @@
+EESchema Schematic File Version 4
+LIBS:LCD_PMOD-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OPA2211AIDDA:OPA2211AIDDA U?
+U 1 1 5E7732A9
+P 5700 1750
+AR Path="/5E22D897/5E7732A9" Ref="U?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E7732A9" Ref="U?"  Part="1" 
+F 0 "U?" H 5700 2420 50  0000 C CNN
+F 1 "OPA2211AIDDA" H 5700 2329 50  0000 C CNN
+F 2 "OPA2211:SOIC127P600X170-9N" H 5700 1750 50  0001 L BNN
+F 3 "OPA2211AIDDA" H 5700 1750 50  0001 L BNN
+F 4 "SOIC-6" H 5700 1750 50  0001 L BNN "Field4"
+F 5 "1754985" H 5700 1750 50  0001 L BNN "Field5"
+F 6 "Texas Instruments" H 5700 1750 50  0001 L BNN "Field6"
+F 7 "24R9889" H 5700 1750 50  0001 L BNN "Field7"
+	1    5700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Reference_Voltage:REF5025AD U?
+U 1 1 5E7732B0
+P 2150 1750
+AR Path="/5E22D897/5E7732B0" Ref="U?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E7732B0" Ref="U?"  Part="1" 
+F 0 "U?" H 2150 2228 50  0000 C CNN
+F 1 "REF5025AD" H 2150 2137 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2075 1500 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/ref5030.pdf" H 2100 1750 50  0001 C CIN
+	1    2150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E7732B7
+P 900 1800
+AR Path="/5E22D897/5E7732B7" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E7732B7" Ref="C?"  Part="1" 
+F 0 "C?" H 1015 1846 50  0000 L CNN
+F 1 "10uF" H 1015 1755 50  0000 L CNN
+F 2 "" H 938 1650 50  0001 C CNN
+F 3 "~" H 900 1800 50  0001 C CNN
+	1    900  1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E7732BE
+P 1300 1800
+AR Path="/5E22D897/5E7732BE" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E7732BE" Ref="C?"  Part="1" 
+F 0 "C?" H 1415 1846 50  0000 L CNN
+F 1 "100n" H 1415 1755 50  0000 L CNN
+F 2 "" H 1338 1650 50  0001 C CNN
+F 3 "~" H 1300 1800 50  0001 C CNN
+	1    1300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1650 900  1500
+Wire Wire Line
+	900  1500 1100 1500
+Wire Wire Line
+	1300 1500 1300 1650
+Wire Wire Line
+	900  1950 900  2050
+Wire Wire Line
+	900  2050 1100 2050
+Wire Wire Line
+	1300 2050 1300 1950
+Text GLabel 1100 2150 3    50   Input ~ 0
+AGND
+Text GLabel 1100 1300 1    50   Input ~ 0
+AVDD
+Wire Wire Line
+	1100 1300 1100 1500
+Connection ~ 1100 1500
+Wire Wire Line
+	1100 1500 1300 1500
+Wire Wire Line
+	1100 2150 1100 2050
+Connection ~ 1100 2050
+Wire Wire Line
+	1100 2050 1300 2050
+Wire Wire Line
+	1300 1500 1300 1200
+Wire Wire Line
+	1300 1200 2050 1200
+Wire Wire Line
+	2050 1200 2050 1450
+Connection ~ 1300 1500
+Wire Wire Line
+	1300 2050 1300 2350
+Wire Wire Line
+	1300 2350 2050 2350
+Wire Wire Line
+	2050 2350 2050 2050
+Connection ~ 1300 2050
+$Comp
+L antena:C C?
+U 1 1 5E7732DB
+P 2700 2100
+AR Path="/5E22D897/5E7732DB" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E7732DB" Ref="C?"  Part="1" 
+F 0 "C?" H 2815 2146 50  0000 L CNN
+F 1 "1u" H 2815 2055 50  0000 L CNN
+F 2 "" H 2738 1950 50  0001 C CNN
+F 3 "~" H 2700 2100 50  0001 C CNN
+	1    2700 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1850 2700 1850
+Wire Wire Line
+	2700 1850 2700 1950
+Text GLabel 2700 2350 3    50   Input ~ 0
+AGND
+Wire Wire Line
+	2700 2350 2700 2250
+$Comp
+L antena:R R?
+U 1 1 5E7732E6
+P 3050 1850
+AR Path="/5E22D897/5E7732E6" Ref="R?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E7732E6" Ref="R?"  Part="1" 
+F 0 "R?" H 3120 1896 50  0000 L CNN
+F 1 "1R" H 3120 1805 50  0000 L CNN
+F 2 "" V 2980 1850 50  0001 C CNN
+F 3 "~" H 3050 1850 50  0001 C CNN
+	1    3050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E7732ED
+P 3050 2200
+AR Path="/5E22D897/5E7732ED" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E7732ED" Ref="C?"  Part="1" 
+F 0 "C?" H 3165 2246 50  0000 L CNN
+F 1 "22u" H 3165 2155 50  0000 L CNN
+F 2 "" H 3088 2050 50  0001 C CNN
+F 3 "~" H 3050 2200 50  0001 C CNN
+	1    3050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1650 3050 1700
+Wire Wire Line
+	2550 1650 3050 1650
+Wire Wire Line
+	3050 2000 3050 2050
+Text GLabel 3050 2400 3    50   Input ~ 0
+AGND
+Wire Wire Line
+	3050 2350 3050 2400
+$Comp
+L antena:R R?
+U 1 1 5E7732F9
+P 3450 1650
+AR Path="/5E22D897/5E7732F9" Ref="R?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E7732F9" Ref="R?"  Part="1" 
+F 0 "R?" V 3243 1650 50  0000 C CNN
+F 1 "10R" V 3334 1650 50  0000 C CNN
+F 2 "" V 3380 1650 50  0001 C CNN
+F 3 "~" H 3450 1650 50  0001 C CNN
+	1    3450 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 1650 3300 1650
+Connection ~ 3050 1650
+$Comp
+L antena:C C?
+U 1 1 5E773302
+P 3700 2000
+AR Path="/5E22D897/5E773302" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E773302" Ref="C?"  Part="1" 
+F 0 "C?" H 3815 2046 50  0000 L CNN
+F 1 "47u" H 3815 1955 50  0000 L CNN
+F 2 "" H 3738 1850 50  0001 C CNN
+F 3 "~" H 3700 2000 50  0001 C CNN
+	1    3700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E773309
+P 4000 2000
+AR Path="/5E22D897/5E773309" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E773309" Ref="C?"  Part="1" 
+F 0 "C?" H 4115 2046 50  0000 L CNN
+F 1 "47u" H 4115 1955 50  0000 L CNN
+F 2 "" H 4038 1850 50  0001 C CNN
+F 3 "~" H 4000 2000 50  0001 C CNN
+	1    4000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E773310
+P 4300 2000
+AR Path="/5E22D897/5E773310" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E773310" Ref="C?"  Part="1" 
+F 0 "C?" H 4415 2046 50  0000 L CNN
+F 1 "10n" H 4415 1955 50  0000 L CNN
+F 2 "" H 4338 1850 50  0001 C CNN
+F 3 "~" H 4300 2000 50  0001 C CNN
+	1    4300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1650 3700 1650
+Wire Wire Line
+	3700 1650 3700 1850
+Wire Wire Line
+	4000 1850 4000 1650
+Wire Wire Line
+	4000 1650 3700 1650
+Connection ~ 3700 1650
+Wire Wire Line
+	4300 1850 4300 1650
+Wire Wire Line
+	4300 1650 4000 1650
+Connection ~ 4000 1650
+Text GLabel 3700 2400 3    50   Input ~ 0
+AGND
+Text GLabel 4000 2400 3    50   Input ~ 0
+AGND
+Text GLabel 4300 2400 3    50   Input ~ 0
+AGND
+Wire Wire Line
+	4300 2150 4300 2400
+Wire Wire Line
+	4000 2150 4000 2400
+Wire Wire Line
+	3700 2150 3700 2400
+Wire Wire Line
+	5000 1650 4300 1650
+Connection ~ 4300 1650
+Text GLabel 4800 1350 1    50   Input ~ 0
+AVDD
+Wire Wire Line
+	4800 1350 4800 1450
+Wire Wire Line
+	4800 1450 5000 1450
+Text GLabel 4900 2250 0    50   Input ~ 0
+AGND
+Wire Wire Line
+	4900 2250 5000 2250
+Wire Wire Line
+	5000 1750 4600 1750
+Wire Wire Line
+	4600 1750 4600 2600
+$Comp
+L antena:C C?
+U 1 1 5E77332E
+P 6600 1750
+AR Path="/5E22D897/5E77332E" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E77332E" Ref="C?"  Part="1" 
+F 0 "C?" H 6715 1796 50  0000 L CNN
+F 1 "10n" H 6715 1705 50  0000 L CNN
+F 2 "" H 6638 1600 50  0001 C CNN
+F 3 "~" H 6600 1750 50  0001 C CNN
+	1    6600 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1600 6600 1450
+Wire Wire Line
+	6600 1450 6400 1450
+Wire Wire Line
+	6600 2600 6600 1900
+Wire Wire Line
+	4600 2600 6600 2600
+$Comp
+L antena:R R?
+U 1 1 5E773339
+P 6850 2600
+AR Path="/5E22D897/5E773339" Ref="R?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E773339" Ref="R?"  Part="1" 
+F 0 "R?" V 6643 2600 50  0000 C CNN
+F 1 "49R9" V 6734 2600 50  0000 C CNN
+F 2 "" V 6780 2600 50  0001 C CNN
+F 3 "~" H 6850 2600 50  0001 C CNN
+	1    6850 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 2600 6700 2600
+Connection ~ 6600 2600
+Wire Wire Line
+	7000 2600 7050 2600
+Wire Wire Line
+	7050 2600 7050 1450
+$Comp
+L antena:R R?
+U 1 1 5E773344
+P 6800 1450
+AR Path="/5E22D897/5E773344" Ref="R?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E773344" Ref="R?"  Part="1" 
+F 0 "R?" V 6593 1450 50  0000 C CNN
+F 1 "100R" V 6684 1450 50  0000 C CNN
+F 2 "" V 6730 1450 50  0001 C CNN
+F 3 "~" H 6800 1450 50  0001 C CNN
+	1    6800 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 1450 6600 1450
+Connection ~ 6600 1450
+Wire Wire Line
+	6950 1450 7050 1450
+$Comp
+L antena:C C?
+U 1 1 5E77334E
+P 7250 2000
+AR Path="/5E22D897/5E77334E" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E7660D0/5E77334E" Ref="C?"  Part="1" 
+F 0 "C?" H 7365 2046 50  0000 L CNN
+F 1 "47u" H 7365 1955 50  0000 L CNN
+F 2 "" H 7288 1850 50  0001 C CNN
+F 3 "~" H 7250 2000 50  0001 C CNN
+	1    7250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1450 7050 1450
+Connection ~ 7050 1450
+Text GLabel 7250 2350 3    50   Input ~ 0
+AGND
+Wire Wire Line
+	7250 2150 7250 2350
+Text GLabel 7400 1450 2    50   Input ~ 0
+ADC_REF
+Wire Wire Line
+	7400 1450 7250 1450
+Connection ~ 7250 1450
+Wire Wire Line
+	7250 1450 7250 1850
+Wire Notes Line
+	650  750  650  2950
+Wire Notes Line
+	650  2950 7950 2950
+Wire Notes Line
+	7950 2950 7950 750 
+Wire Notes Line
+	7950 750  650  750 
+Text Notes 650  700  0    50   ~ 0
+If this is not placed on board - use internal reference - ADC_REF_EN_WR set to 1
+$EndSCHEMATC
