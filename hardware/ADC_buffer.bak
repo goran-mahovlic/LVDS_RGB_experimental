@@ -480,4 +480,74 @@ Wire Wire Line
 	10350 1650 10700 1650
 Wire Wire Line
 	10350 1950 10700 1950
+$Comp
+L EEZ_DIB_MCU_r1B1-eagle-import:TPD4E001-DRL IC?
+U 1 1 5E7CC48A
+P 2250 4600
+F 0 "IC?" H 2250 5008 69  0000 C CNN
+F 1 "TPD4E001-DRL" H 2250 4888 69  0000 C CNN
+F 2 "" H 2250 4600 50  0001 C CNN
+F 3 "" H 2250 4600 50  0001 C CNN
+	1    2250 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 4500 0    50   Input ~ 0
+A0_IN
+Text GLabel 1650 4600 0    50   Input ~ 0
+A1_IN
+Text GLabel 1650 4700 0    50   Input ~ 0
+B0_IN
+Text GLabel 1650 4800 0    50   Input ~ 0
+B1_IN
+Wire Wire Line
+	1650 4500 1750 4500
+Wire Wire Line
+	1650 4600 1750 4600
+Wire Wire Line
+	1650 4700 1750 4700
+Wire Wire Line
+	1650 4800 1750 4800
+Text GLabel 2900 4800 2    50   Input ~ 0
+AGND
+Text GLabel 2900 4500 2    50   Input ~ 0
+AVDD
+Wire Wire Line
+	2750 4500 2900 4500
+Wire Wire Line
+	2750 4800 2900 4800
+Text GLabel 9200 1250 1    50   Input ~ 0
+AVDD
+Wire Wire Line
+	9200 1250 9200 1450
+Wire Wire Line
+	9200 1450 9000 1450
+Text GLabel 9200 2300 3    50   Input ~ 0
+AGND
+Wire Wire Line
+	9000 2150 9200 2150
+Wire Wire Line
+	9200 2150 9200 2300
+$Comp
+L antena:R R?
+U 1 1 5E7E0234
+P 7300 1300
+F 0 "R?" V 7507 1300 50  0000 C CNN
+F 1 "1K" V 7416 1300 50  0000 C CNN
+F 2 "" V 7230 1300 50  0001 C CNN
+F 3 "~" H 7300 1300 50  0001 C CNN
+	1    7300 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 1300 7900 1300
+Wire Wire Line
+	7900 1300 7900 1450
+Wire Wire Line
+	7900 1450 8000 1450
+Text GLabel 7000 1150 1    50   Input ~ 0
+AVDD
+Wire Wire Line
+	7000 1150 7000 1300
+Wire Wire Line
+	7000 1300 7150 1300
 $EndSCHEMATC
