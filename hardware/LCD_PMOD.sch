@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -68,5 +68,11 @@ S 3200 2400 2050 1200
 U 5E22D897
 F0 "ADC" 50
 F1 "ADC.sch" 50
+$EndSheet
+$Sheet
+S 3200 3800 2050 1200
+U 5E500AA4
+F0 "Bias_PS" 50
+F1 "Bias_PS.sch" 50
 $EndSheet
 $EndSCHEMATC

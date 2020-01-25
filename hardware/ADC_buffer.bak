@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
@@ -550,4 +550,15 @@ Wire Wire Line
 	7000 1150 7000 1300
 Wire Wire Line
 	7000 1300 7150 1300
+$Comp
+L AMC1304M:AMC1304L U?
+U 1 1 5E2A7202
+P 7850 4550
+F 0 "U?" H 7850 5317 50  0000 C CNN
+F 1 "AMC1304L" H 7850 5226 50  0000 C CNN
+F 2 "" H 7850 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/amc1304m05.pdf" H 7850 4550 50  0001 C CNN
+	1    7850 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
