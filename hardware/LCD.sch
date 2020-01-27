@@ -970,8 +970,6 @@ Text HLabel 4350 3300 0    50   Input ~ 0
 LTDC_VSYNC
 Text HLabel 4350 3400 0    50   Input ~ 0
 LTDC_DE
-Text HLabel 1800 1800 0    50   Input ~ 0
-TFT_BRIGHTNESS
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5E224FC4
@@ -998,8 +996,6 @@ $EndComp
 Connection ~ 4300 1900
 Wire Wire Line
 	4300 1900 4600 1900
-Text HLabel 5800 6200 2    50   Output ~ 0
-IRQ_TOUCH
 Text Label 3850 3700 0    50   ~ 0
 Touch_XR
 Text Label 3850 3900 0    50   ~ 0
@@ -1227,38 +1223,8 @@ Wire Wire Line
 	8000 1950 8100 1950
 Wire Wire Line
 	8000 2050 8100 2050
-Text GLabel 5500 7050 0    50   BiDi ~ 0
-7P
-Text GLabel 5500 7150 0    50   BiDi ~ 0
-7N
-Text GLabel 5600 7050 2    50   BiDi ~ 0
-I2C1_SCL
-Text GLabel 5600 7150 2    50   BiDi ~ 0
-I2C1_SDA
-Wire Wire Line
-	5500 7050 5600 7050
-Wire Wire Line
-	5500 7150 5600 7150
-Text HLabel 5600 7300 2    50   Output ~ 0
-IRQ_TOUCH
-Text GLabel 5500 7300 0    50   Input ~ 0
-8P
-Wire Wire Line
-	5500 7300 5600 7300
-Text GLabel 5500 7400 0    50   Output ~ 0
-8N
-Text HLabel 5600 7400 2    50   Input ~ 0
-TFT_BRIGHTNESS
-Wire Wire Line
-	5500 7400 5600 7400
-Text GLabel 5500 7550 0    50   Input ~ 0
-~RESET
 Wire Wire Line
 	8000 3350 8100 3350
-Text GLabel 5650 7550 2    39   Output ~ 0
-13N
-Wire Wire Line
-	5500 7550 5650 7550
 Text GLabel 8000 3350 0    50   Input ~ 0
 ~RESET
 Text GLabel 9700 5650 1    50   Input ~ 0
@@ -1439,6 +1405,10 @@ Wire Notes Line
 	7900 6450 11200 6450
 Text Notes 7900 5300 0    50   ~ 0
 Decoupling U3
+Text GLabel 5800 6200 2    50   Input ~ 0
+IRQ_TOUCH
+Text GLabel 1800 1800 0    50   Input ~ 0
+TFT_BRIGHTNESS
 Wire Bus Line
 	6175 2700 6175 3200
 Wire Bus Line

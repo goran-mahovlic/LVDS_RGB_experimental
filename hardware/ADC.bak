@@ -680,19 +680,27 @@ $EndSheet
 Text GLabel 4000 2550 0    50   Input ~ 0
 A0_IN
 Text GLabel 4600 2550 2    50   Input ~ 0
-A0_GND
+A1_IN
 Wire Wire Line
 	4500 2550 4600 2550
 Wire Wire Line
 	4000 2550 4100 2550
 Text GLabel 4000 2650 0    50   Input ~ 0
-A1P_IN
+B0_IN
 Text GLabel 4600 2650 2    50   Input ~ 0
-A1N_IN
+B1_IN
 Wire Wire Line
 	4600 2650 4500 2650
 Wire Wire Line
 	4000 2650 4100 2650
 Wire Wire Line
 	7500 3950 8150 3950
+Text GLabel 4000 2750 0    50   Input ~ 0
+C0_IN
+Text GLabel 4600 2750 2    50   Input ~ 0
+C1_IN
+Wire Wire Line
+	4600 2750 4500 2750
+Wire Wire Line
+	4000 2750 4100 2750
 $EndSCHEMATC

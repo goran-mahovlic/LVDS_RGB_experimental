@@ -817,6 +817,8 @@ Wire Wire Line
 	8200 4150 8800 4150
 Wire Wire Line
 	8200 4250 8650 4250
+Text Notes 9550 4300 1    50   ~ 0
+Capacitors - close to ULX3S
 Wire Bus Line
 	5950 1500 5950 2100
 Wire Bus Line
@@ -829,6 +831,4 @@ Wire Bus Line
 	5000 2550 5000 3250
 Wire Bus Line
 	5000 3400 5000 4050
-Text Notes 9550 4300 1    50   ~ 0
-Capacitors - close to ULX3S
 $EndSCHEMATC
