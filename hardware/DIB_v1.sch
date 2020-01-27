@@ -201,7 +201,7 @@ GND
 Text GLabel 3600 2050 0    50   Input ~ 0
 +12V
 Text GLabel 3600 2150 0    50   Input ~ 0
-+5V
+5V
 Text GLabel 3600 2250 0    50   Input ~ 0
 BOOT
 Text GLabel 3600 2350 0    50   Input ~ 0
@@ -229,7 +229,7 @@ A1
 Text GLabel 4300 2050 2    50   Input ~ 0
 +12V
 Text GLabel 4300 2150 2    50   Input ~ 0
-+5V
+5V
 Text GLabel 4300 2250 2    50   Input ~ 0
 GND
 Text GLabel 4300 2350 2    50   Input ~ 0

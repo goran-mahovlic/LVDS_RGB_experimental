@@ -4900,9 +4900,9 @@ Text GLabel 4200 2100 0    50   Input ~ 0
 ADC_RD
 Text GLabel 4200 2200 0    50   Input ~ 0
 ADC_CS
-Text GLabel 4950 2600 0    50   Input ~ 0
+Text GLabel 4950 2300 0    50   Input ~ 0
 22P
-Text GLabel 4950 2500 0    50   Input ~ 0
+Text GLabel 4950 2400 0    50   Input ~ 0
 22N
 Wire Wire Line
 	4200 1700 4250 1700
@@ -4932,33 +4932,33 @@ Text GLabel 4350 2100 2    50   Input ~ 0
 26P
 Text GLabel 4350 2200 2    50   Input ~ 0
 26N
-Text GLabel 4950 3200 0    50   Input ~ 0
-25P
-Text GLabel 4950 3100 0    50   Input ~ 0
-25N
-Text GLabel 4950 3000 0    50   Input ~ 0
-24P
-Text GLabel 4950 2900 0    50   Input ~ 0
-24N
-Text GLabel 4950 2800 0    50   Input ~ 0
-23P
-Text GLabel 4950 2700 0    50   Input ~ 0
-23N
-Text GLabel 4950 2400 0    50   Input ~ 0
-21P
-Text GLabel 4950 2300 0    50   Input ~ 0
-21N
-Text GLabel 4950 2200 0    50   Input ~ 0
-20P
-Text GLabel 4950 2100 0    50   Input ~ 0
-20N
-Text GLabel 4950 2000 0    50   Input ~ 0
-19P
-Text GLabel 4950 1900 0    50   Input ~ 0
-19N
-Text GLabel 4950 1800 0    50   Input ~ 0
-18P
 Text GLabel 4950 1700 0    50   Input ~ 0
+25P
+Text GLabel 4950 1800 0    50   Input ~ 0
+25N
+Text GLabel 4950 1900 0    50   Input ~ 0
+24P
+Text GLabel 4950 2000 0    50   Input ~ 0
+24N
+Text GLabel 4950 2100 0    50   Input ~ 0
+23P
+Text GLabel 4950 2200 0    50   Input ~ 0
+23N
+Text GLabel 4950 2500 0    50   Input ~ 0
+21P
+Text GLabel 4950 2600 0    50   Input ~ 0
+21N
+Text GLabel 4950 2700 0    50   Input ~ 0
+20P
+Text GLabel 4950 2800 0    50   Input ~ 0
+20N
+Text GLabel 4950 2900 0    50   Input ~ 0
+19P
+Text GLabel 4950 3000 0    50   Input ~ 0
+19N
+Text GLabel 4950 3100 0    50   Input ~ 0
+18P
+Text GLabel 4950 3200 0    50   Input ~ 0
 18N
 Text Notes 1400 2450 0    50   ~ 0
 PCLK3_0
@@ -4973,11 +4973,17 @@ Wire Notes Line
 Wire Notes Line
 	1650 1150 1650 2350
 Wire Notes Line
-	1650 2350 3350 2350
-Wire Notes Line
-	3350 2350 3350 1150
-Wire Notes Line
 	3350 1150 1650 1150
 Text Notes 3150 1250 0    50   ~ 0
 ADC
+Wire Notes Line
+	3350 2750 1300 2750
+Wire Notes Line
+	1300 2750 1300 2350
+Wire Notes Line
+	1300 2350 3350 2350
+Wire Notes Line
+	3350 1150 3350 2750
+Text Notes 3000 2450 0    50   ~ 0
+DIB_V2
 $EndSCHEMATC
