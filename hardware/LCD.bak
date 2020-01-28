@@ -1139,10 +1139,6 @@ Wire Wire Line
 	8000 1950 8100 1950
 Wire Wire Line
 	8000 2050 8100 2050
-Wire Wire Line
-	8000 3350 8100 3350
-Text GLabel 8000 3350 0    50   Input ~ 0
-~RESET
 Text GLabel 9700 5650 1    50   Input ~ 0
 3V3
 Text GLabel 9700 6150 3    50   Input ~ 0
@@ -1346,12 +1342,6 @@ Wire Wire Line
 	4450 2100 4550 2100
 Wire Wire Line
 	4550 2100 4550 2000
-Wire Bus Line
-	6175 2700 6175 3200
-Wire Bus Line
-	6175 3500 6175 4000
-Wire Bus Line
-	6175 1900 6175 2400
 Connection ~ 4550 2000
 Wire Wire Line
 	4550 2000 3900 2000
@@ -1368,4 +1358,27 @@ F 3 "~" H 6350 6400 50  0001 C CNN
 	1    6350 6400
 	-1   0    0    1   
 $EndComp
+$Comp
+L antena:R R?
+U 1 1 5E356688
+P 7750 3350
+F 0 "R?" V 7543 3350 50  0000 C CNN
+F 1 "10K" V 7634 3350 50  0000 C CNN
+F 2 "" V 7680 3350 50  0001 C CNN
+F 3 "~" H 7750 3350 50  0001 C CNN
+	1    7750 3350
+	0    1    1    0   
+$EndComp
+Text GLabel 7450 3350 0    50   Output ~ 0
+3V3
+Wire Wire Line
+	7900 3350 8100 3350
+Wire Wire Line
+	7450 3350 7600 3350
+Wire Bus Line
+	6175 2700 6175 3200
+Wire Bus Line
+	6175 3500 6175 4000
+Wire Bus Line
+	6175 1900 6175 2400
 $EndSCHEMATC

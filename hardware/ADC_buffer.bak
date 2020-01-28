@@ -101,7 +101,7 @@ Text GLabel 4950 1950 3    50   Input ~ 0
 AGND
 Text GLabel 5150 1450 2    50   Input ~ 0
 ADC_A0
-Text GLabel 1150 1650 0    50   Input ~ 0
+Text GLabel 750  1650 0    50   Input ~ 0
 A0_IN
 Text GLabel 1800 2150 3    50   Input ~ 0
 AGND
@@ -174,8 +174,6 @@ Wire Wire Line
 Wire Wire Line
 	1650 1650 1800 1650
 Connection ~ 1800 1650
-Wire Wire Line
-	1150 1650 1250 1650
 Wire Wire Line
 	1250 1650 1250 1000
 Wire Wire Line
@@ -276,39 +274,35 @@ Wire Wire Line
 $Comp
 L antena:R R30
 U 1 1 5E7A0576
-P 6400 1650
-F 0 "R30" V 6193 1650 50  0000 C CNN
-F 1 "1K2" V 6284 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 1650 50  0001 C CNN
-F 3 "~" H 6400 1650 50  0001 C CNN
-	1    6400 1650
+P 6000 1650
+F 0 "R30" V 5793 1650 50  0000 C CNN
+F 1 "1K2" V 5884 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5930 1650 50  0001 C CNN
+F 3 "~" H 6000 1650 50  0001 C CNN
+	1    6000 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L antena:R R31
 U 1 1 5E7A05CA
-P 6400 1950
-F 0 "R31" V 6193 1950 50  0000 C CNN
-F 1 "1K2" V 6284 1950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 1950 50  0001 C CNN
-F 3 "~" H 6400 1950 50  0001 C CNN
-	1    6400 1950
+P 6000 1950
+F 0 "R31" V 5793 1950 50  0000 C CNN
+F 1 "1K2" V 5884 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5930 1950 50  0001 C CNN
+F 3 "~" H 6000 1950 50  0001 C CNN
+	1    6000 1950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6550 1650 6800 1650
 Connection ~ 6800 1650
-Wire Wire Line
-	6550 1950 6800 1950
 Connection ~ 6800 1950
-Text GLabel 6050 1650 0    50   Input ~ 0
+Text GLabel 5650 1650 0    50   Input ~ 0
 B0_IN
-Text GLabel 6050 1950 0    50   Input ~ 0
+Text GLabel 5650 1950 0    50   Input ~ 0
 B1_IN
 Wire Wire Line
-	6050 1650 6250 1650
+	5650 1650 5850 1650
 Wire Wire Line
-	6050 1950 6250 1950
+	5650 1950 5850 1950
 $Comp
 L antena:R R44
 U 1 1 5E7A249B
@@ -555,7 +549,7 @@ AGND
 Text GLabel 1150 2000 0    50   Input ~ 0
 A1_IN
 Wire Wire Line
-	1150 2000 1350 2000
+	1150 2000 1250 2000
 $Comp
 L THS4551IDGKT:THS4551IDGKT U7
 U 1 1 5E5C374F
@@ -902,4 +896,79 @@ Text GLabel 2850 5800 2    50   Input ~ 0
 AGND
 Wire Wire Line
 	2750 5800 2850 5800
+$Comp
+L antena:D_TVS D2
+U 1 1 5E30CD18
+P 1250 1800
+F 0 "D2" V 1204 1879 50  0000 L CNN
+F 1 "D_TVS" V 1295 1879 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 1250 1800 50  0001 C CNN
+F 3 "~" H 1250 1800 50  0001 C CNN
+	1    1250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 1950 1250 2000
+Connection ~ 1250 2000
+Wire Wire Line
+	1250 2000 1350 2000
+$Comp
+L antena:D_TVS D3
+U 1 1 5E3140CA
+P 6250 2200
+F 0 "D3" V 6204 2279 50  0000 L CNN
+F 1 "D_TVS" V 6295 2279 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 6250 2200 50  0001 C CNN
+F 3 "~" H 6250 2200 50  0001 C CNN
+	1    6250 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L antena:R R53
+U 1 1 5E314E13
+P 950 1650
+F 0 "R53" V 743 1650 50  0000 C CNN
+F 1 "1K" V 834 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 880 1650 50  0001 C CNN
+F 3 "~" H 950 1650 50  0001 C CNN
+	1    950  1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	750  1650 800  1650
+Wire Wire Line
+	1100 1650 1250 1650
+$Comp
+L antena:D_TVS D4
+U 1 1 5E3226C0
+P 6600 2200
+F 0 "D4" V 6554 2279 50  0000 L CNN
+F 1 "D_TVS" V 6645 2279 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 6600 2200 50  0001 C CNN
+F 3 "~" H 6600 2200 50  0001 C CNN
+	1    6600 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 1650 6250 1650
+Wire Wire Line
+	6150 1950 6600 1950
+Wire Wire Line
+	6250 2050 6250 1650
+Connection ~ 6250 1650
+Wire Wire Line
+	6250 1650 6800 1650
+Wire Wire Line
+	6600 2050 6600 1950
+Connection ~ 6600 1950
+Wire Wire Line
+	6600 1950 6800 1950
+Text GLabel 6250 2450 3    50   Input ~ 0
+AGND
+Text GLabel 6600 2450 3    50   Input ~ 0
+AGND
+Wire Wire Line
+	6600 2350 6600 2450
+Wire Wire Line
+	6250 2350 6250 2450
 $EndSCHEMATC
