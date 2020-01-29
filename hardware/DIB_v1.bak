@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 4 10
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2020-01-29"
+Rev "0.1"
+Comp "Envox d.o.o."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -298,4 +298,188 @@ Wire Notes Line
 	5400 2500 6700 2500
 Wire Notes Line
 	6700 900  6700 2500
+Wire Wire Line
+	9400 1550 9700 1550
+Wire Wire Line
+	9700 1550 9700 2350
+Wire Wire Line
+	9700 2350 9700 2650
+Wire Wire Line
+	9700 2650 9400 2650
+Text Label 7800 2350 0    50   ~ 0
+DIB_A0
+Connection ~ 9700 2350
+Wire Wire Line
+	9400 1650 9600 1650
+Wire Wire Line
+	9600 1650 9600 2250
+Wire Wire Line
+	9600 2250 9600 2550
+Wire Wire Line
+	9600 2550 9400 2550
+Text Label 7800 2250 0    50   ~ 0
+DIB_A1
+Connection ~ 9600 2250
+Wire Wire Line
+	9400 1750 9500 1750
+Wire Wire Line
+	9500 1750 9500 2150
+Wire Wire Line
+	9500 2150 9500 2450
+Wire Wire Line
+	9500 2450 9400 2450
+Text Label 7800 2150 0    50   ~ 0
+DIB_A2
+Connection ~ 9500 2150
+Text Label 7800 1350 0    50   ~ 0
+DIB_SCL
+Text Label 7800 1450 0    50   ~ 0
+DIB_SDA
+Wire Wire Line
+	8400 1550 8300 1550
+Wire Wire Line
+	8300 1550 8300 1750
+Wire Wire Line
+	8300 1750 8400 1750
+Wire Wire Line
+	8300 1850 8300 1750
+Connection ~ 8300 1750
+Text Label 8400 1550 0    10   ~ 0
+GNDIO
+Wire Wire Line
+	9900 1350 10000 1350
+Text Label 9900 1350 0    10   ~ 0
+GNDIO
+Wire Wire Line
+	9400 1350 9500 1350
+Wire Wire Line
+	9600 1350 9500 1350
+Connection ~ 9500 1350
+Text Label 9400 1350 0    10   ~ 0
+V+
+Wire Wire Line
+	9000 2450 8800 2450
+Wire Wire Line
+	8800 2450 8800 2550
+Wire Wire Line
+	8800 2550 8800 2650
+Wire Wire Line
+	8800 2650 9000 2650
+Wire Wire Line
+	9000 2550 8800 2550
+Connection ~ 8800 2550
+Connection ~ 8800 2450
+Text Label 9000 2450 0    10   ~ 0
+V+
+$Comp
+L LCD_PMOD-rescue:C-EUC0603-EEZ_DIB_DCM220_r2B7-eagle-import C?
+U 1 0 5E650AE0
+P 9800 1350
+AR Path="/5E650AE0" Ref="C?"  Part="1" 
+AR Path="/5E155363/5E650AE0" Ref="C?"  Part="1" 
+AR Path="/5E500AA4/5E650AE0" Ref="C?"  Part="1" 
+AR Path="/5E22C9F9/5E650AE0" Ref="C?"  Part="1" 
+F 0 "C?" V 9785 1335 59  0000 L BNN
+F 1 "100n" V 9885 1335 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9800 1350 50  0001 C CNN
+F 3 "" H 9800 1350 50  0001 C CNN
+	1    9800 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L LCD_PMOD-rescue:R-EU_R0805-EEZ_DIB_DCM220_r2B7-eagle-import R?
+U 1 0 5E650AE7
+P 9200 2450
+AR Path="/5E650AE7" Ref="R?"  Part="1" 
+AR Path="/5E155363/5E650AE7" Ref="R?"  Part="1" 
+AR Path="/5E500AA4/5E650AE7" Ref="R?"  Part="1" 
+AR Path="/5E22C9F9/5E650AE7" Ref="R?"  Part="1" 
+F 0 "R?" H 9300 2359 59  0000 L BNN
+F 1 "10K" H 9075 2430 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9200 2450 50  0001 C CNN
+F 3 "" H 9200 2450 50  0001 C CNN
+	1    9200 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L LCD_PMOD-rescue:R-EU_R0805-EEZ_DIB_DCM220_r2B7-eagle-import R?
+U 1 0 5E650AEE
+P 9200 2550
+AR Path="/5E650AEE" Ref="R?"  Part="1" 
+AR Path="/5E155363/5E650AEE" Ref="R?"  Part="1" 
+AR Path="/5E500AA4/5E650AEE" Ref="R?"  Part="1" 
+AR Path="/5E22C9F9/5E650AEE" Ref="R?"  Part="1" 
+F 0 "R?" H 9300 2459 59  0000 L BNN
+F 1 "10K" H 9075 2530 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9200 2550 50  0001 C CNN
+F 3 "" H 9200 2550 50  0001 C CNN
+	1    9200 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L LCD_PMOD-rescue:R-EU_R0805-EEZ_DIB_DCM220_r2B7-eagle-import R?
+U 1 0 5E650AF5
+P 9200 2650
+AR Path="/5E650AF5" Ref="R?"  Part="1" 
+AR Path="/5E155363/5E650AF5" Ref="R?"  Part="1" 
+AR Path="/5E500AA4/5E650AF5" Ref="R?"  Part="1" 
+AR Path="/5E22C9F9/5E650AF5" Ref="R?"  Part="1" 
+F 0 "R?" H 9300 2559 59  0000 L BNN
+F 1 "10K" H 9075 2630 59  0000 R TNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9200 2650 50  0001 C CNN
+F 3 "" H 9200 2650 50  0001 C CNN
+	1    9200 2650
+	1    0    0    1   
+$EndComp
+$Comp
+L LCD_PMOD-rescue:AT24CXXSOIC8-EEZ_DIB_DCM220_r2B7-eagle-import IC?
+U 1 0 5E650AFC
+P 8900 1550
+AR Path="/5E650AFC" Ref="IC?"  Part="1" 
+AR Path="/5E155363/5E650AFC" Ref="IC?"  Part="1" 
+AR Path="/5E500AA4/5E650AFC" Ref="IC?"  Part="1" 
+AR Path="/5E22C9F9/5E650AFC" Ref="IC?"  Part="1" 
+F 0 "IC?" H 8814 1884 69  0000 L BNN
+F 1 "M24C32-WMN6P" H 8464 1133 69  0000 L BNN
+F 2 "OPA2211:SOIC127P600X170-9N" H 8900 1550 50  0001 C CNN
+F 3 "" H 8900 1550 50  0001 C CNN
+	1    8900 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 7600 850  0    59   ~ 0
+I2C Module ID EEPROM
+Text GLabel 7700 1450 0    50   Input ~ 0
+SSDA
+Wire Wire Line
+	7700 1450 8400 1450
+Text GLabel 7700 1350 0    50   Input ~ 0
+SSCL
+Wire Wire Line
+	7700 1350 8400 1350
+Text GLabel 7700 2350 0    50   Input ~ 0
+A0
+Text GLabel 7700 2250 0    50   Input ~ 0
+A1
+Text GLabel 7700 2150 0    50   Input ~ 0
+A2
+Wire Wire Line
+	7700 2150 9500 2150
+Wire Wire Line
+	7700 2250 9600 2250
+Wire Wire Line
+	7700 2350 9700 2350
+Text GLabel 10000 1550 3    50   Input ~ 0
+GND
+Wire Wire Line
+	10000 1350 10000 1550
+Text GLabel 8300 1850 3    50   Input ~ 0
+GND
+Text GLabel 9500 1150 1    50   Input ~ 0
+3V3
+Text GLabel 8600 2450 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	9500 1150 9500 1350
+Wire Wire Line
+	8600 2450 8800 2450
 $EndSCHEMATC

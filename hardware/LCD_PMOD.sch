@@ -2,13 +2,13 @@ EESchema Schematic File Version 4
 LIBS:LCD_PMOD-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 7874 4000
 encoding utf-8
-Sheet 1 11
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 1 10
+Title "ADC_LVDS_RGB_DIB1_DIB2"
+Date "2020-01-29"
+Rev "0.1"
+Comp "Envox d.o.o."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -34,45 +34,39 @@ Repository: https://github.com/eez-open
 Text Notes 1000 7725 0    42   ~ 0
 More info at http://www.envox.hr/eez
 $Sheet
-S 900  900  2050 1150
+S 900  900  550  550 
 U 5E224865
 F0 "LCD" 50
 F1 "LCD.sch" 50
 $EndSheet
 $Sheet
-S 900  2400 2050 1200
+S 2250 900  550  550 
 U 5E22C01C
 F0 "ULX3S" 50
 F1 "ULX3S.sch" 50
 $EndSheet
 $Sheet
-S 900  3800 2050 1200
+S 3550 900  550  550 
 U 5E22C9F9
 F0 "DIB_v1" 50
 F1 "DIB_v1.sch" 50
 $EndSheet
 $Sheet
-S 900  5250 2050 1200
+S 4250 900  550  550 
 U 5E22D00E
 F0 "DIB_v2" 50
 F1 "DIB_v2.sch" 50
 $EndSheet
 $Sheet
-S 3200 900  2100 1100
+S 1550 900  550  550 
 U 5E22D431
 F0 "Video_IN" 50
 F1 "Video_IN.sch" 50
 $EndSheet
 $Sheet
-S 3200 2400 2050 1200
+S 2900 900  550  550 
 U 5E22D897
 F0 "ADC" 50
 F1 "ADC.sch" 50
-$EndSheet
-$Sheet
-S 3200 3800 2050 1200
-U 5E500AA4
-F0 "Bias_PS" 50
-F1 "Bias_PS.sch" 50
 $EndSheet
 $EndSCHEMATC

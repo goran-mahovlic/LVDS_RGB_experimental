@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 6 10
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2020-01-29"
+Rev "0.1"
+Comp "Envox d.o.o."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -395,21 +395,21 @@ Text Label 3100 2950 0    50   ~ 0
 DISP
 Text Notes 6150 5700 0    50   ~ 0
 Confirmed working as INPUT\n\nGP12 CLK+\nGN12 CLK-\nGP11 D2+\nGN11 D2-\nGP10 D1+\nGN10 D1-\nGP9 D0+\nGN9 D0-
-Text GLabel 9200 4250 2    50   BiDi ~ 0
+Text GLabel 8250 4250 2    50   BiDi ~ 0
 12P
-Text GLabel 9200 4150 2    50   BiDi ~ 0
+Text GLabel 8250 4150 2    50   BiDi ~ 0
 12N
-Text GLabel 9200 4050 2    50   BiDi ~ 0
+Text GLabel 8250 4050 2    50   BiDi ~ 0
 11P
-Text GLabel 9200 3950 2    50   BiDi ~ 0
+Text GLabel 8250 3950 2    50   BiDi ~ 0
 11N
-Text GLabel 9200 3650 2    50   BiDi ~ 0
+Text GLabel 8250 3650 2    50   BiDi ~ 0
 10P
-Text GLabel 9200 3550 2    50   BiDi ~ 0
+Text GLabel 8250 3550 2    50   BiDi ~ 0
 10N
-Text GLabel 9200 3450 2    50   BiDi ~ 0
+Text GLabel 8250 3450 2    50   BiDi ~ 0
 9P
-Text GLabel 9200 3350 2    50   BiDi ~ 0
+Text GLabel 8250 3350 2    50   BiDi ~ 0
 9N
 Text GLabel 8250 3750 2    50   Input ~ 0
 3V3
@@ -421,7 +421,7 @@ Wire Wire Line
 	8200 4600 8250 4600
 Text Notes 3000 550  3    118  ~ 0
 STM32 connected with cable to LCD connector
-Text Notes 9800 1450 3    118  ~ 0
+Text Notes 8750 1400 3    118  ~ 0
 ULX3S differential bidirectional PINS
 Text GLabel 900  1050 1    50   Input ~ 0
 3V3
@@ -671,8 +671,6 @@ Wire Notes Line
 	6850 6500 6850 5400
 Text Notes 6850 5350 0    50   ~ 0
 Termination resistors on FPGA side
-Text Notes 9550 4300 1    50   ~ 0
-Capacitors - close to ULX3S
 Text GLabel 3550 1750 0    50   Input ~ 0
 VLED-
 Text GLabel 3550 1850 0    50   Input ~ 0
@@ -721,21 +719,21 @@ Wire Wire Line
 Wire Wire Line
 	3050 3250 3650 3250
 Wire Wire Line
-	8200 3350 9200 3350
+	8200 3350 8250 3350
 Wire Wire Line
-	8200 3450 9200 3450
+	8200 3450 8250 3450
 Wire Wire Line
-	8200 3550 9200 3550
+	8200 3550 8250 3550
 Wire Wire Line
-	8200 3650 9200 3650
+	8200 3650 8250 3650
 Wire Wire Line
-	8200 3950 9200 3950
+	8200 3950 8250 3950
 Wire Wire Line
-	8200 4050 9200 4050
+	8200 4050 8250 4050
 Wire Wire Line
-	8200 4150 9200 4150
+	8200 4150 8250 4150
 Wire Wire Line
-	8200 4250 9200 4250
+	8200 4250 8250 4250
 Wire Bus Line
 	5950 1500 5950 2100
 Wire Bus Line

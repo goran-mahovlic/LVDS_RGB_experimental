@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 8 10
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2020-01-29"
+Rev "0.1"
+Comp "Envox d.o.o."
 Comment1 ""
 Comment2 ""
 Comment3 ""

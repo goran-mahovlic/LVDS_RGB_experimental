@@ -4,11 +4,11 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 3 10
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2020-01-29"
+Rev "0.1"
+Comp "Envox d.o.o."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -4640,74 +4640,40 @@ Text Notes 750  4650 0    50   ~ 0
 GP13 ETH+\nGN13 ETH-\nGP12 CLK+\nGN12 CLK-\nGP11 D2+\nGN11 D2-\nGP10 D1+\nGN10 D1-\nGP9 D0+\nGN9 D0-\nGP8 SDA over i2c chip\nGN8 SCL over  i2c chip\nGP7 CEC over 510 ohm resistor\nGN7 onboard LED
 Text Notes 750  3450 0    50   ~ 0
 LCD>>HDMI_IN
-Text GLabel 6350 1750 2    50   Input ~ 0
-MISO
-Text GLabel 6350 1500 2    50   Input ~ 0
-CSA
 Text GLabel 6350 1600 2    50   Input ~ 0
+MISO
+Text GLabel 6350 1350 2    50   Input ~ 0
+CSA
+Text GLabel 6350 1450 2    50   Input ~ 0
 CSB
-Text GLabel 6350 1850 2    50   Input ~ 0
+Text GLabel 6350 1700 2    50   Input ~ 0
 MOSI
-Text GLabel 6350 1950 2    50   Input ~ 0
+Text GLabel 6350 1800 2    50   Input ~ 0
 SCLK
-Text GLabel 6350 2050 2    50   Input ~ 0
+Text GLabel 6350 1900 2    50   Input ~ 0
 IRQ
-Text GLabel 6350 2200 2    50   Input ~ 0
+Text GLabel 6350 2050 2    50   Input ~ 0
 NRESET
-Text GLabel 6550 2750 0    50   Input ~ 0
+Text GLabel 6250 2200 0    50   Input ~ 0
 UART_RX
-Text GLabel 6200 2850 2    50   Input ~ 0
+Text GLabel 5900 2300 2    50   Input ~ 0
 UART_TX
-Wire Notes Line
-	5750 3700 7200 3700
-Wire Notes Line
-	7200 3700 7200 1350
-Wire Notes Line
-	7200 1350 5750 1350
-Wire Notes Line
-	5750 1350 5750 3700
-Text Notes 5750 1350 0    50   ~ 0
+Text Notes 5750 1200 0    50   ~ 0
 DIB_V1
-Text GLabel 7650 1450 0    50   BiDi ~ 0
-7P
-Text GLabel 7650 1550 0    50   BiDi ~ 0
-7N
-Text GLabel 7750 1450 2    50   BiDi ~ 0
-I2C1_SCL
-Text GLabel 7750 1550 2    50   BiDi ~ 0
-I2C1_SDA
-Wire Wire Line
-	7650 1450 7750 1450
-Wire Wire Line
-	7650 1550 7750 1550
-Text GLabel 7650 1650 0    50   Input ~ 0
+Text GLabel 9200 1850 1    50   Input ~ 0
 8P
-Wire Wire Line
-	7650 1650 7750 1650
-Text GLabel 7650 1750 0    50   Output ~ 0
+Text GLabel 7550 2000 3    50   Output ~ 0
 8N
 Wire Wire Line
-	7650 1750 7750 1750
-Text GLabel 7950 1850 2    50   Input ~ 0
-~RESET
-Text GLabel 7750 1650 2    50   Input ~ 0
+	7550 2000 7550 1900
+Text GLabel 9300 1850 1    50   Input ~ 0
 IRQ_TOUCH
-Text GLabel 7750 1750 2    50   Input ~ 0
+Text GLabel 7550 1900 1    50   Input ~ 0
 TFT_BRIGHTNESS
-Text GLabel 7700 1850 0    50   BiDi ~ 0
+Text GLabel 4350 2400 2    50   BiDi ~ 0
 13N
-Wire Notes Line
-	7300 1350 8500 1350
-Wire Notes Line
-	8500 1350 8500 2250
-Wire Notes Line
-	7300 1350 7300 2250
-Wire Notes Line
-	7300 2250 8500 2250
-Text Notes 7300 1350 0    50   ~ 0
+Text Notes 7300 1200 0    50   ~ 0
 LCD_TOUCH
-Wire Wire Line
-	7950 1850 7700 1850
 Text GLabel 7400 3300 2    50   BiDi ~ 0
 12P
 Text GLabel 7400 3200 2    50   BiDi ~ 0
@@ -4820,42 +4786,38 @@ Wire Notes Line
 	3950 3700 3950 4400
 Text Notes 3650 3800 0    50   ~ 0
 DIB_V1
-Text GLabel 6000 1500 0    50   Input ~ 0
+Text GLabel 6000 1350 0    50   Input ~ 0
 0N
-Text GLabel 6000 1750 0    50   Input ~ 0
-1N
-Text GLabel 6000 1950 0    50   Input ~ 0
-2N
 Text GLabel 6000 1600 0    50   Input ~ 0
+1N
+Text GLabel 6000 1800 0    50   Input ~ 0
+2N
+Text GLabel 6000 1450 0    50   Input ~ 0
 0P
-Text GLabel 6000 1850 0    50   Input ~ 0
+Text GLabel 6000 1700 0    50   Input ~ 0
 1P
-Text GLabel 6000 2050 0    50   Input ~ 0
+Text GLabel 6000 1900 0    50   Input ~ 0
 2P
-Text GLabel 6050 2200 0    50   Input ~ 0
+Text GLabel 6050 2050 0    50   Input ~ 0
 13N
 Wire Wire Line
-	6000 1500 6350 1500
+	6000 1350 6350 1350
+Wire Wire Line
+	6000 1450 6350 1450
 Wire Wire Line
 	6000 1600 6350 1600
 Wire Wire Line
-	6000 1750 6350 1750
+	6000 1700 6350 1700
 Wire Wire Line
-	6000 1850 6350 1850
+	6000 1800 6350 1800
 Wire Wire Line
-	6000 1950 6350 1950
+	6050 2050 6350 2050
 Wire Wire Line
-	6050 2200 6350 2200
-Wire Wire Line
-	6000 2050 6350 2050
-Wire Notes Line
-	2350 5300 3950 5300
-Wire Notes Line
-	2350 4600 2350 5300
+	6000 1900 6350 1900
 Wire Notes Line
 	3950 4600 3950 5300
 Text Notes 3650 5300 0    50   ~ 0
-Resets
+NRESET
 Wire Wire Line
 	4950 1700 5050 1700
 Wire Wire Line
@@ -4894,8 +4856,6 @@ Text GLabel 4200 1900 0    50   Input ~ 0
 ADC_CONVST_A
 Text GLabel 4200 1800 0    50   Input ~ 0
 ADC_CONVST_B
-Text GLabel 4200 1700 0    50   Input ~ 0
-ADC_CONVST_C
 Text GLabel 4200 2100 0    50   Input ~ 0
 ADC_RD
 Text GLabel 4200 2200 0    50   Input ~ 0
@@ -4905,12 +4865,9 @@ Text GLabel 4950 2400 0    50   Input ~ 0
 Text GLabel 4950 2300 0    50   Input ~ 0
 22N
 Wire Wire Line
-	4200 1700 4250 1700
-Wire Wire Line
 	4200 1800 4250 1800
 Wire Wire Line
 	4250 1800 4250 1700
-Connection ~ 4250 1700
 Wire Wire Line
 	4250 1700 4350 1700
 Wire Wire Line
@@ -4986,12 +4943,107 @@ Wire Notes Line
 	3350 1150 3350 2750
 Text Notes 3000 2450 0    50   ~ 0
 DIB_V2
-Text GLabel 6250 4050 0    50   Input ~ 0
+Text GLabel 8450 1850 1    50   Input ~ 0
 STM32_HSYNC
-Text GLabel 6250 4150 0    50   Input ~ 0
+Text GLabel 7800 1850 1    50   Input ~ 0
 STM32_VSYNC
-Text GLabel 6250 4350 0    50   Input ~ 0
+Text GLabel 9100 1850 1    50   Input ~ 0
 STM32_DE
-Text GLabel 6250 4550 0    50   Input ~ 0
-FPGA_CLK_OUT
+Text GLabel 7450 1900 1    50   Input ~ 0
+ADC_BUSY
+Text GLabel 4200 2400 0    50   Input ~ 0
+ADC_FRSTDATA
+Wire Wire Line
+	4200 2400 4350 2400
+Wire Notes Line
+	2350 4600 2350 5200
+Wire Notes Line
+	3950 5300 2950 5300
+Wire Notes Line
+	2950 5300 2950 5200
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5E7481BA
+P 7900 2150
+AR Path="/5E22D897/5E776450/5E7481BA" Ref="J?"  Part="1" 
+AR Path="/5E22C01C/5E7481BA" Ref="J?"  Part="1" 
+F 0 "J?" V 7773 2330 50  0000 L CNN
+F 1 "VS_SCL" V 7864 2330 50  0000 L CNN
+F 2 "" H 7900 2150 50  0001 C CNN
+F 3 "~" H 7900 2150 50  0001 C CNN
+	1    7900 2150
+	0    1    1    0   
+$EndComp
+Text GLabel 8000 1850 1    50   BiDi ~ 0
+I2C1_SCL
+Text GLabel 7900 1850 1    50   BiDi ~ 0
+7P
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5E7548B6
+P 9200 2150
+AR Path="/5E22D897/5E776450/5E7548B6" Ref="J?"  Part="1" 
+AR Path="/5E22C01C/5E7548B6" Ref="J?"  Part="1" 
+F 0 "J?" V 9073 2330 50  0000 L CNN
+F 1 "DE_IRQ" V 9164 2330 50  0000 L CNN
+F 2 "" H 9200 2150 50  0001 C CNN
+F 3 "~" H 9200 2150 50  0001 C CNN
+	1    9200 2150
+	0    1    1    0   
+$EndComp
+Text GLabel 8650 1850 1    50   BiDi ~ 0
+I2C1_SDA
+Text GLabel 8550 1850 1    50   BiDi ~ 0
+7N
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5E772205
+P 8550 2150
+AR Path="/5E22D897/5E776450/5E772205" Ref="J?"  Part="1" 
+AR Path="/5E22C01C/5E772205" Ref="J?"  Part="1" 
+F 0 "J?" V 8423 2330 50  0000 L CNN
+F 1 "HS_SDA" V 8514 2330 50  0000 L CNN
+F 2 "" H 8550 2150 50  0001 C CNN
+F 3 "~" H 8550 2150 50  0001 C CNN
+	1    8550 2150
+	0    1    1    0   
+$EndComp
+Text GLabel 7450 2000 3    50   Input ~ 0
+17N
+Wire Wire Line
+	7450 2000 7450 1900
+Wire Wire Line
+	9300 1850 9300 1950
+Wire Wire Line
+	9200 1850 9200 1950
+Wire Wire Line
+	9100 1850 9100 1950
+Wire Wire Line
+	8650 1850 8650 1950
+Wire Wire Line
+	8550 1850 8550 1950
+Wire Wire Line
+	8450 1850 8450 1950
+Wire Wire Line
+	8000 1850 8000 1950
+Wire Wire Line
+	7900 1850 7900 1950
+Wire Wire Line
+	7800 1850 7800 1950
+Wire Notes Line
+	7300 1200 9700 1200
+Wire Notes Line
+	9700 1200 9700 2250
+Wire Notes Line
+	7300 1200 7300 2250
+Wire Notes Line
+	7300 2250 9700 2250
+Wire Notes Line
+	5750 1200 5750 2400
+Wire Notes Line
+	5750 1200 6750 1200
+Wire Notes Line
+	6750 1200 6750 2400
+Wire Notes Line
+	6750 2400 5750 2400
 $EndSCHEMATC
