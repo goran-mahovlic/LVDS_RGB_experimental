@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# OPA187IDBVR
+#
+DEF OPA187IDBVR U 0 40 Y N 1 L N
+F0 "U" 100 125 50 H V L BNN
+F1 "OPA187IDBVR" 100 -200 50 H V L BNN
+F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
+F3 "D" 0 0 50 H I L BNN
+F4 "IPC-7351B" 0 0 50 H I L BNN
+F5 "Texas Instruments" 0 0 50 H I L BNN
+F6 "1.45mm" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -200 200 -200 -200 N
+P 2 0 0 16 -200 -200 200 0 N
+P 2 0 0 16 200 0 -200 200 N
+P 2 0 0 6 -150 125 -150 75 N
+P 2 0 0 6 -175 100 -125 100 N
+P 2 0 0 6 -175 -100 -125 -100 N
+T 900 50 125 32 0 0 0 V+ Normal 0 L B
+T 900 50 -175 32 0 0 0 V- Normal 0 L B
+X -IN 4 -300 -100 100 R 40 40 0 0 I 
+X +IN 3 -300 100 100 R 40 40 0 0 I 
+X OUT 1 300 0 100 L 40 40 0 0 O 
+X V+ 5 0 300 200 D 40 40 0 0 W 
+X V- 2 0 -300 200 U 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
