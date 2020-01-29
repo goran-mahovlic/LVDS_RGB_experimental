@@ -268,18 +268,18 @@ Text GLabel 2700 3600 1    50   Input ~ 0
 GND
 Wire Wire Line
 	2700 3600 2700 3750
-Text GLabel 2950 3750 3    50   Input ~ 0
+Text GLabel 2850 3750 3    50   Input ~ 0
 DVDD
-Text GLabel 2950 3600 1    50   Input ~ 0
+Text GLabel 2850 3600 1    50   Input ~ 0
 3V3
 Wire Wire Line
-	2950 3600 2950 3750
-Text GLabel 3100 3650 1    50   Input ~ 0
+	2850 3600 2850 3750
+Text GLabel 3000 3650 1    50   Input ~ 0
 AVDD
-Text GLabel 3100 3800 3    50   Input ~ 0
+Text GLabel 3000 3800 3    50   Input ~ 0
 5V
 Wire Wire Line
-	3100 3650 3100 3800
+	3000 3650 3000 3800
 Text Notes 5000 4850 0    50   ~ 0
 This pin acts as an internalreferenceoutputwhenREFSELis high;\nthis pin functionsas inputpin for the externalreferencewhenREFSELis low;\ndecouplewith REFGNDon pin 43 usinga 10-μF capacitor.
 $Comp

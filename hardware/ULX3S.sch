@@ -4641,19 +4641,19 @@ GP13 ETH+\nGN13 ETH-\nGP12 CLK+\nGN12 CLK-\nGP11 D2+\nGN11 D2-\nGP10 D1+\nGN10 D
 Text Notes 750  3450 0    50   ~ 0
 LCD>>HDMI_IN
 Text GLabel 6350 1600 2    50   Input ~ 0
-MISO
+DIB_MISO
 Text GLabel 6350 1350 2    50   Input ~ 0
-CSA
+DIB_CSA
 Text GLabel 6350 1450 2    50   Input ~ 0
-CSB
+DIB_CSB
 Text GLabel 6350 1700 2    50   Input ~ 0
-MOSI
+DIB_MOSI
 Text GLabel 6350 1800 2    50   Input ~ 0
-SCLK
+DIB_SCLK
 Text GLabel 6350 1900 2    50   Input ~ 0
-IRQ
+DIB_IRQ
 Text GLabel 6350 2050 2    50   Input ~ 0
-NRESET
+DIB_NRESET
 Text GLabel 6250 2200 0    50   Input ~ 0
 UART_RX
 Text GLabel 5900 2300 2    50   Input ~ 0
@@ -5041,9 +5041,9 @@ Wire Notes Line
 Wire Notes Line
 	5750 1200 5750 2400
 Wire Notes Line
-	5750 1200 6750 1200
+	6900 1200 6900 2400
 Wire Notes Line
-	6750 1200 6750 2400
+	5750 1200 6900 1200
 Wire Notes Line
-	6750 2400 5750 2400
+	5750 2400 6900 2400
 $EndSCHEMATC

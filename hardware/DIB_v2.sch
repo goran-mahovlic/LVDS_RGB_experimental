@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 1950 2350 0    50   Input ~ 0
-FPGA_CLK_OUT
+DIB2_FPGA_CLK_OUT
 Text GLabel 2150 2350 2    50   Input ~ 0
 17P
 Wire Wire Line

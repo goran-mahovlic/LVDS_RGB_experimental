@@ -183,19 +183,19 @@ Text GLabel 3600 1050 0    50   Input ~ 0
 Text GLabel 3600 1150 0    50   Input ~ 0
 NRESET
 Text GLabel 3600 1250 0    50   Input ~ 0
-SYNC
+DIB_SYNC
 Text GLabel 3600 1350 0    50   Input ~ 0
-SSDA
+DIB_SDA
 Text GLabel 3600 1450 0    50   Input ~ 0
-IRQ
+DIB_IRQ
 Text GLabel 3600 1550 0    50   Input ~ 0
-CSB
+DIB_CSB
 Text GLabel 3600 1650 0    50   Input ~ 0
-MISO
+DIB_MISO
 Text GLabel 3600 1750 0    50   Input ~ 0
 GND
 Text GLabel 3600 1850 0    50   Input ~ 0
-A2
+DIB_A2
 Text GLabel 3600 1950 0    50   Input ~ 0
 GND
 Text GLabel 3600 2050 0    50   Input ~ 0
@@ -207,25 +207,25 @@ BOOT
 Text GLabel 3600 2350 0    50   Input ~ 0
 UART_RX
 Text GLabel 4300 1050 2    50   Input ~ 0
-+3V3
+DIB_+3V3
 Text GLabel 4300 1150 2    50   Input ~ 0
 NFAULT
 Text GLabel 4300 1250 2    50   Input ~ 0
-SSCL
+DIB_SCL
 Text GLabel 4300 1350 2    50   Input ~ 0
 GND
 Text GLabel 4300 1550 2    50   Input ~ 0
 GND
 Text GLabel 4300 1450 2    50   Input ~ 0
-CSA
+DIB_CSA
 Text GLabel 4300 1650 2    50   Input ~ 0
-SCLK
+DIB_SCLK
 Text GLabel 4300 1750 2    50   Input ~ 0
-MOSI
+DIB_MOSI
 Text GLabel 4300 1850 2    50   Input ~ 0
-A0
+DIB_A0
 Text GLabel 4300 1950 2    50   Input ~ 0
-A1
+DIB_A1
 Text GLabel 4300 2050 2    50   Input ~ 0
 +12V
 Text GLabel 4300 2150 2    50   Input ~ 0
@@ -449,19 +449,19 @@ $EndComp
 Text Notes 7600 850  0    59   ~ 0
 I2C Module ID EEPROM
 Text GLabel 7700 1450 0    50   Input ~ 0
-SSDA
+DIB_SDA
 Wire Wire Line
 	7700 1450 8400 1450
 Text GLabel 7700 1350 0    50   Input ~ 0
-SSCL
+DIB_SCL
 Wire Wire Line
 	7700 1350 8400 1350
 Text GLabel 7700 2350 0    50   Input ~ 0
-A0
+DIB_A0
 Text GLabel 7700 2250 0    50   Input ~ 0
-A1
+DIB_A1
 Text GLabel 7700 2150 0    50   Input ~ 0
-A2
+DIB_A2
 Wire Wire Line
 	7700 2150 9500 2150
 Wire Wire Line
@@ -474,12 +474,12 @@ Wire Wire Line
 	10000 1350 10000 1550
 Text GLabel 8300 1850 3    50   Input ~ 0
 GND
-Text GLabel 9500 1150 1    50   Input ~ 0
-3V3
 Text GLabel 8600 2450 0    50   Input ~ 0
-3V3
+DIB_+3V3
 Wire Wire Line
 	9500 1150 9500 1350
 Wire Wire Line
 	8600 2450 8800 2450
+Text GLabel 9500 1150 1    50   Input ~ 0
+DIB_+3V3
 $EndSCHEMATC

@@ -101,8 +101,6 @@ Text GLabel 5150 1450 2    50   Input ~ 0
 ADC_A1P
 Text GLabel 750  1650 0    50   Input ~ 0
 A1_IN
-Text GLabel 1800 2150 3    50   Input ~ 0
-AGND
 Wire Wire Line
 	2400 1750 2050 1750
 Wire Wire Line
@@ -163,8 +161,6 @@ Wire Wire Line
 	2350 2150 2400 2150
 Wire Wire Line
 	2350 1450 2400 1450
-Wire Wire Line
-	1800 2050 1800 2150
 Wire Wire Line
 	1800 1750 1800 1650
 Wire Wire Line
@@ -497,8 +493,6 @@ Wire Wire Line
 	7250 1300 7250 1450
 Wire Wire Line
 	7250 1450 7400 1450
-Text GLabel 1250 2100 3    50   Input ~ 0
-AGND
 $Comp
 L THS4551IDGKT:THS4551IDGKT U7
 U 1 1 5E5C374F
@@ -880,8 +874,6 @@ Wire Wire Line
 	6850 2500 6850 2600
 Wire Wire Line
 	6500 2500 6500 2600
-Wire Wire Line
-	1250 1950 1250 2100
 $Comp
 L antena:D_TVS D?
 U 1 1 5E5E132B
@@ -1188,4 +1180,35 @@ Wire Notes Line
 	5200 3900 500  3900
 Wire Notes Line
 	500  3900 500  500 
+Text Notes 2550 3500 0    50   ~ 0
+ADC_A1N bih dovukao na C60 \ni spojio ih s 49R9 na AGND od D2\ntako da imamo sli?nu stvar kao za ADC_A6
+$Comp
+L antena:R R?
+U 1 1 5E905844
+P 1500 2200
+F 0 "R?" V 1293 2200 50  0000 C CNN
+F 1 "49R9" V 1384 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1430 2200 50  0001 C CNN
+F 3 "~" H 1500 2200 50  0001 C CNN
+	1    1500 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 2200 1350 2200
+Wire Wire Line
+	1250 1950 1250 2200
+Text GLabel 1250 2350 3    50   Input ~ 0
+AGND
+Wire Wire Line
+	1800 2050 1800 2200
+Text GLabel 1800 2350 3    50   Input ~ 0
+ADC_A1GND
+Wire Wire Line
+	1650 2200 1800 2200
+Wire Wire Line
+	1800 2350 1800 2200
+Connection ~ 1800 2200
+Wire Wire Line
+	1250 2350 1250 2200
+Connection ~ 1250 2200
 $EndSCHEMATC

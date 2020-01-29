@@ -12,4 +12,5 @@
   (lib (name THS4551IDGKT)(type Legacy)(uri ${KIPRJMOD}/parts/THS4551/THS4551IDGKT.lib)(options "")(descr ""))
   (lib (name AMC1304M)(type Legacy)(uri ${KIPRJMOD}/parts/AMC1304M/AMC1304M.lib)(options "")(descr ""))
   (lib (name ads8586s)(type Legacy)(uri ${KIPRJMOD}/parts/ads8586s/ads8586s.lib)(options "")(descr ""))
+  (lib (name OPA187IDBVR)(type Legacy)(uri ${KIPRJMOD}/parts/OPA187/OPA187IDBVR.lib)(options "")(descr ""))
 )
