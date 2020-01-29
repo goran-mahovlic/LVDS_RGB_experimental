@@ -492,111 +492,57 @@ Connection ~ 1700 4650
 Wire Wire Line
 	2100 4950 1700 4950
 Connection ~ 1700 4950
-Text GLabel 5050 2150 0    50   Input ~ 0
+Text GLabel 7250 2700 0    50   Input ~ 0
 ADC_RESET
 Wire Wire Line
 	5050 2150 5550 2150
-Text GLabel 5050 2350 0    50   Input ~ 0
-ADC_A0
-Wire Wire Line
-	5050 2350 5550 2350
-Text GLabel 5050 2450 0    50   Input ~ 0
-ADC_A1
-Text GLabel 5050 2550 0    50   Input ~ 0
-ADC_B0
-Text GLabel 5050 2650 0    50   Input ~ 0
-ADC_B1
-Text GLabel 5050 2750 0    50   Input ~ 0
-ADC_C0
-Text GLabel 5050 2850 0    50   Input ~ 0
-ADC_C1
-Wire Wire Line
-	5050 2450 5550 2450
-Wire Wire Line
-	5550 2550 5050 2550
-Wire Wire Line
-	5050 2650 5550 2650
-Wire Wire Line
-	5550 2750 5050 2750
-Wire Wire Line
-	5050 2850 5550 2850
-Text GLabel 10650 1150 2    50   Input ~ 0
+Text GLabel 7250 3100 0    50   Input ~ 0
+ADC_A1P
+Text GLabel 7250 3300 0    50   Input ~ 0
+ADC_A2P
+Text GLabel 7250 3500 0    50   Input ~ 0
+ADC_A3P
+Text GLabel 9450 4100 2    50   Input ~ 0
 ADC_BUSY
-Text GLabel 10650 1250 2    50   Input ~ 0
+Text GLabel 9450 3400 2    50   Input ~ 0
 ADC_REF
-Text GLabel 10650 1450 2    50   Input ~ 0
+Text GLabel 9450 1400 2    50   Input ~ 0
 ADC_DB0
-Text GLabel 10650 1550 2    50   Input ~ 0
+Text GLabel 9450 1500 2    50   Input ~ 0
 ADC_DB1
-Text GLabel 10650 1650 2    50   Input ~ 0
+Text GLabel 9450 1600 2    50   Input ~ 0
 ADC_DB2
-Text GLabel 10650 1750 2    50   Input ~ 0
+Text GLabel 9450 1700 2    50   Input ~ 0
 ADC_DB13
-Text GLabel 10650 1850 2    50   Input ~ 0
+Text GLabel 9450 1800 2    50   Input ~ 0
 ADC_DB3
-Text GLabel 10650 1950 2    50   Input ~ 0
+Text GLabel 9450 1900 2    50   Input ~ 0
 ADC_DB12
-Text GLabel 10650 2050 2    50   Input ~ 0
+Text GLabel 9450 2000 2    50   Input ~ 0
 ADC_DB4
-Text GLabel 10650 2150 2    50   Input ~ 0
+Text GLabel 9450 2100 2    50   Input ~ 0
 ADC_DB11
-Text GLabel 10650 2250 2    50   Input ~ 0
+Text GLabel 9450 2200 2    50   Input ~ 0
 ADC_DB5
-Text GLabel 10650 2350 2    50   Input ~ 0
+Text GLabel 9450 2300 2    50   Input ~ 0
 ADC_DB10
-Text GLabel 10650 2450 2    50   Input ~ 0
+Text GLabel 9450 2400 2    50   Input ~ 0
 ADC_DB6
-Text GLabel 10650 2550 2    50   Input ~ 0
+Text GLabel 9450 2500 2    50   Input ~ 0
 ADC_DB9
-Text GLabel 10650 2650 2    50   Input ~ 0
+Text GLabel 9450 2600 2    50   Input ~ 0
 ADC_DB7
-Text GLabel 10650 2850 2    50   Input ~ 0
+Text GLabel 9450 2800 2    50   Input ~ 0
 ADC_DB14
-Text GLabel 10650 2950 2    50   Input ~ 0
+Text GLabel 9450 2900 2    50   Input ~ 0
 ADC_DB15
-Wire Wire Line
-	10550 1150 10650 1150
-Wire Wire Line
-	10550 1250 10650 1250
-Wire Wire Line
-	10550 1450 10650 1450
-Wire Wire Line
-	10550 1550 10650 1550
-Wire Wire Line
-	10550 1650 10650 1650
-Wire Wire Line
-	10550 1750 10650 1750
-Wire Wire Line
-	10550 1850 10650 1850
-Wire Wire Line
-	10550 1950 10650 1950
-Wire Wire Line
-	10550 2050 10650 2050
-Wire Wire Line
-	10550 2150 10650 2150
-Wire Wire Line
-	10550 2250 10650 2250
-Wire Wire Line
-	10550 2350 10650 2350
-Wire Wire Line
-	10550 2450 10650 2450
-Wire Wire Line
-	10550 2550 10650 2550
-Wire Wire Line
-	10550 2650 10650 2650
-Wire Wire Line
-	10550 2850 10650 2850
-Wire Wire Line
-	10550 2950 10650 2950
-Text GLabel 10650 2750 2    50   Input ~ 0
+Text GLabel 9450 2700 2    50   Input ~ 0
 ADC_DB8
-Wire Wire Line
-	10550 2750 10650 2750
-Text GLabel 4900 3050 0    50   Input ~ 0
+Text GLabel 7250 2400 0    50   Input ~ 0
 ADC_RANGE
-Text GLabel 4900 3150 0    50   Input ~ 0
+Text GLabel 6250 2750 0    50   Input ~ 0
 ADC_WORD
-Text GLabel 4900 3250 0    50   Input ~ 0
+Text GLabel 7250 2300 0    50   Input ~ 0
 ADC_STBY
 Wire Wire Line
 	4900 3050 5550 3050
@@ -604,21 +550,21 @@ Wire Wire Line
 	4900 3150 5550 3150
 Wire Wire Line
 	5550 3250 4900 3250
-Text GLabel 4900 3650 0    50   Input ~ 0
+Text GLabel 7250 2800 0    50   Input ~ 0
 ADC_RD
-Text GLabel 4900 3750 0    50   Input ~ 0
+Text GLabel 7250 2200 0    50   Input ~ 0
 ADC_PAR
-Text GLabel 4900 3850 0    50   Input ~ 0
+Text GLabel 7250 2900 0    50   Input ~ 0
 ADC_CS
-Text GLabel 4900 4050 0    50   Input ~ 0
+Text GLabel 7250 2500 0    50   Input ~ 0
 ADC_CONVST_A
-Text GLabel 4900 4150 0    50   Input ~ 0
+Text GLabel 7250 2600 0    50   Input ~ 0
 ADC_CONVST_B
-Text GLabel 4900 4250 0    50   Input ~ 0
+Text GLabel 6200 2450 0    50   Input ~ 0
 ADC_CONVST_C
-Text GLabel 4900 4450 0    50   Input ~ 0
+Text GLabel 6550 3300 0    50   Input ~ 0
 ADC_HW_SW
-Text GLabel 4900 4550 0    50   Input ~ 0
+Text GLabel 7250 3000 0    50   Input ~ 0
 ADC_REF_EN_WR
 Wire Wire Line
 	4900 4550 5550 4550
@@ -706,15 +652,113 @@ Text GLabel 3150 3750 3    50   Input ~ 0
 5V
 Wire Wire Line
 	3150 3600 3150 3750
+Text Notes 7150 4800 0    50   ~ 0
+This pin acts as an internalreferenceoutputwhenREFSELis high;\nthis pin functionsas inputpin for the externalreferencewhenREFSELis low;\ndecouplewith REFGNDon pin 43 usinga 10-μF capacitor.
 $Comp
 L ads8586s:ADS8586S U?
-U 1 1 5E376959
-P 8100 2850
-F 0 "U?" H 8100 4717 50  0000 C CNN
-F 1 "ADS8586S" H 8100 4626 50  0000 C CNN
-F 2 "" H 8100 2850 50  0001 L CNN
-F 3 "" H 8100 2850 50  0001 L CNN
-	1    8100 2850
+U 1 1 5E389238
+P 8350 2700
+F 0 "U?" H 8350 4567 50  0000 C CNN
+F 1 "ADS8586S" H 8350 4476 50  0000 C CNN
+F 2 "" H 8350 2700 50  0001 L CNN
+F 3 "" H 8350 2700 50  0001 L CNN
+	1    8350 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9350 1400 9450 1400
+Wire Wire Line
+	9350 1500 9450 1500
+Wire Wire Line
+	9350 1600 9450 1600
+Wire Wire Line
+	9350 1700 9450 1700
+Wire Wire Line
+	9350 1800 9450 1800
+Wire Wire Line
+	9350 1900 9450 1900
+Wire Wire Line
+	9350 2000 9450 2000
+Wire Wire Line
+	9350 2100 9450 2100
+Wire Wire Line
+	9350 2200 9450 2200
+Wire Wire Line
+	9350 2300 9450 2300
+Wire Wire Line
+	9350 2400 9450 2400
+Wire Wire Line
+	9350 2500 9450 2500
+Wire Wire Line
+	9350 2600 9450 2600
+Wire Wire Line
+	9350 2700 9450 2700
+Wire Wire Line
+	9350 2800 9450 2800
+Wire Wire Line
+	9350 2900 9450 2900
+Wire Wire Line
+	9350 3400 9450 3400
+Wire Wire Line
+	9350 4100 9450 4100
+Text GLabel 7250 3200 0    50   Input ~ 0
+ADC_A1GND
+Text GLabel 7250 3400 0    50   Input ~ 0
+ADC_A2GND
+Text GLabel 7250 3600 0    50   Input ~ 0
+ADC_A3GND
+Text GLabel 7250 3700 0    50   Input ~ 0
+ADC_A4P
+Text GLabel 7250 3800 0    50   Input ~ 0
+ADC_A4GND
+Text GLabel 7250 3900 0    50   Input ~ 0
+ADC_A5P
+Text GLabel 7250 4000 0    50   Input ~ 0
+ADC_A5GND
+Text GLabel 7250 4100 0    50   Input ~ 0
+ADC_A6P
+Text GLabel 7250 4200 0    50   Input ~ 0
+ADC_A6GND
+Wire Wire Line
+	7250 3100 7350 3100
+Wire Wire Line
+	7250 3200 7350 3200
+Wire Wire Line
+	7250 3300 7350 3300
+Wire Wire Line
+	7250 3400 7350 3400
+Wire Wire Line
+	7250 3500 7350 3500
+Wire Wire Line
+	7250 3600 7350 3600
+Wire Wire Line
+	7250 3700 7350 3700
+Wire Wire Line
+	7250 3800 7350 3800
+Wire Wire Line
+	7250 3900 7350 3900
+Wire Wire Line
+	7250 4000 7350 4000
+Wire Wire Line
+	7250 4100 7350 4100
+Wire Wire Line
+	7250 4200 7350 4200
+Wire Wire Line
+	7250 3000 7350 3000
+Wire Wire Line
+	7250 2900 7350 2900
+Wire Wire Line
+	7250 2800 7350 2800
+Wire Wire Line
+	7250 2700 7350 2700
+Wire Wire Line
+	7250 2600 7350 2600
+Wire Wire Line
+	7250 2500 7350 2500
+Wire Wire Line
+	7250 2400 7350 2400
+Wire Wire Line
+	7250 2300 7350 2300
+Wire Wire Line
+	7250 2200 7350 2200
 $EndSCHEMATC

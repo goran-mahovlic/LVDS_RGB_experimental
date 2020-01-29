@@ -375,40 +375,14 @@ Wire Bus Line
 	5100 1650 5100 1400
 Wire Bus Line
 	5100 1400 5850 1400
-Text Label 5900 4100 0    50   ~ 0
-HSYNC
-Text Label 5900 4200 0    50   ~ 0
-VSYNC
-Text Label 5900 4400 0    50   ~ 0
-DE
 Text Label 5900 4500 0    50   ~ 0
 CLK_IN
-Text Label 5900 4600 0    50   ~ 0
-PWR_DWN
-Wire Wire Line
-	5900 4100 6400 4100
-Wire Wire Line
-	5900 4200 6400 4200
-Wire Wire Line
-	5900 4400 6400 4400
 Wire Wire Line
 	5900 4500 6400 4500
 Wire Wire Line
 	5900 4600 6400 4600
 Wire Wire Line
-	3650 3050 3100 3050
-Wire Wire Line
-	3650 3150 3100 3150
-Wire Wire Line
-	3650 3250 3100 3250
-Wire Wire Line
 	3650 2850 3100 2850
-Text Label 3100 3050 0    50   ~ 0
-HSYNC
-Text Label 3100 3150 0    50   ~ 0
-VSYNC
-Text Label 3100 3250 0    50   ~ 0
-DE
 Text Label 3100 2850 0    50   ~ 0
 CLK_IN
 Wire Wire Line
@@ -697,126 +671,6 @@ Wire Notes Line
 	6850 6500 6850 5400
 Text Notes 6850 5350 0    50   ~ 0
 Termination resistors on FPGA side
-$Comp
-L antena:C C29
-U 1 1 5E54518A
-P 8950 3350
-F 0 "C29" V 8698 3350 50  0000 C CNN
-F 1 "100n" V 8789 3350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 3200 50  0001 C CNN
-F 3 "~" H 8950 3350 50  0001 C CNN
-	1    8950 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9100 3350 9200 3350
-Wire Wire Line
-	8200 3350 8800 3350
-$Comp
-L antena:C C25
-U 1 1 5E54DB8E
-P 8800 3450
-F 0 "C25" V 8548 3450 50  0000 C CNN
-F 1 "100n" V 8639 3450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 3300 50  0001 C CNN
-F 3 "~" H 8800 3450 50  0001 C CNN
-	1    8800 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L antena:C C30
-U 1 1 5E54DC10
-P 8950 3550
-F 0 "C30" V 8698 3550 50  0000 C CNN
-F 1 "100n" V 8789 3550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 3400 50  0001 C CNN
-F 3 "~" H 8950 3550 50  0001 C CNN
-	1    8950 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L antena:C C26
-U 1 1 5E54DC4C
-P 8800 3650
-F 0 "C26" V 8548 3650 50  0000 C CNN
-F 1 "100n" V 8639 3650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 3500 50  0001 C CNN
-F 3 "~" H 8800 3650 50  0001 C CNN
-	1    8800 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L antena:C C31
-U 1 1 5E54DC86
-P 8950 3950
-F 0 "C31" V 8698 3950 50  0000 C CNN
-F 1 "100n" V 8789 3950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 3800 50  0001 C CNN
-F 3 "~" H 8950 3950 50  0001 C CNN
-	1    8950 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L antena:C C27
-U 1 1 5E54DCEA
-P 8800 4050
-F 0 "C27" V 8548 4050 50  0000 C CNN
-F 1 "100n" V 8639 4050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 3900 50  0001 C CNN
-F 3 "~" H 8800 4050 50  0001 C CNN
-	1    8800 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L antena:C C32
-U 1 1 5E54DD28
-P 8950 4150
-F 0 "C32" V 8698 4150 50  0000 C CNN
-F 1 "100n" V 8789 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8988 4000 50  0001 C CNN
-F 3 "~" H 8950 4150 50  0001 C CNN
-	1    8950 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L antena:C C28
-U 1 1 5E54DD6E
-P 8800 4250
-F 0 "C28" V 8548 4250 50  0000 C CNN
-F 1 "100n" V 8639 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 4100 50  0001 C CNN
-F 3 "~" H 8800 4250 50  0001 C CNN
-	1    8800 4250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8950 3450 9200 3450
-Wire Wire Line
-	9100 3550 9200 3550
-Wire Wire Line
-	9200 3650 8950 3650
-Wire Wire Line
-	9100 3950 9200 3950
-Wire Wire Line
-	8950 4050 9200 4050
-Wire Wire Line
-	9200 4150 9100 4150
-Wire Wire Line
-	8950 4250 9200 4250
-Wire Wire Line
-	8200 3450 8650 3450
-Wire Wire Line
-	8200 3550 8800 3550
-Wire Wire Line
-	8200 3650 8650 3650
-Wire Wire Line
-	8200 3950 8800 3950
-Wire Wire Line
-	8200 4050 8650 4050
-Wire Wire Line
-	8200 4150 8800 4150
-Wire Wire Line
-	8200 4250 8650 4250
 Text Notes 9550 4300 1    50   ~ 0
 Capacitors - close to ULX3S
 Text GLabel 3550 1750 0    50   Input ~ 0
@@ -827,6 +681,61 @@ Wire Wire Line
 	3550 1750 3650 1750
 Wire Wire Line
 	3550 1850 3650 1850
+$Comp
+L antena:R R?
+U 1 1 5E326151
+P 5750 4600
+F 0 "R?" V 5850 4600 50  0000 C CNN
+F 1 "10K" V 5634 4600 50  0000 C CNN
+F 2 "" V 5680 4600 50  0001 C CNN
+F 3 "~" H 5750 4600 50  0001 C CNN
+	1    5750 4600
+	0    1    1    0   
+$EndComp
+Text GLabel 5450 4600 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	5450 4600 5600 4600
+Text GLabel 5850 4100 0    50   Input ~ 0
+STM32_HSYNC
+Wire Wire Line
+	5850 4100 6400 4100
+Text GLabel 5850 4200 0    50   Input ~ 0
+STM32_VSYNC
+Wire Wire Line
+	5850 4200 6400 4200
+Text GLabel 5850 4400 0    50   Input ~ 0
+STM32_DE
+Wire Wire Line
+	5850 4400 6400 4400
+Text GLabel 3050 3050 0    50   Input ~ 0
+STM32_HSYNC
+Text GLabel 3050 3150 0    50   Input ~ 0
+STM32_VSYNC
+Text GLabel 3050 3250 0    50   Input ~ 0
+STM32_DE
+Wire Wire Line
+	3050 3050 3650 3050
+Wire Wire Line
+	3050 3150 3650 3150
+Wire Wire Line
+	3050 3250 3650 3250
+Wire Wire Line
+	8200 3350 9200 3350
+Wire Wire Line
+	8200 3450 9200 3450
+Wire Wire Line
+	8200 3550 9200 3550
+Wire Wire Line
+	8200 3650 9200 3650
+Wire Wire Line
+	8200 3950 9200 3950
+Wire Wire Line
+	8200 4050 9200 4050
+Wire Wire Line
+	8200 4150 9200 4150
+Wire Wire Line
+	8200 4250 9200 4250
 Wire Bus Line
 	5950 1500 5950 2100
 Wire Bus Line

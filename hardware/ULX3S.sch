@@ -4986,4 +4986,12 @@ Wire Notes Line
 	3350 1150 3350 2750
 Text Notes 3000 2450 0    50   ~ 0
 DIB_V2
+Text GLabel 6250 4050 0    50   Input ~ 0
+STM32_HSYNC
+Text GLabel 6250 4150 0    50   Input ~ 0
+STM32_VSYNC
+Text GLabel 6250 4350 0    50   Input ~ 0
+STM32_DE
+Text GLabel 6250 4550 0    50   Input ~ 0
+FPGA_CLK_OUT
 $EndSCHEMATC
