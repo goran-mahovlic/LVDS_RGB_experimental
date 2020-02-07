@@ -21,12 +21,12 @@ Text GLabel 2150 2350 2    50   Input ~ 0
 Wire Wire Line
 	2150 2350 1950 2350
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J?
+L Connector_Generic:Conn_02x10_Odd_Even J9
 U 1 1 5E84CF5B
 P 1800 1600
-AR Path="/5E22D00E/5E84CF5B" Ref="J?"  Part="1" 
+AR Path="/5E22D00E/5E84CF5B" Ref="J9"  Part="1" 
 AR Path="/5E22C01C/5E84CF5B" Ref="J?"  Part="1" 
-F 0 "J?" H 1850 2217 50  0000 C CNN
+F 0 "J9" H 1850 2217 50  0000 C CNN
 F 1 "DIB_V2" H 1850 2126 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Horizontal" H 1800 1600 50  0001 C CNN
 F 3 "~" H 1800 1600 50  0001 C CNN

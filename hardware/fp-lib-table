@@ -5,4 +5,5 @@
   (lib (name ADS8556IPM)(type KiCad)(uri ${KIPRJMOD}/parts/ADS8556IPM)(options "")(descr ""))
   (lib (name OPA2211)(type KiCad)(uri ${KIPRJMOD}/parts/OPA2211)(options "")(descr ""))
   (lib (name DS90CF364AMTD)(type KiCad)(uri ${KIPRJMOD}/parts/DS90CF364AMTD)(options "")(descr ""))
+  (lib (name TBA1E)(type KiCad)(uri ${KIPRJMOD}/parts/TBA1E)(options "")(descr ""))
 )

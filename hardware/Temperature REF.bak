@@ -30,48 +30,26 @@ $EndComp
 $Comp
 L antena:C C?
 U 1 1 5E7732B7
-P 900 1800
+P 1450 1750
 AR Path="/5E22D897/5E7732B7" Ref="C?"  Part="1" 
 AR Path="/5E22D897/5E7660D0/5E7732B7" Ref="C51"  Part="1" 
-F 0 "C51" H 1015 1846 50  0000 L CNN
-F 1 "1uF" H 1015 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 1650 50  0001 C CNN
-F 3 "~" H 900 1800 50  0001 C CNN
-	1    900  1800
+F 0 "C51" H 1565 1796 50  0000 L CNN
+F 1 "1uF" H 1565 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1488 1600 50  0001 C CNN
+F 3 "~" H 1450 1750 50  0001 C CNN
+	1    1450 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  1650 900  1500
+	1450 1600 1450 1550
 Wire Wire Line
-	900  1500 1100 1500
-Wire Wire Line
-	900  1950 900  2050
-Wire Wire Line
-	900  2050 1100 2050
-Text GLabel 1100 2150 3    50   Input ~ 0
+	1450 1900 1450 2000
+Text GLabel 1450 2000 3    50   Input ~ 0
 AGND
-Text GLabel 1100 1300 1    50   Input ~ 0
+Text GLabel 1450 1450 1    50   Input ~ 0
 AVDD
 Wire Wire Line
-	1100 1300 1100 1500
-Connection ~ 1100 1500
-Wire Wire Line
-	1100 1500 1300 1500
-Wire Wire Line
-	1100 2150 1100 2050
-Connection ~ 1100 2050
-Wire Wire Line
-	1100 2050 1300 2050
-Wire Wire Line
-	1300 1500 1300 1200
-Wire Wire Line
-	1300 1200 2050 1200
-Wire Wire Line
 	2050 1200 2050 1450
-Wire Wire Line
-	1300 2050 1300 2350
-Wire Wire Line
-	1300 2350 2050 2350
 Wire Wire Line
 	2050 2350 2050 2050
 $Comp
@@ -162,4 +140,20 @@ If this is not placed on board - use internal reference - ADC_REF_EN_WR set to 1
 Wire Wire Line
 	4050 1650 3700 1650
 Connection ~ 3700 1650
+Wire Wire Line
+	2050 1200 1650 1200
+Wire Wire Line
+	1650 1200 1650 1550
+Wire Wire Line
+	1650 1550 1450 1550
+Connection ~ 1450 1550
+Wire Wire Line
+	1450 1550 1450 1450
+Wire Wire Line
+	1600 2350 1600 1900
+Wire Wire Line
+	1600 1900 1450 1900
+Wire Wire Line
+	1600 2350 2050 2350
+Connection ~ 1450 1900
 $EndSCHEMATC
