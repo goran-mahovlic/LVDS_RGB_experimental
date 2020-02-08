@@ -4654,9 +4654,9 @@ Text GLabel 6350 1900 2    50   Input ~ 0
 DIB_IRQ
 Text GLabel 6350 2050 2    50   Input ~ 0
 DIB_NRESET
-Text GLabel 6250 2200 0    50   Input ~ 0
+Text GLabel 6250 2250 0    50   Input ~ 0
 UART_RX
-Text GLabel 5900 2300 2    50   Input ~ 0
+Text GLabel 5900 2350 2    50   Input ~ 0
 UART_TX
 Text Notes 5750 1200 0    50   ~ 0
 DIB_V1
@@ -5061,4 +5061,10 @@ Text GLabel 4200 3600 1    50   Input ~ 0
 GND
 Wire Wire Line
 	4200 3600 4200 3700
+Text GLabel 6350 2150 2    50   Input ~ 0
+DIB_BOOT
+Text GLabel 6050 2150 0    50   Input ~ 0
+13P
+Wire Wire Line
+	6050 2150 6350 2150
 $EndSCHEMATC

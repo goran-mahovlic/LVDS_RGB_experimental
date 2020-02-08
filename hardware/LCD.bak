@@ -14,8 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Bus Line
-	6175 1900 6275 1800
 Wire Wire Line
 	5600 5200 5800 5200
 Wire Wire Line
@@ -62,12 +60,7 @@ Wire Wire Line
 	4000 2600 4000 2500
 Wire Wire Line
 	3800 2500 4000 2500
-Wire Wire Line
-	3800 2500 3500 2500
-Wire Wire Line
-	3500 2500 3500 2600
 Connection ~ 4000 2500
-Connection ~ 3800 2500
 Wire Wire Line
 	5900 1600 5900 1500
 Wire Wire Line
@@ -152,7 +145,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 5700 5800 5700
 Connection ~ 5800 5500
-Connection ~ 6100 5500
 Connection ~ 5800 5700
 Wire Wire Line
 	3400 1100 3900 1100
@@ -201,12 +193,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 3300 4350 3300
 Wire Wire Line
-	3500 2900 3425 2900
-Wire Wire Line
-	3500 2900 3500 2800
-Text GLabel 3425 2900 0    50   Input ~ 0
-~RESET
-Wire Wire Line
 	4600 3400 4350 3400
 Wire Wire Line
 	4600 3100 3800 3100
@@ -227,10 +213,6 @@ Wire Wire Line
 	1800 1600 1900 1600
 Wire Wire Line
 	4600 2900 3700 2900
-Wire Wire Line
-	3700 2700 3700 2900
-Wire Wire Line
-	3600 2700 3700 2700
 Wire Wire Line
 	4400 5600 3600 5600
 Wire Wire Line
@@ -302,79 +284,7 @@ Wire Wire Line
 	3200 5700 3400 5700
 Connection ~ 3400 5700
 Wire Wire Line
-	5600 4100 6075 4100
-Wire Wire Line
-	5600 4000 6075 4000
-Wire Wire Line
-	5600 3900 6075 3900
-Wire Wire Line
-	5600 3800 6075 3800
-Wire Wire Line
-	5600 3700 6075 3700
-Wire Wire Line
-	5600 3600 6075 3600
-Wire Wire Line
-	5600 3300 6075 3300
-Wire Wire Line
-	5600 2500 6075 2500
-Wire Wire Line
-	5600 2400 6075 2400
-Wire Wire Line
-	5600 2300 6075 2300
-Wire Wire Line
-	5600 2200 6075 2200
-Wire Wire Line
-	5600 2100 6075 2100
-Wire Wire Line
-	5600 2000 6075 2000
-Wire Wire Line
 	5600 6200 5800 6200
-Wire Wire Line
-	5600 2800 6075 2800
-Wire Wire Line
-	5600 2900 6075 2900
-Wire Wire Line
-	5600 3000 6075 3000
-Wire Wire Line
-	5600 3100 6075 3100
-Wire Wire Line
-	5600 3200 6075 3200
-Entry Wire Line
-	6075 4100 6175 4000
-Entry Wire Line
-	6075 4000 6175 3900
-Entry Wire Line
-	6075 3900 6175 3800
-Entry Wire Line
-	6075 3800 6175 3700
-Entry Wire Line
-	6075 3700 6175 3600
-Entry Wire Line
-	6075 3600 6175 3500
-Entry Wire Line
-	6075 3300 6175 3200
-Entry Wire Line
-	6075 2500 6175 2400
-Entry Wire Line
-	6075 2400 6175 2300
-Entry Wire Line
-	6075 2300 6175 2200
-Entry Wire Line
-	6075 2200 6175 2100
-Entry Wire Line
-	6075 2100 6175 2000
-Entry Wire Line
-	6075 2000 6175 1900
-Entry Wire Line
-	6075 2800 6175 2700
-Entry Wire Line
-	6075 2900 6175 2800
-Entry Wire Line
-	6075 3000 6175 2900
-Entry Wire Line
-	6075 3100 6175 3000
-Entry Wire Line
-	6075 3200 6175 3100
 $Comp
 L EEZ_DIB_MCU_r1B2-eagle-import:TPS61169DCKR IC?
 U 1 0 5E224EA8
@@ -592,8 +502,8 @@ P 3800 2300
 AR Path="/5E224F23" Ref="C?"  Part="1" 
 AR Path="/5B8E2134/5E224F23" Ref="C?"  Part="1" 
 AR Path="/5E224865/5E224F23" Ref="C5"  Part="1" 
-F 0 "C5" H 3715 2265 59  0000 R BNN
-F 1 "2u2" H 3715 2190 59  0000 R BNN
+F 0 "C5" H 3950 2300 59  0000 R BNN
+F 1 "2u2" H 4000 2150 59  0000 R BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3800 2300 50  0001 C CNN
 F 3 "" H 3800 2300 50  0001 C CNN
 	1    3800 2300
@@ -643,20 +553,6 @@ F 3 "" H 5900 6400 50  0001 C CNN
 $EndComp
 $Comp
 L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E224F4C
-P 1800 2200
-AR Path="/5E224F4C" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E224F4C" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E224F4C" Ref="#SUPPLY0101"  Part="1" 
-F 0 "#SUPPLY0101" H 1800 2200 50  0001 C CNN
-F 1 "GND" H 1700 2050 59  0000 L BNN
-F 2 "" H 1800 2200 50  0001 C CNN
-F 3 "" H 1800 2200 50  0001 C CNN
-	1    1800 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
 U 1 0 5E224F52
 P 1500 1600
 AR Path="/5E224F52" Ref="#SUPPLY?"  Part="1" 
@@ -667,48 +563,6 @@ F 1 "GND" H 1400 1650 59  0000 R TNN
 F 2 "" H 1500 1600 50  0001 C CNN
 F 3 "" H 1500 1600 50  0001 C CNN
 	1    1500 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E224F58
-P 3400 1600
-AR Path="/5E224F58" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E224F58" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E224F58" Ref="#SUPPLY0103"  Part="1" 
-F 0 "#SUPPLY0103" H 3400 1600 50  0001 C CNN
-F 1 "GND" H 3500 1550 59  0000 L BNN
-F 2 "" H 3400 1600 50  0001 C CNN
-F 3 "" H 3400 1600 50  0001 C CNN
-	1    3400 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E224F5E
-P 3200 2300
-AR Path="/5E224F5E" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E224F5E" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E224F5E" Ref="#SUPPLY0104"  Part="1" 
-F 0 "#SUPPLY0104" H 3200 2300 50  0001 C CNN
-F 1 "GND" H 3100 2250 59  0000 R BNN
-F 2 "" H 3200 2300 50  0001 C CNN
-F 3 "" H 3200 2300 50  0001 C CNN
-	1    3200 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E224F64
-P 4000 2700
-AR Path="/5E224F64" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E224F64" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E224F64" Ref="#SUPPLY0105"  Part="1" 
-F 0 "#SUPPLY0105" H 4000 2700 50  0001 C CNN
-F 1 "GND" H 4075 2650 59  0000 L BNN
-F 2 "" H 4000 2700 50  0001 C CNN
-F 3 "" H 4000 2700 50  0001 C CNN
-	1    4000 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -726,76 +580,6 @@ F 3 "" H 5900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E224F70
-P 2100 5900
-AR Path="/5E224F70" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E224F70" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E224F70" Ref="#SUPPLY0107"  Part="1" 
-F 0 "#SUPPLY0107" H 2100 5900 50  0001 C CNN
-F 1 "GND" H 2000 5750 59  0000 L BNN
-F 2 "" H 2100 5900 50  0001 C CNN
-F 3 "" H 2100 5900 50  0001 C CNN
-	1    2100 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E224F76
-P 3600 6600
-AR Path="/5E224F76" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E224F76" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E224F76" Ref="#SUPPLY0108"  Part="1" 
-F 0 "#SUPPLY0108" H 3600 6600 50  0001 C CNN
-F 1 "GND" H 3500 6450 59  0000 L BNN
-F 2 "" H 3600 6600 50  0001 C CNN
-F 3 "" H 3600 6600 50  0001 C CNN
-	1    3600 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E224F7C
-P 4300 6600
-AR Path="/5E224F7C" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E224F7C" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E224F7C" Ref="#SUPPLY0109"  Part="1" 
-F 0 "#SUPPLY0109" H 4300 6600 50  0001 C CNN
-F 1 "GND" H 4200 6450 59  0000 L BNN
-F 2 "" H 4300 6600 50  0001 C CNN
-F 3 "" H 4300 6600 50  0001 C CNN
-	1    4300 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E224F82
-P 6100 5600
-AR Path="/5E224F82" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E224F82" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E224F82" Ref="#SUPPLY0110"  Part="1" 
-F 0 "#SUPPLY0110" H 6100 5600 50  0001 C CNN
-F 1 "GND" H 6200 5550 59  0000 L BNN
-F 2 "" H 6100 5600 50  0001 C CNN
-F 3 "" H 6100 5600 50  0001 C CNN
-	1    6100 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E224F88
-P 6600 6600
-AR Path="/5E224F88" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E224F88" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E224F88" Ref="#SUPPLY0111"  Part="1" 
-F 0 "#SUPPLY0111" H 6600 6600 50  0001 C CNN
-F 1 "GND" H 6500 6450 59  0000 L BNN
-F 2 "" H 6600 6600 50  0001 C CNN
-F 3 "" H 6600 6600 50  0001 C CNN
-	1    6600 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L LCD_PMOD-rescue:ZENER-DIODESOD323-EEZ_DIB_MCU_r1B2-eagle-import ZD?
 U 1 0 5E224F8E
 P 4100 1300
@@ -808,20 +592,6 @@ F 2 "EEZ DIB MCU r1B1:SOD323-W" H 4100 1300 50  0001 C CNN
 F 3 "" H 4100 1300 50  0001 C CNN
 	1    4100 1300
 	0    1    -1   0   
-$EndComp
-$Comp
-L LCD_PMOD-rescue:JP3-CUT-EEZ_DIB_MCU_r1B2-eagle-import JP?
-U 1 0 5E224F95
-P 3500 2700
-AR Path="/5E224F95" Ref="JP?"  Part="1" 
-AR Path="/5B8E2134/5E224F95" Ref="JP?"  Part="1" 
-AR Path="/5E224865/5E224F95" Ref="JP1"  Part="1" 
-F 0 "JP1" H 3475 2675 59  0000 R BNN
-F 1 "JP3-CUT" H 3500 2700 50  0001 C CNN
-F 2 "EEZ DIB MCU r1B1:JP3-CUT" H 3500 2700 50  0001 C CNN
-F 3 "" H 3500 2700 50  0001 C CNN
-	1    3500 2700
-	1    0    0    -1  
 $EndComp
 Text Notes 4450 900  0    59   ~ 0
 4.3" LCD 40-pin socket
@@ -846,8 +616,6 @@ Wire Notes Line
 Wire Notes Line
 	6800 800  6800 6400
 NoConn ~ 5600 6300
-Text HLabel 6275 1800 2    50   Input ~ 0
-LTDC_R[2..7]
 Text Label 5750 2000 0    50   ~ 0
 LTDC_R2
 Text Label 5750 2100 0    50   ~ 0
@@ -860,14 +628,6 @@ Text Label 5750 2400 0    50   ~ 0
 LTDC_R6
 Text Label 5750 2500 0    50   ~ 0
 LTDC_R7
-Wire Bus Line
-	6175 2700 6275 2600
-Text HLabel 6275 2600 2    50   Input ~ 0
-LTDC_G[2..7]
-Wire Bus Line
-	6175 3500 6275 3400
-Text HLabel 6275 3400 2    50   Input ~ 0
-LTDC_B[2..7]
 Text Label 5725 2800 0    50   ~ 0
 LTDC_G2
 Text Label 5725 2900 0    50   ~ 0
@@ -892,14 +652,6 @@ Text Label 5725 4000 0    50   ~ 0
 LTDC_B6
 Text Label 5725 4100 0    50   ~ 0
 LTDC_B7
-Text HLabel 4350 3000 0    50   Input ~ 0
-LTDC_CLK
-Text HLabel 4350 3200 0    50   Input ~ 0
-LTDC_HSYNC
-Text HLabel 4350 3300 0    50   Input ~ 0
-LTDC_VSYNC
-Text HLabel 4350 3400 0    50   Input ~ 0
-LTDC_DE
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5E224FC4
@@ -953,14 +705,6 @@ F 7 "1468865" H 9000 3050 50  0001 L BNN "Field7"
 	1    9000 3050
 	1    0    0    -1  
 $EndComp
-Text HLabel 10000 1650 2    50   Input ~ 0
-LTDC_CLK
-Text HLabel 10000 3650 2    50   Input ~ 0
-LTDC_HSYNC
-Text HLabel 10000 3750 2    50   Input ~ 0
-LTDC_VSYNC
-Text HLabel 10000 3850 2    50   Input ~ 0
-LTDC_DE
 Wire Wire Line
 	9900 3650 10000 3650
 Wire Wire Line
@@ -1043,21 +787,21 @@ Wire Wire Line
 	9900 2350 10000 2350
 Text Notes 10150 4750 0    50   ~ 0
 GP6 CLK+\nGN6 CLK-\nGP5 D2+\nGN5 D2-\nGP4 D1+\nGN4 D1-\nGP3 D0+\nGN3 D0-
-Text GLabel 8000 2350 0    50   Output ~ 0
+Text GLabel 8000 2350 0    50   Input ~ 0
 6N
-Text GLabel 8000 2450 0    50   Output ~ 0
+Text GLabel 8000 2450 0    50   Input ~ 0
 6P
-Text GLabel 8000 3150 0    50   Output ~ 0
+Text GLabel 8000 3150 0    50   Input ~ 0
 5P
-Text GLabel 8000 3050 0    50   Output ~ 0
+Text GLabel 8000 3050 0    50   Input ~ 0
 5N
-Text GLabel 8000 2950 0    50   Output ~ 0
+Text GLabel 8000 2950 0    50   Input ~ 0
 4P
-Text GLabel 8000 2850 0    50   Output ~ 0
+Text GLabel 8000 2850 0    50   Input ~ 0
 4N
-Text GLabel 8000 2750 0    50   Output ~ 0
+Text GLabel 8000 2750 0    50   Input ~ 0
 3P
-Text GLabel 8000 2650 0    50   Output ~ 0
+Text GLabel 8000 2650 0    50   Input ~ 0
 3N
 Wire Wire Line
 	8000 2350 8100 2350
@@ -1075,25 +819,25 @@ Wire Wire Line
 	8000 3050 8100 3050
 Wire Wire Line
 	8000 3150 8100 3150
-Text GLabel 8000 3750 0    50   UnSpc ~ 0
+Text GLabel 8000 3750 0    50   Input ~ 0
 GND
-Text GLabel 8000 3850 0    50   UnSpc ~ 0
+Text GLabel 8000 3850 0    50   Input ~ 0
 GND
-Text GLabel 8000 3950 0    50   UnSpc ~ 0
+Text GLabel 8000 3950 0    50   Input ~ 0
 GND
-Text GLabel 8000 4050 0    50   UnSpc ~ 0
+Text GLabel 8000 4050 0    50   Input ~ 0
 GND
-Text GLabel 8000 4150 0    50   UnSpc ~ 0
+Text GLabel 8000 4150 0    50   Input ~ 0
 GND
-Text GLabel 8000 4250 0    50   UnSpc ~ 0
+Text GLabel 8000 4250 0    50   Input ~ 0
 GND
-Text GLabel 8000 4350 0    50   UnSpc ~ 0
+Text GLabel 8000 4350 0    50   Input ~ 0
 GND
-Text GLabel 8000 4450 0    50   UnSpc ~ 0
+Text GLabel 8000 4450 0    50   Input ~ 0
 GND
-Text GLabel 8000 4550 0    50   UnSpc ~ 0
+Text GLabel 8000 4550 0    50   Input ~ 0
 GND
-Text GLabel 8000 4650 0    50   UnSpc ~ 0
+Text GLabel 8000 4650 0    50   Input ~ 0
 GND
 Wire Wire Line
 	8000 3750 8100 3750
@@ -1115,19 +859,19 @@ Wire Wire Line
 	8000 4550 8100 4550
 Wire Wire Line
 	8000 4650 8100 4650
-Text GLabel 8000 2150 0    50   Output ~ 0
+Text GLabel 8000 2150 0    50   Input ~ 0
 3V3
 Wire Wire Line
 	8000 2150 8100 2150
-Text GLabel 8000 2050 0    50   Output ~ 0
+Text GLabel 8000 2050 0    50   Input ~ 0
 3V3
-Text GLabel 8000 1950 0    50   Output ~ 0
+Text GLabel 8000 1950 0    50   Input ~ 0
 3V3
-Text GLabel 8000 1850 0    50   Output ~ 0
+Text GLabel 8000 1850 0    50   Input ~ 0
 3V3
-Text GLabel 8000 1750 0    50   Output ~ 0
+Text GLabel 8000 1750 0    50   Input ~ 0
 3V3
-Text GLabel 8000 1650 0    50   Output ~ 0
+Text GLabel 8000 1650 0    50   Input ~ 0
 3V3
 Wire Wire Line
 	8000 1650 8100 1650
@@ -1327,54 +1071,52 @@ F 3 "~" H 7750 3350 50  0001 C CNN
 	1    7750 3350
 	0    1    1    0   
 $EndComp
-Text GLabel 7450 3350 0    50   Output ~ 0
+Text GLabel 7450 3350 0    50   Input ~ 0
 3V3
-Wire Wire Line
-	7900 3350 8100 3350
 Wire Wire Line
 	7450 3350 7600 3350
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5E40C78F
-P 950 3050
-F 0 "H1" H 1050 3101 50  0000 L CNN
-F 1 "L_H" H 1050 3010 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 950 3050 50  0001 C CNN
-F 3 "~" H 950 3050 50  0001 C CNN
-	1    950  3050
+P 700 2700
+F 0 "H1" H 800 2751 50  0000 L CNN
+F 1 "L_H" H 800 2660 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 700 2700 50  0001 C CNN
+F 3 "~" H 700 2700 50  0001 C CNN
+	1    700  2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5E40C803
-P 1250 3350
-F 0 "H4" H 1350 3401 50  0000 L CNN
-F 1 "L_H" H 1350 3310 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 1250 3350 50  0001 C CNN
-F 3 "~" H 1250 3350 50  0001 C CNN
-	1    1250 3350
+P 1600 2700
+F 0 "H4" H 1700 2751 50  0000 L CNN
+F 1 "L_H" H 1700 2660 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 1600 2700 50  0001 C CNN
+F 3 "~" H 1600 2700 50  0001 C CNN
+	1    1600 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5E40C855
-P 1250 3050
-F 0 "H3" H 1350 3101 50  0000 L CNN
-F 1 "L_H" H 1350 3010 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 1250 3050 50  0001 C CNN
-F 3 "~" H 1250 3050 50  0001 C CNN
-	1    1250 3050
+P 1300 2700
+F 0 "H3" H 1400 2751 50  0000 L CNN
+F 1 "L_H" H 1400 2660 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 1300 2700 50  0001 C CNN
+F 3 "~" H 1300 2700 50  0001 C CNN
+	1    1300 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5E40C8A9
-P 950 3350
-F 0 "H2" H 1050 3401 50  0000 L CNN
-F 1 "L_H" H 1050 3310 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 950 3350 50  0001 C CNN
-F 3 "~" H 950 3350 50  0001 C CNN
-	1    950  3350
+P 1000 2700
+F 0 "H2" H 1100 2751 50  0000 L CNN
+F 1 "L_H" H 1100 2660 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 1000 2700 50  0001 C CNN
+F 3 "~" H 1000 2700 50  0001 C CNN
+	1    1000 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1405,11 +1147,244 @@ Wire Wire Line
 	1200 4100 1200 4200
 Wire Wire Line
 	1200 4200 1100 4200
-Wire Bus Line
-	6175 2700 6175 3200
-Wire Bus Line
-	6175 3500 6175 4000
-Wire Bus Line
-	6175 1900 6175 2400
 Connection ~ 1100 4200
+Text GLabel 10000 1650 2    50   Input ~ 0
+LTDC_CLK
+Text GLabel 4350 3000 0    50   Input ~ 0
+LTDC_CLK
+Text GLabel 4350 3200 0    50   Input ~ 0
+LTDC_HSYNC
+Text GLabel 4350 3300 0    50   Input ~ 0
+LTDC_VSYNC
+Text GLabel 4350 3400 0    50   Input ~ 0
+LTDC_DE
+Text GLabel 10000 3650 2    50   Input ~ 0
+LTDC_HSYNC
+Text GLabel 10000 3750 2    50   Input ~ 0
+LTDC_VSYNC
+Text GLabel 10000 3850 2    50   Input ~ 0
+LTDC_DE
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5E3F39BE
+P 7350 900
+F 0 "#FLG0103" H 7350 975 50  0001 C CNN
+F 1 "PWR_FLAG" H 7350 1074 50  0000 C CNN
+F 2 "" H 7350 900 50  0001 C CNN
+F 3 "~" H 7350 900 50  0001 C CNN
+	1    7350 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 1000 3    50   Input ~ 0
+3V3
+Wire Wire Line
+	7350 900  7350 1000
+Text GLabel 7600 1150 3    50   Input ~ 0
+5V
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5E400467
+P 7600 1000
+F 0 "#FLG0104" H 7600 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 7600 1174 50  0000 C CNN
+F 2 "" H 7600 1000 50  0001 C CNN
+F 3 "~" H 7600 1000 50  0001 C CNN
+	1    7600 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1000 7600 1150
+Text GLabel 6100 2000 2    50   Input ~ 0
+LTDC_R2
+Text GLabel 6100 2100 2    50   Input ~ 0
+LTDC_R3
+Text GLabel 6100 2200 2    50   Input ~ 0
+LTDC_R4
+Text GLabel 6100 2300 2    50   Input ~ 0
+LTDC_R5
+Text GLabel 6100 2400 2    50   Input ~ 0
+LTDC_R6
+Text GLabel 6100 2500 2    50   Input ~ 0
+LTDC_R7
+Wire Wire Line
+	5600 2000 6100 2000
+Wire Wire Line
+	5600 2100 6100 2100
+Wire Wire Line
+	5600 2200 6100 2200
+Wire Wire Line
+	5600 2300 6100 2300
+Wire Wire Line
+	5600 2400 6100 2400
+Wire Wire Line
+	5600 2500 6100 2500
+Text GLabel 6100 2800 2    50   Input ~ 0
+LTDC_G2
+Text GLabel 6100 2900 2    50   Input ~ 0
+LTDC_G3
+Text GLabel 6100 3000 2    50   Input ~ 0
+LTDC_G4
+Text GLabel 6100 3100 2    50   Input ~ 0
+LTDC_G5
+Text GLabel 6100 3200 2    50   Input ~ 0
+LTDC_G6
+Text GLabel 6100 3300 2    50   Input ~ 0
+LTDC_G7
+Wire Wire Line
+	5600 2800 6100 2800
+Wire Wire Line
+	5600 2900 6100 2900
+Wire Wire Line
+	5600 3000 6100 3000
+Wire Wire Line
+	5600 3100 6100 3100
+Wire Wire Line
+	5600 3200 6100 3200
+Wire Wire Line
+	5600 3300 6100 3300
+Text GLabel 6100 3600 2    50   Input ~ 0
+LTDC_B2
+Text GLabel 6100 3700 2    50   Input ~ 0
+LTDC_B3
+Text GLabel 6100 3800 2    50   Input ~ 0
+LTDC_B4
+Text GLabel 6100 3900 2    50   Input ~ 0
+LTDC_B5
+Text GLabel 6100 4000 2    50   Input ~ 0
+LTDC_B6
+Text GLabel 6100 4100 2    50   Input ~ 0
+LTDC_B7
+Wire Wire Line
+	5600 3600 6100 3600
+Wire Wire Line
+	5600 3700 6100 3700
+Wire Wire Line
+	5600 3800 6100 3800
+Wire Wire Line
+	5600 3900 6100 3900
+Wire Wire Line
+	5600 4000 6100 4000
+Wire Wire Line
+	5600 4100 6100 4100
+$Comp
+L antena:R R55
+U 1 1 5E5B2F97
+P 3500 2500
+F 0 "R55" V 3400 2500 50  0000 C CNN
+F 1 "R0" V 3500 2500 50  0000 C CNN
+F 2 "" V 3430 2500 50  0001 C CNN
+F 3 "~" H 3500 2500 50  0001 C CNN
+	1    3500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L antena:R R56
+U 1 1 5E5CD2D1
+P 3500 2700
+F 0 "R56" V 3600 2700 50  0000 C CNN
+F 1 "R0" V 3500 2700 50  0000 C CNN
+F 2 "" V 3430 2700 50  0001 C CNN
+F 3 "~" H 3500 2700 50  0001 C CNN
+	1    3500 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 2600 3700 2700
+Wire Wire Line
+	3650 2500 3800 2500
+Connection ~ 3800 2500
+Wire Wire Line
+	3300 2600 3300 2500
+Wire Wire Line
+	3300 2500 3350 2500
+Wire Wire Line
+	3300 2600 3700 2600
+Wire Wire Line
+	3650 2700 3700 2700
+Connection ~ 3700 2700
+Wire Wire Line
+	3700 2700 3700 2900
+Wire Wire Line
+	3250 2700 3350 2700
+Text GLabel 7000 1150 3    50   Input ~ 0
+GND
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 5E62D73E
+P 7000 1000
+F 0 "#FLG0108" H 7000 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 7000 1174 50  0000 C CNN
+F 2 "" H 7000 1000 50  0001 C CNN
+F 3 "~" H 7000 1000 50  0001 C CNN
+	1    7000 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1000 7000 1150
+Text GLabel 6600 6500 3    50   Input ~ 0
+GND
+Text GLabel 4300 6500 3    50   Input ~ 0
+GND
+Text GLabel 3600 6500 3    50   Input ~ 0
+GND
+Text GLabel 2100 5800 3    50   Input ~ 0
+GND
+Text GLabel 3200 2250 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3200 2250 3200 2200
+Text GLabel 1800 2100 3    50   Input ~ 0
+GND
+Text GLabel 3400 1550 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3400 1550 3400 1500
+Text GLabel 4000 2600 3    50   Input ~ 0
+GND
+$Comp
+L LCD_PMOD-rescue:R-EU_R0805-EEZ_DIB_MCU_r1B2-eagle-import R?
+U 1 0 5E684EE4
+P 3050 2700
+AR Path="/5E684EE4" Ref="R?"  Part="1" 
+AR Path="/5B8E2134/5E684EE4" Ref="R?"  Part="1" 
+AR Path="/5E224865/5E684EE4" Ref="R57"  Part="1" 
+F 0 "R57" H 3150 2640 59  0000 R TNN
+F 1 "10K" H 3150 2815 59  0000 R TNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3050 2700 50  0001 C CNN
+F 3 "" H 3050 2700 50  0001 C CNN
+	1    3050 2700
+	-1   0    0    1   
+$EndComp
+Text GLabel 2850 2700 0    50   Input ~ 0
+3V3
+Text GLabel 6100 5600 3    50   Input ~ 0
+GND
+Wire Wire Line
+	6100 5600 6100 5500
+Connection ~ 6100 5500
+Wire Wire Line
+	8100 3350 7900 3350
+Text GLabel 1150 3050 3    50   Input ~ 0
+GND
+Wire Wire Line
+	700  2800 700  2950
+Wire Wire Line
+	700  2950 1000 2950
+Wire Wire Line
+	1000 2950 1000 2800
+Wire Wire Line
+	1300 2800 1300 2950
+Wire Wire Line
+	1300 2950 1150 2950
+Connection ~ 1000 2950
+Wire Wire Line
+	1600 2800 1600 2950
+Wire Wire Line
+	1600 2950 1300 2950
+Connection ~ 1300 2950
+Wire Wire Line
+	1150 3050 1150 2950
+Connection ~ 1150 2950
+Wire Wire Line
+	1150 2950 1000 2950
 $EndSCHEMATC

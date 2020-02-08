@@ -43,18 +43,6 @@ F 7 "1468865" H 7300 3000 50  0001 L BNN "Field7"
 	1    7300 3000
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	4900 1850 5000 1950
-Entry Wire Line
-	4900 1950 5000 2050
-Entry Wire Line
-	4900 2050 5000 2150
-Entry Wire Line
-	4900 2150 5000 2250
-Entry Wire Line
-	4900 2250 5000 2350
-Entry Wire Line
-	4900 2350 5000 2450
 Wire Wire Line
 	4650 1850 4900 1850
 Wire Wire Line
@@ -79,22 +67,6 @@ Text Label 4700 2250 0    50   ~ 0
 R6
 Text Label 4700 2350 0    50   ~ 0
 R7
-Entry Wire Line
-	5950 1600 6050 1700
-Entry Wire Line
-	5950 1500 6050 1600
-Entry Wire Line
-	5950 1700 6050 1800
-Entry Wire Line
-	5950 1800 6050 1900
-Entry Wire Line
-	5950 1900 6050 2000
-Entry Wire Line
-	5950 2100 6050 2200
-Wire Wire Line
-	6050 1600 6400 1600
-Wire Wire Line
-	6050 1700 6400 1700
 Wire Wire Line
 	6050 1800 6400 1800
 Wire Wire Line
@@ -103,30 +75,8 @@ Wire Wire Line
 	6050 2000 6400 2000
 Wire Wire Line
 	6050 2200 6400 2200
-Text Label 6150 1600 0    50   ~ 0
-R2
-Text Label 6150 1700 0    50   ~ 0
-R3
-Text Label 6150 1800 0    50   ~ 0
-R4
-Text Label 6150 1900 0    50   ~ 0
-R5
-Text Label 6150 2000 0    50   ~ 0
-R6
 Text Label 6150 2200 0    50   ~ 0
 R7
-Entry Wire Line
-	4900 2650 5000 2750
-Entry Wire Line
-	4900 2750 5000 2850
-Entry Wire Line
-	4900 2850 5000 2950
-Entry Wire Line
-	4900 3150 5000 3250
-Entry Wire Line
-	4900 2950 5000 3050
-Entry Wire Line
-	4900 3050 5000 3150
 Wire Wire Line
 	4900 2650 4650 2650
 Wire Wire Line
@@ -139,18 +89,6 @@ Wire Wire Line
 	4650 3150 4900 3150
 Wire Wire Line
 	4650 3050 4900 3050
-Entry Wire Line
-	4900 3950 5000 4050
-Entry Wire Line
-	4900 3850 5000 3950
-Entry Wire Line
-	4900 3750 5000 3850
-Entry Wire Line
-	4900 3650 5000 3750
-Entry Wire Line
-	4900 3550 5000 3650
-Entry Wire Line
-	4900 3450 5000 3550
 Wire Wire Line
 	4650 3450 4900 3450
 Wire Wire Line
@@ -187,18 +125,6 @@ Text Label 4700 3850 0    50   ~ 0
 B6
 Text Label 4700 3950 0    50   ~ 0
 B7
-Entry Wire Line
-	5950 2200 6050 2300
-Entry Wire Line
-	5950 2400 6050 2500
-Entry Wire Line
-	5950 2500 6050 2600
-Entry Wire Line
-	5950 2700 6050 2800
-Entry Wire Line
-	5950 2800 6050 2900
-Entry Wire Line
-	5950 3000 6050 3100
 Wire Wire Line
 	6050 2300 6400 2300
 Wire Wire Line
@@ -223,18 +149,6 @@ Text Label 6100 2900 0    50   ~ 0
 G6
 Text Label 6100 3100 0    50   ~ 0
 G7
-Entry Wire Line
-	5950 3100 6050 3200
-Entry Wire Line
-	5950 3300 6050 3400
-Entry Wire Line
-	5950 3400 6050 3500
-Entry Wire Line
-	5950 3700 6050 3800
-Entry Wire Line
-	5950 3600 6050 3700
-Entry Wire Line
-	5950 3800 6050 3900
 Wire Wire Line
 	6050 3200 6400 3200
 Wire Wire Line
@@ -351,48 +265,6 @@ Text GLabel 6350 3300 0    50   Input ~ 0
 3V3
 Wire Wire Line
 	6350 3300 6400 3300
-Entry Bus Bus
-	5000 2550 5100 2450
-Entry Bus Bus
-	5000 3400 5100 3300
-Entry Bus Bus
-	5000 1750 5100 1650
-Entry Bus Bus
-	5850 1400 5950 1500
-Entry Bus Bus
-	5850 2100 5950 2200
-Entry Bus Bus
-	5850 3000 5950 3100
-Wire Bus Line
-	5100 2450 5100 2100
-Wire Bus Line
-	5100 2100 5850 2100
-Wire Bus Line
-	5100 3300 5100 3000
-Wire Bus Line
-	5100 3000 5850 3000
-Wire Bus Line
-	5100 1650 5100 1400
-Wire Bus Line
-	5100 1400 5850 1400
-Text Label 5900 4500 0    50   ~ 0
-CLK_IN
-Wire Wire Line
-	5900 4500 6400 4500
-Wire Wire Line
-	5900 4600 6400 4600
-Wire Wire Line
-	3650 2850 3100 2850
-Text Label 3100 2850 0    50   ~ 0
-CLK_IN
-Wire Wire Line
-	3650 2750 3100 2750
-Text Label 3100 2750 0    50   ~ 0
-PWR_DWN
-Wire Wire Line
-	3650 2950 3100 2950
-Text Label 3100 2950 0    50   ~ 0
-DISP
 Text Notes 6150 5700 0    50   ~ 0
 Confirmed working as INPUT\n\nGP12 CLK+\nGN12 CLK-\nGP11 D2+\nGN11 D2-\nGP10 D1+\nGN10 D1-\nGP9 D0+\nGN9 D0-
 Text GLabel 8250 4250 2    50   BiDi ~ 0
@@ -734,6 +606,140 @@ Wire Wire Line
 	8200 4150 8250 4150
 Wire Wire Line
 	8200 4250 8250 4250
+Text GLabel 3600 2950 0    50   Input ~ 0
+STM32_DISP
+Text GLabel 3600 2850 0    50   Input ~ 0
+STM32_CLK_IN
+Text GLabel 3600 2750 0    50   Input ~ 0
+STM32_PWR_DWN
+Wire Wire Line
+	3600 2750 3650 2750
+Wire Wire Line
+	3600 2850 3650 2850
+Wire Wire Line
+	3600 2950 3650 2950
+Text GLabel 6350 4500 0    50   Input ~ 0
+STM32_CLK_IN
+Text Label 6150 2000 0    50   ~ 0
+R6
+Text Label 6150 1900 0    50   ~ 0
+R5
+Text Label 6150 1800 0    50   ~ 0
+R4
+Text Label 6150 1700 0    50   ~ 0
+R3
+Text Label 6150 1600 0    50   ~ 0
+R2
+Entry Wire Line
+	4900 3950 5000 4050
+Entry Wire Line
+	4900 3850 5000 3950
+Entry Wire Line
+	4900 3750 5000 3850
+Entry Wire Line
+	4900 3650 5000 3750
+Entry Wire Line
+	4900 3550 5000 3650
+Entry Wire Line
+	4900 3450 5000 3550
+Entry Wire Line
+	4900 3150 5000 3250
+Entry Wire Line
+	4900 3050 5000 3150
+Entry Wire Line
+	4900 2950 5000 3050
+Entry Wire Line
+	4900 2850 5000 2950
+Entry Wire Line
+	4900 2750 5000 2850
+Entry Wire Line
+	4900 2650 5000 2750
+Entry Wire Line
+	4900 1850 5000 1950
+Entry Wire Line
+	4900 1950 5000 2050
+Entry Wire Line
+	4900 2250 5000 2350
+Entry Wire Line
+	4900 2050 5000 2150
+Entry Wire Line
+	4900 2150 5000 2250
+Entry Wire Line
+	4900 2350 5000 2450
+Entry Bus Bus
+	5000 2550 5100 2450
+Wire Bus Line
+	5100 2450 5100 2100
+Entry Wire Line
+	5950 3800 6050 3900
+Entry Wire Line
+	5950 3700 6050 3800
+Entry Wire Line
+	5950 3600 6050 3700
+Entry Wire Line
+	5950 3400 6050 3500
+Entry Wire Line
+	5950 3300 6050 3400
+Entry Wire Line
+	5950 3100 6050 3200
+Entry Wire Line
+	5950 3000 6050 3100
+Entry Wire Line
+	5950 2800 6050 2900
+Entry Wire Line
+	5950 2700 6050 2800
+Entry Wire Line
+	5950 2500 6050 2600
+Entry Wire Line
+	5950 2400 6050 2500
+Entry Wire Line
+	5950 2200 6050 2300
+Entry Bus Bus
+	5850 3000 5950 3100
+Entry Bus Bus
+	5000 3400 5100 3300
+Wire Bus Line
+	5100 3300 5100 3000
+Wire Bus Line
+	5100 3000 5850 3000
+Entry Bus Bus
+	5850 2100 5950 2200
+Entry Wire Line
+	5950 2100 6050 2200
+Entry Wire Line
+	5950 1800 6050 1900
+Entry Wire Line
+	5950 1700 6050 1800
+Wire Wire Line
+	6050 1700 6400 1700
+Wire Wire Line
+	6050 1600 6400 1600
+Entry Wire Line
+	5950 1600 6050 1700
+Entry Bus Bus
+	5850 1400 5950 1500
+Entry Wire Line
+	5950 1500 6050 1600
+Entry Wire Line
+	5950 1900 6050 2000
+Wire Bus Line
+	5100 2100 5850 2100
+Entry Bus Bus
+	5000 1750 5100 1650
+Wire Bus Line
+	5100 1650 5100 1400
+Wire Bus Line
+	5100 1400 5850 1400
+Wire Wire Line
+	6350 4500 6400 4500
+Text GLabel 5850 4800 0    50   Input ~ 0
+STM32_PWR_DWN
+Wire Wire Line
+	5850 4800 6000 4800
+Wire Wire Line
+	6000 4800 6000 4600
+Wire Wire Line
+	5900 4600 6000 4600
 Wire Bus Line
 	5950 1500 5950 2100
 Wire Bus Line
@@ -746,4 +752,7 @@ Wire Bus Line
 	5000 2550 5000 3250
 Wire Bus Line
 	5000 3400 5000 4050
+Wire Wire Line
+	6000 4600 6400 4600
+Connection ~ 6000 4600
 $EndSCHEMATC

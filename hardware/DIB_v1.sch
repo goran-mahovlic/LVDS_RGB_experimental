@@ -181,7 +181,7 @@ $EndComp
 Text GLabel 3600 1050 0    50   Input ~ 0
 +VAUX
 Text GLabel 3600 1150 0    50   Input ~ 0
-NRESET
+DIB_NRESET
 Text GLabel 3600 1250 0    50   Input ~ 0
 DIB_SYNC
 Text GLabel 3600 1350 0    50   Input ~ 0
@@ -203,13 +203,13 @@ Text GLabel 3600 2050 0    50   Input ~ 0
 Text GLabel 3600 2150 0    50   Input ~ 0
 5V
 Text GLabel 3600 2250 0    50   Input ~ 0
-BOOT
+DIB_BOOT
 Text GLabel 3600 2350 0    50   Input ~ 0
 UART_RX
 Text GLabel 4300 1050 2    50   Input ~ 0
 DIB_+3V3
 Text GLabel 4300 1150 2    50   Input ~ 0
-NFAULT
+DIB_NFAULT
 Text GLabel 4300 1250 2    50   Input ~ 0
 DIB_SCL
 Text GLabel 4300 1350 2    50   Input ~ 0
@@ -331,10 +331,6 @@ Wire Wire Line
 Text Label 7800 2150 0    50   ~ 0
 DIB_A2
 Connection ~ 9500 2150
-Text Label 7800 1350 0    50   ~ 0
-DIB_SCL
-Text Label 7800 1450 0    50   ~ 0
-DIB_SDA
 Wire Wire Line
 	8400 1550 8300 1550
 Wire Wire Line
@@ -519,4 +515,45 @@ Wire Wire Line
 	4200 3100 4300 3100
 Wire Wire Line
 	4200 3200 4300 3200
+Text Notes 2950 3650 0    50   ~ 0
+SCK=CLK, TDO=MISO, TDI=MOSI, TMS=GPIO_output_bilokoji
+Text GLabel 4850 3050 1    50   Input ~ 0
+DIB_SCLK
+Text GLabel 4850 3150 3    50   Input ~ 0
+TCK
+Text GLabel 5050 3050 1    50   Input ~ 0
+DIB_MOSI
+Text GLabel 4950 3050 1    50   Input ~ 0
+DIB_MISO
+Text GLabel 4950 3150 3    50   Input ~ 0
+TDO
+Text GLabel 5050 3150 3    50   Input ~ 0
+TDI
+Text GLabel 5150 3050 1    50   Input ~ 0
+DIB_BOOT
+Text GLabel 5150 3150 3    50   Input ~ 0
+TMS
+Wire Wire Line
+	4850 3050 4850 3150
+Wire Wire Line
+	4950 3050 4950 3150
+Wire Wire Line
+	5050 3050 5050 3150
+Wire Wire Line
+	5150 3050 5150 3150
+Text GLabel 10500 1000 1    50   Input ~ 0
+DIB_+3V3
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5E70951C
+P 10500 1100
+F 0 "#FLG0105" H 10500 1175 50  0001 C CNN
+F 1 "PWR_FLAG" H 10500 1273 50  0000 C CNN
+F 2 "" H 10500 1100 50  0001 C CNN
+F 3 "~" H 10500 1100 50  0001 C CNN
+	1    10500 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 1000 10500 1100
 $EndSCHEMATC

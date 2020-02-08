@@ -14,12 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1950 2350 0    50   Input ~ 0
-DIB2_FPGA_CLK_OUT
-Text GLabel 2150 2350 2    50   Input ~ 0
-17P
-Wire Wire Line
-	2150 2350 1950 2350
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J9
 U 1 1 5E84CF5B
@@ -65,4 +59,6 @@ Wire Wire Line
 	2100 1400 2200 1400
 Wire Wire Line
 	2100 1500 2200 1500
+Text Notes 550  1250 0    50   ~ 0
+DIB2_FPGA_CLK_OUT
 $EndSCHEMATC

@@ -442,8 +442,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 1350 7300 1350
 Wire Wire Line
-	5050 1450 5200 1450
-Wire Wire Line
 	5050 1550 5200 1550
 Wire Wire Line
 	5050 1850 5200 1850
@@ -513,8 +511,6 @@ Wire Wire Line
 	5050 1150 5200 1150
 Text GLabel 5050 1250 0    50   Input ~ 0
 AGND
-Text GLabel 5050 1450 0    50   Input ~ 0
-AGND
 Text GLabel 5050 1550 0    50   Input ~ 0
 AGND
 Text GLabel 5050 1850 0    50   Input ~ 0
@@ -565,8 +561,8 @@ L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY?
 U 1 1 5E41D834
 P 4600 1650
 AR Path="/5E22C01C/5E41D834" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E22D897/5E41D834" Ref="#SUPPLY?"  Part="1" 
-F 0 "#SUPPLY?" H 4600 1650 50  0001 C CNN
+AR Path="/5E22D897/5E41D834" Ref="#SUPPLY0116"  Part="1" 
+F 0 "#SUPPLY0116" H 4600 1650 50  0001 C CNN
 F 1 "GND" V 4600 1572 59  0000 R CNN
 F 2 "" H 4600 1650 50  0001 C CNN
 F 3 "" H 4600 1650 50  0001 C CNN
@@ -575,4 +571,20 @@ F 3 "" H 4600 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 1650 5200 1650
+Text GLabel 4600 1450 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4600 1450 5200 1450
+Text GLabel 3350 3650 1    50   Input ~ 0
+ADC_A4GND
+Text GLabel 3350 3750 3    50   Input ~ 0
+GND
+Text GLabel 3450 3650 1    50   Input ~ 0
+ADC_A5GND
+Wire Wire Line
+	3350 3750 3350 3650
+Text GLabel 3450 3750 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3450 3750 3450 3650
 $EndSCHEMATC
