@@ -20,7 +20,7 @@ U 1 1 5E22CB95
 P 1800 1450
 F 0 "J1" H 1850 2067 50  0000 C CNN
 F 1 "20-pin power socket" H 1850 1976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 1800 1450 50  0001 C CNN
+F 2 "DIB_V1:PinSocket_2x10_P2.54mm_Horizontal_DIB_V1" H 1800 1450 50  0001 C CNN
 F 3 "~" H 1800 1450 50  0001 C CNN
 	1    1800 1450
 	1    0    0    -1  
@@ -105,63 +105,63 @@ Wire Wire Line
 	2100 1650 2200 1650
 Wire Wire Line
 	2100 1550 2200 1550
-Text Notes 5600 2300 0    47   ~ 0
+Text Notes 6150 2250 0    47   ~ 0
 26 BOOT
-Text Notes 6100 1400 0    47   ~ 0
+Text Notes 5550 1350 0    47   ~ 0
 Gnd 7
-Text Notes 5600 2100 0    47   ~ 0
+Text Notes 6150 2050 0    47   ~ 0
 22 +12V
-Text Notes 5600 1800 0    47   ~ 0
+Text Notes 6150 1750 0    47   ~ 0
 16 Gnd
-Text Notes 5600 1300 0    47   ~ 0
+Text Notes 6150 1250 0    47   ~ 0
 6 OE_SYNC
-Text Notes 5600 2200 0    47   ~ 0
+Text Notes 6150 2150 0    47   ~ 0
 24 +5V
-Text Notes 6100 2200 0    47   ~ 0
+Text Notes 5550 2150 0    47   ~ 0
 +5V 23
-Text Notes 6100 2300 0    47   ~ 0
+Text Notes 5550 2250 0    47   ~ 0
 Gnd 25
-Text Notes 6100 2100 0    47   ~ 0
+Text Notes 5550 2050 0    47   ~ 0
 +12V 21
-Text Notes 5600 1500 0    47   ~ 0
+Text Notes 6150 1450 0    47   ~ 0
 10 DIB_IRQ
-Text Notes 6100 1500 0    47   ~ 0
+Text Notes 5550 1450 0    47   ~ 0
 DIB_CSA 9
-Text Notes 5600 1100 0    47   ~ 0
+Text Notes 6150 1050 0    47   ~ 0
 2 +Vaux
-Text Notes 5600 1600 0    47   ~ 0
+Text Notes 6150 1550 0    47   ~ 0
 12 DIB_CSB
-Text Notes 6100 1100 0    47   ~ 0
+Text Notes 5550 1050 0    47   ~ 0
 +3V3 1
-Text Notes 6100 1600 0    47   ~ 0
+Text Notes 5550 1550 0    47   ~ 0
 Gnd 11
-Text Notes 5600 1400 0    47   ~ 0
+Text Notes 6150 1350 0    47   ~ 0
 8 DIB_SDA
-Text Notes 6100 1300 0    47   ~ 0
+Text Notes 5550 1250 0    47   ~ 0
 DIB_SCL 5
-Text Notes 6100 2000 0    47   ~ 0
+Text Notes 5550 1950 0    47   ~ 0
 DIB_A1 19
-Text Notes 5600 1200 0    47   ~ 0
+Text Notes 6150 1150 0    47   ~ 0
 4 NRESET
-Text Notes 6100 1900 0    47   ~ 0
+Text Notes 5550 1850 0    47   ~ 0
 DIB_A0 17
-Text Notes 5600 2000 0    47   ~ 0
+Text Notes 6150 1950 0    47   ~ 0
 20 Gnd
-Text Notes 6100 1200 0    47   ~ 0
+Text Notes 5550 1150 0    47   ~ 0
 NFAULT 3
-Text Notes 5600 1700 0    47   ~ 0
+Text Notes 6150 1650 0    47   ~ 0
 14 DIB_MISO
-Text Notes 6100 1800 0    47   ~ 0
+Text Notes 5550 1750 0    47   ~ 0
 DIB_MOSI 15
-Text Notes 6100 1700 0    47   ~ 0
+Text Notes 5550 1650 0    47   ~ 0
 DIB_SCLK 13
-Text Notes 5600 1900 0    47   ~ 0
+Text Notes 6150 1850 0    47   ~ 0
 18 DIB_A2
 Wire Notes Line
 	10850 2850 6250 2850
-Text Notes 6100 2400 0    47   ~ 0
+Text Notes 5550 2350 0    47   ~ 0
 UART_RX 27
-Text Notes 5600 2400 0    47   ~ 0
+Text Notes 6150 2350 0    47   ~ 0
 28 UART_TX
 Text Notes 5400 850  0    59   ~ 0
 DIB v1.0 connector
@@ -173,66 +173,66 @@ AR Path="/5E22D00E/5E5A4832" Ref="J?"  Part="1"
 AR Path="/5E22C9F9/5E5A4832" Ref="J3"  Part="1" 
 F 0 "J3" H 3950 2467 50  0000 C CNN
 F 1 "28-pin module socket" H 3950 2376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Horizontal" H 3900 1650 50  0001 C CNN
+F 2 "DIB_V1:PinHeader_2x14_P2.54mm_Horizontal_DIB_V1" H 3900 1650 50  0001 C CNN
 F 3 "~" H 3900 1650 50  0001 C CNN
 	1    3900 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 3600 1050 0    50   Input ~ 0
+Text GLabel 4300 1050 2    50   Input ~ 0
 +VAUX
-Text GLabel 3600 1150 0    50   Input ~ 0
+Text GLabel 4300 1150 2    50   Input ~ 0
 DIB_NRESET
-Text GLabel 3600 1250 0    50   Input ~ 0
+Text GLabel 4300 1250 2    50   Input ~ 0
 DIB_SYNC
-Text GLabel 3600 1350 0    50   Input ~ 0
+Text GLabel 4300 1350 2    50   Input ~ 0
 DIB_SDA
-Text GLabel 3600 1450 0    50   Input ~ 0
+Text GLabel 4300 1450 2    50   Input ~ 0
 DIB_IRQ
-Text GLabel 3600 1550 0    50   Input ~ 0
+Text GLabel 4300 1550 2    50   Input ~ 0
 DIB_CSB
-Text GLabel 3600 1650 0    50   Input ~ 0
+Text GLabel 4300 1650 2    50   Input ~ 0
 DIB_MISO
-Text GLabel 3600 1750 0    50   Input ~ 0
+Text GLabel 4300 1750 2    50   Input ~ 0
 GND
-Text GLabel 3600 1850 0    50   Input ~ 0
+Text GLabel 4300 1850 2    50   Input ~ 0
 DIB_A2
-Text GLabel 3600 1950 0    50   Input ~ 0
+Text GLabel 4300 1950 2    50   Input ~ 0
 GND
 Text GLabel 3600 2050 0    50   Input ~ 0
 +12V
 Text GLabel 3600 2150 0    50   Input ~ 0
 5V
-Text GLabel 3600 2250 0    50   Input ~ 0
+Text GLabel 4300 2250 2    50   Input ~ 0
 DIB_BOOT
-Text GLabel 3600 2350 0    50   Input ~ 0
+Text GLabel 4300 2350 2    50   Input ~ 0
 UART_RX
-Text GLabel 4300 1050 2    50   Input ~ 0
+Text GLabel 3600 1050 0    50   Input ~ 0
 DIB_+3V3
-Text GLabel 4300 1150 2    50   Input ~ 0
+Text GLabel 3600 1150 0    50   Input ~ 0
 DIB_NFAULT
-Text GLabel 4300 1250 2    50   Input ~ 0
+Text GLabel 3600 1250 0    50   Input ~ 0
 DIB_SCL
-Text GLabel 4300 1350 2    50   Input ~ 0
+Text GLabel 3600 1350 0    50   Input ~ 0
 GND
-Text GLabel 4300 1550 2    50   Input ~ 0
+Text GLabel 3600 1550 0    50   Input ~ 0
 GND
-Text GLabel 4300 1450 2    50   Input ~ 0
+Text GLabel 3600 1450 0    50   Input ~ 0
 DIB_CSA
-Text GLabel 4300 1650 2    50   Input ~ 0
+Text GLabel 3600 1650 0    50   Input ~ 0
 DIB_SCLK
-Text GLabel 4300 1750 2    50   Input ~ 0
+Text GLabel 3600 1750 0    50   Input ~ 0
 DIB_MOSI
-Text GLabel 4300 1850 2    50   Input ~ 0
+Text GLabel 3600 1850 0    50   Input ~ 0
 DIB_A0
-Text GLabel 4300 1950 2    50   Input ~ 0
+Text GLabel 3600 1950 0    50   Input ~ 0
 DIB_A1
 Text GLabel 4300 2050 2    50   Input ~ 0
 +12V
 Text GLabel 4300 2150 2    50   Input ~ 0
 5V
-Text GLabel 4300 2250 2    50   Input ~ 0
+Text GLabel 3600 2250 0    50   Input ~ 0
 GND
-Text GLabel 4300 2350 2    50   Input ~ 0
+Text GLabel 3600 2350 0    50   Input ~ 0
 UART_TX
 Wire Wire Line
 	3600 1050 3700 1050
@@ -556,4 +556,64 @@ F 3 "~" H 10500 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10500 1000 10500 1100
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5E44E383
+P 800 2500
+F 0 "H?" H 900 2551 50  0000 L CNN
+F 1 "OUT+" H 900 2460 50  0000 L CNN
+F 2 "" H 800 2500 50  0001 C CNN
+F 3 "~" H 800 2500 50  0001 C CNN
+	1    800  2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5E44E421
+P 1150 2500
+F 0 "H?" H 1250 2551 50  0000 L CNN
+F 1 "IN+" H 1250 2460 50  0000 L CNN
+F 2 "" H 1150 2500 50  0001 C CNN
+F 3 "~" H 1150 2500 50  0001 C CNN
+	1    1150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5E44E45F
+P 1550 2500
+F 0 "H?" H 1650 2551 50  0000 L CNN
+F 1 "IN-" H 1650 2460 50  0000 L CNN
+F 2 "" H 1550 2500 50  0001 C CNN
+F 3 "~" H 1550 2500 50  0001 C CNN
+	1    1550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5E44E4A9
+P 1850 2500
+F 0 "H?" H 1950 2551 50  0000 L CNN
+F 1 "OUT-" H 1950 2460 50  0000 L CNN
+F 2 "" H 1850 2500 50  0001 C CNN
+F 3 "~" H 1850 2500 50  0001 C CNN
+	1    1850 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 2650 3    50   Input ~ 0
+OUT-
+Text GLabel 1550 2650 3    50   Input ~ 0
+IN-
+Text GLabel 800  2650 3    50   Input ~ 0
+OUT+
+Text GLabel 1150 2650 3    50   Input ~ 0
+IN+
+Wire Wire Line
+	800  2650 800  2600
+Wire Wire Line
+	1150 2650 1150 2600
+Wire Wire Line
+	1550 2650 1550 2600
+Wire Wire Line
+	1850 2650 1850 2600
 $EndSCHEMATC

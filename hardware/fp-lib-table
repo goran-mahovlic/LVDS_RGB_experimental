@@ -7,4 +7,5 @@
   (lib (name DS90CF364AMTD)(type KiCad)(uri ${KIPRJMOD}/parts/DS90CF364AMTD)(options "")(descr ""))
   (lib (name TBA1E)(type KiCad)(uri ${KIPRJMOD}/parts/TBA1E)(options "")(descr ""))
   (lib (name MDS01)(type KiCad)(uri ${KIPRJMOD}/parts/MDS01)(options "")(descr ""))
+  (lib (name DIB_V1)(type KiCad)(uri ${KIPRJMOD}/parts/DIB_V1)(options "")(descr ""))
 )
