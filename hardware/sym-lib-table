@@ -14,4 +14,5 @@
   (lib (name ads8586s)(type Legacy)(uri ${KIPRJMOD}/parts/ads8586s/ads8586s.lib)(options "")(descr ""))
   (lib (name OPA187IDBVR)(type Legacy)(uri ${KIPRJMOD}/parts/OPA187/OPA187IDBVR.lib)(options "")(descr ""))
   (lib (name TBA1E)(type Legacy)(uri ${KIPRJMOD}/parts/TBA1E/TBA1E.lib)(options "")(descr ""))
+  (lib (name MDD01)(type Legacy)(uri ${KIPRJMOD}/parts/MDS01/MDD01.lib)(options "")(descr ""))
 )

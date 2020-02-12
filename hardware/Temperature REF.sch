@@ -53,19 +53,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 2350 2050 2050
 $Comp
-L antena:R R?
-U 1 1 5E7732E6
-P 3050 1850
-AR Path="/5E22D897/5E7732E6" Ref="R?"  Part="1" 
-AR Path="/5E22D897/5E7660D0/5E7732E6" Ref="R10"  Part="1" 
-F 0 "R10" H 3120 1896 50  0000 L CNN
-F 1 "0,22R" H 3120 1805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 1850 50  0001 C CNN
-F 3 "~" H 3050 1850 50  0001 C CNN
-	1    3050 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L antena:C C?
 U 1 1 5E7732ED
 P 3050 2200
@@ -79,11 +66,7 @@ F 3 "~" H 3050 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 1650 3050 1700
-Wire Wire Line
 	2550 1650 3050 1650
-Wire Wire Line
-	3050 2000 3050 2050
 Text GLabel 3050 2400 3    50   Input ~ 0
 GND
 Wire Wire Line
@@ -156,4 +139,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 2350 2050 2350
 Connection ~ 1450 1900
+Wire Wire Line
+	3050 1650 3050 2050
 $EndSCHEMATC

@@ -552,4 +552,51 @@ Text GLabel 5100 3850 0    50   Input ~ 0
 GND
 Text GLabel 5100 4050 0    50   Input ~ 0
 GND
+Text GLabel 3750 4350 0    50   Input ~ 0
+ADC_A1P
+Text GLabel 3750 4650 0    50   Input ~ 0
+ADC_A2_OUT_P
+Text GLabel 3750 4450 0    50   Input ~ 0
+ADC_A1GND
+Text GLabel 3750 4550 0    50   Input ~ 0
+GND
+Text GLabel 3750 4750 0    50   Input ~ 0
+ADC_A2_OUT_N
+Text GLabel 3750 4850 0    50   Input ~ 0
+ADC_A4_OUT_P
+Text GLabel 3750 4950 0    50   Input ~ 0
+ADC_A4_OUT_N
+Text GLabel 3750 5050 0    50   Input ~ 0
+ADC_A6P
+Text GLabel 3750 5150 0    50   Input ~ 0
+ADC_A6GND
+$Comp
+L Connector_Generic:Conn_01x10 J18
+U 1 1 5E48F401
+P 4100 4750
+F 0 "J18" H 4180 4742 50  0000 L CNN
+F 1 "Conn_01x10" H 4180 4651 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical" H 4100 4750 50  0001 C CNN
+F 3 "~" H 4100 4750 50  0001 C CNN
+	1    4100 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4350 3900 4350
+Wire Wire Line
+	3750 4450 3900 4450
+Wire Wire Line
+	3750 4550 3900 4550
+Wire Wire Line
+	3750 4650 3900 4650
+Wire Wire Line
+	3750 4750 3900 4750
+Wire Wire Line
+	3750 4850 3900 4850
+Wire Wire Line
+	3750 4950 3900 4950
+Wire Wire Line
+	3750 5050 3900 5050
+Wire Wire Line
+	3750 5150 3900 5150
 $EndSCHEMATC

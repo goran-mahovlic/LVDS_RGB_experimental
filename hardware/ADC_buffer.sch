@@ -169,10 +169,6 @@ Wire Wire Line
 	1650 1650 1800 1650
 Connection ~ 1800 1650
 Wire Wire Line
-	1250 1650 1250 1000
-Wire Wire Line
-	1250 1000 4200 1000
-Wire Wire Line
 	4200 1000 4200 1450
 Connection ~ 1250 1650
 Wire Wire Line
@@ -925,68 +921,54 @@ Wire Wire Line
 $Comp
 L antena:C C?
 U 1 1 5E63E862
-P 1000 5350
+P 1000 5400
 AR Path="/5E22D897/5E63E862" Ref="C?"  Part="1" 
 AR Path="/5E22D897/5E785EBD/5E63E862" Ref="C30"  Part="1" 
-F 0 "C30" H 1115 5396 50  0000 L CNN
-F 1 "100n" H 1115 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1038 5200 50  0001 C CNN
-F 3 "~" H 1000 5350 50  0001 C CNN
-	1    1000 5350
+F 0 "C30" H 1115 5446 50  0000 L CNN
+F 1 "2.2u" H 1115 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1038 5250 50  0001 C CNN
+F 3 "~" H 1000 5400 50  0001 C CNN
+	1    1000 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L antena:C C?
 U 1 1 5E63E869
-P 1850 5350
+P 1850 5400
 AR Path="/5E22D897/5E63E869" Ref="C?"  Part="1" 
 AR Path="/5E22D897/5E785EBD/5E63E869" Ref="C32"  Part="1" 
-F 0 "C32" H 1965 5396 50  0000 L CNN
-F 1 "100n" H 1965 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 5200 50  0001 C CNN
-F 3 "~" H 1850 5350 50  0001 C CNN
-	1    1850 5350
+F 0 "C32" H 1965 5446 50  0000 L CNN
+F 1 "2.2u" H 1965 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 5250 50  0001 C CNN
+F 3 "~" H 1850 5400 50  0001 C CNN
+	1    1850 5400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 5600 3    50   Input ~ 0
+Text GLabel 1000 5650 3    50   Input ~ 0
 GND
-Text GLabel 1850 5600 3    50   Input ~ 0
+Text GLabel 1850 5650 3    50   Input ~ 0
 GND
-Text GLabel 1000 5100 1    50   Input ~ 0
+Text GLabel 1000 5150 1    50   Input ~ 0
 HVDD
-Text GLabel 1850 5100 1    50   Input ~ 0
+Text GLabel 1850 5150 1    50   Input ~ 0
 HVSS
 Wire Wire Line
-	1000 5200 1400 5200
+	1000 5150 1000 5250
 Wire Wire Line
-	1400 5500 1000 5500
+	1000 5550 1000 5650
 Wire Wire Line
-	1000 5100 1000 5200
-Connection ~ 1000 5200
+	1850 5150 1850 5250
 Wire Wire Line
-	1000 5500 1000 5600
-Connection ~ 1000 5500
-Wire Wire Line
-	1850 5100 1850 5200
-Wire Wire Line
-	1850 5500 1850 5600
-Wire Wire Line
-	2250 5200 1850 5200
-Connection ~ 1850 5200
-Wire Wire Line
-	2250 5500 1850 5500
-Connection ~ 1850 5500
-Text Notes 2000 4600 0    50   ~ 0
+	1850 5550 1850 5650
+Text Notes 1850 4700 0    50   ~ 0
 -9V
-Text Notes 2000 4800 0    50   ~ 0
+Text Notes 1850 4800 0    50   ~ 0
 +9V
-Text GLabel 1600 4200 2    50   Input ~ 0
-+12V
-Text GLabel 1600 4300 2    50   Input ~ 0
+Text GLabel 1500 4300 2    50   Input ~ 0
 GND
-Text GLabel 1600 4600 2    50   Input ~ 0
+Text GLabel 1450 4700 2    50   Input ~ 0
 HVSS_9V
-Text GLabel 1600 4800 2    50   Input ~ 0
+Text GLabel 1450 4800 2    50   Input ~ 0
 HVDD_9V
 Text GLabel 1200 6350 0    50   Input ~ 0
 A6_IN
@@ -1085,38 +1067,14 @@ Wire Wire Line
 Connection ~ 2500 6850
 Wire Wire Line
 	1800 6850 2000 6850
-$Comp
-L antena:CP C36
-U 1 1 5E715A92
-P 2250 5350
-F 0 "C36" H 2368 5396 50  0000 L CNN
-F 1 "CP" H 2368 5305 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 2288 5200 50  0001 C CNN
-F 3 "~" H 2250 5350 50  0001 C CNN
-	1    2250 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L antena:CP C31
-U 1 1 5E715B78
-P 1400 5350
-F 0 "C31" H 1518 5396 50  0000 L CNN
-F 1 "CP" H 1518 5305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1438 5200 50  0001 C CNN
-F 3 "~" H 1400 5350 50  0001 C CNN
-	1    1400 5350
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
-	850  4000 2550 4000
-Wire Notes Line
-	2550 4000 2550 5900
+	3150 4000 3150 5900
 Wire Notes Line
 	2550 5900 850  5900
 Wire Notes Line
 	850  5900 850  4000
 Text Notes 850  4000 0    50   ~ 0
-TBA1E
+MDD01
 Wire Notes Line
 	850  6100 3300 6100
 Wire Notes Line
@@ -1222,25 +1180,6 @@ Wire Notes Line
 	5700 500  5700 3200
 Wire Notes Line
 	11200 500  5700 500 
-$Comp
-L TBA1E:TBA1E J16
-U 1 1 5E4096F0
-P 350 6350
-F 0 "J16" V -1950 7250 50  0000 L CNN
-F 1 "TBA1E" V -1100 7150 50  0000 L CNN
-F 2 "TBA1E:TBA1E" V -1650 7950 50  0001 C CNN
-F 3 "~" V -1650 7950 50  0001 C CNN
-	1    350  6350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1500 4200 1600 4200
-Wire Wire Line
-	1600 4300 1500 4300
-Wire Wire Line
-	1500 4600 1600 4600
-Wire Wire Line
-	1500 4800 1600 4800
 $Comp
 L Regulator_Linear:MC78L05_SO8 U5
 U 1 1 5E435E53
@@ -1483,4 +1422,92 @@ Wire Wire Line
 	6200 7450 6200 7350
 Wire Wire Line
 	5750 7450 5750 7350
+Wire Wire Line
+	4200 1000 1800 1000
+Wire Wire Line
+	1800 1000 1800 1650
+$Comp
+L MDD01:MDD01 J16
+U 1 1 5E4D591E
+P 250 6400
+F 0 "J16" V -2165 7381 50  0000 C CNN
+F 1 "MDD01" V -2074 7381 50  0000 C CNN
+F 2 "MDS01:MDS01" V -1750 8000 50  0001 C CNN
+F 3 "~" V -1750 8000 50  0001 C CNN
+	1    250  6400
+	0    1    1    0   
+$EndComp
+Text GLabel 1450 4900 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1400 4300 1500 4300
+Wire Wire Line
+	1400 4700 1450 4700
+Wire Wire Line
+	1400 4800 1450 4800
+Wire Wire Line
+	1400 4900 1450 4900
+$Comp
+L antena:C C?
+U 1 1 5E54A12F
+P 2300 4450
+AR Path="/5E22D897/5E54A12F" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E54A12F" Ref="C31"  Part="1" 
+F 0 "C31" H 2415 4496 50  0000 L CNN
+F 1 "4.7u" H 2415 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2338 4300 50  0001 C CNN
+F 3 "~" H 2300 4450 50  0001 C CNN
+	1    2300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E54A3F0
+P 2700 4450
+AR Path="/5E22D897/5E54A3F0" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E54A3F0" Ref="C36"  Part="1" 
+F 0 "C36" H 2815 4496 50  0000 L CNN
+F 1 "4.7u" H 2815 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 4300 50  0001 C CNN
+F 3 "~" H 2700 4450 50  0001 C CNN
+	1    2700 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 4200 2    50   Input ~ 0
++12V
+Wire Wire Line
+	2300 4300 2300 4200
+Wire Wire Line
+	1400 4200 2300 4200
+Text GLabel 2300 4700 3    50   Input ~ 0
+GND
+Text GLabel 2700 4700 3    50   Input ~ 0
+GND
+Wire Wire Line
+	2700 4700 2700 4600
+Wire Wire Line
+	2300 4700 2300 4600
+$Comp
+L antena:L L4
+U 1 1 5E5B56F2
+P 2500 4200
+F 0 "L4" V 2690 4200 50  0000 C CNN
+F 1 "6.8uF" V 2599 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2500 4200 50  0001 C CNN
+F 3 "~" H 2500 4200 50  0001 C CNN
+	1    2500 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 4200 2700 4200
+Wire Wire Line
+	2350 4200 2300 4200
+Connection ~ 2300 4200
+Wire Wire Line
+	2700 4200 2700 4300
+Connection ~ 2700 4200
+Wire Wire Line
+	2700 4200 2800 4200
+Wire Notes Line
+	850  4000 3150 4000
 $EndSCHEMATC
