@@ -1,5 +1,5 @@
 # LVDS_RGB_experimental
 
-![Front](pic/Front.png)
+![Front](hardware/pic/Front.png)
 
-![Back](pic/Back.png)
+![Back](hardware/pic/Back.png)
