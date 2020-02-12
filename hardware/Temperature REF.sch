@@ -45,7 +45,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 1900 1450 2000
 Text GLabel 1450 2000 3    50   Input ~ 0
-AGND
+GND
 Text GLabel 1450 1450 1    50   Input ~ 0
 AVDD
 Wire Wire Line
@@ -85,7 +85,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 2000 3050 2050
 Text GLabel 3050 2400 3    50   Input ~ 0
-AGND
+GND
 Wire Wire Line
 	3050 2350 3050 2400
 $Comp
@@ -122,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 1650 3700 1850
 Text GLabel 3700 2400 3    50   Input ~ 0
-AGND
+GND
 Wire Wire Line
 	3700 2150 3700 2400
 Text GLabel 4050 1650 2    50   Input ~ 0

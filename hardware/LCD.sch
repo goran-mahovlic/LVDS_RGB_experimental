@@ -1119,35 +1119,6 @@ F 3 "~" H 1000 2700 50  0001 C CNN
 	1    1000 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L LCD_PMOD-rescue:GND-EEZ_DIB_MCU_r1B2-eagle-import #SUPPLY?
-U 1 0 5E3E2395
-P 1100 4400
-AR Path="/5E3E2395" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5B8E2134/5E3E2395" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E224865/5E3E2395" Ref="#SUPPLY0112"  Part="1" 
-F 0 "#SUPPLY0112" H 1100 4400 50  0001 C CNN
-F 1 "GND" H 1000 4250 59  0000 L BNN
-F 2 "" H 1100 4400 50  0001 C CNN
-F 3 "" H 1100 4400 50  0001 C CNN
-	1    1100 4400
-	1    0    0    -1  
-$EndComp
-Text GLabel 1000 4100 1    50   Input ~ 0
-AGND
-Wire Wire Line
-	1000 4100 1000 4200
-Wire Wire Line
-	1000 4200 1100 4200
-Wire Wire Line
-	1100 4200 1100 4300
-Text GLabel 1200 4100 1    50   Input ~ 0
-ADC_REFGND
-Wire Wire Line
-	1200 4100 1200 4200
-Wire Wire Line
-	1200 4200 1100 4200
-Connection ~ 1100 4200
 Text GLabel 10000 1650 2    50   Input ~ 0
 LTDC_CLK
 Text GLabel 4350 3000 0    50   Input ~ 0

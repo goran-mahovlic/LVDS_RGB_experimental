@@ -150,7 +150,7 @@ Wire Wire Line
 	2050 3100 2050 3000
 Connection ~ 2050 3000
 Text GLabel 2050 3550 3    50   Input ~ 0
-AGND
+GND
 Wire Wire Line
 	2050 3550 2050 3400
 Text GLabel 2350 1450 0    50   Input ~ 0
@@ -465,7 +465,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 1600 9250 1600
 Text GLabel 9450 2450 3    50   Input ~ 0
-AGND
+GND
 Wire Wire Line
 	9250 2300 9450 2300
 Wire Wire Line
@@ -776,7 +776,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 4150 9100 4150
 Text GLabel 9300 5000 3    50   Input ~ 0
-AGND
+GND
 Wire Wire Line
 	9100 4850 9300 4850
 Wire Wire Line
@@ -867,9 +867,9 @@ Connection ~ 6850 2100
 Wire Wire Line
 	6850 2100 7050 2100
 Text GLabel 6500 2600 3    50   Input ~ 0
-AGND
+GND
 Text GLabel 6850 2600 3    50   Input ~ 0
-AGND
+GND
 Wire Wire Line
 	6850 2500 6850 2600
 Wire Wire Line
@@ -913,9 +913,9 @@ Connection ~ 6650 4650
 Wire Wire Line
 	6650 4650 6900 4650
 Text GLabel 6300 5250 3    50   Input ~ 0
-AGND
+GND
 Text GLabel 6650 5250 3    50   Input ~ 0
-AGND
+GND
 Wire Wire Line
 	6300 5100 6300 5250
 Wire Wire Line
@@ -949,9 +949,9 @@ F 3 "~" H 1850 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1000 5600 3    50   Input ~ 0
-AGND
+GND
 Text GLabel 1850 5600 3    50   Input ~ 0
-AGND
+GND
 Text GLabel 1000 5100 1    50   Input ~ 0
 HVDD
 Text GLabel 1850 5100 1    50   Input ~ 0
@@ -976,115 +976,115 @@ Connection ~ 1850 5200
 Wire Wire Line
 	2250 5500 1850 5500
 Connection ~ 1850 5500
-Text Notes 1850 4600 0    50   ~ 0
--5V
-Text Notes 1850 4800 0    50   ~ 0
-+5V
+Text Notes 2000 4600 0    50   ~ 0
+-9V
+Text Notes 2000 4800 0    50   ~ 0
++9V
 Text GLabel 1600 4200 2    50   Input ~ 0
 +12V
 Text GLabel 1600 4300 2    50   Input ~ 0
 GND
 Text GLabel 1600 4600 2    50   Input ~ 0
-HVSS
+HVSS_9V
 Text GLabel 1600 4800 2    50   Input ~ 0
-HVDD
-Text GLabel 1400 6300 0    50   Input ~ 0
+HVDD_9V
+Text GLabel 1200 6350 0    50   Input ~ 0
 A6_IN
 $Comp
 L antena:R R51
 U 1 1 5E69350B
-P 1700 6300
-F 0 "R51" V 1493 6300 50  0000 C CNN
-F 1 "1K" V 1584 6300 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1630 6300 50  0001 C CNN
-F 3 "~" H 1700 6300 50  0001 C CNN
-	1    1700 6300
+P 1500 6350
+F 0 "R51" V 1293 6350 50  0000 C CNN
+F 1 "1K" V 1384 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1430 6350 50  0001 C CNN
+F 3 "~" H 1500 6350 50  0001 C CNN
+	1    1500 6350
 	0    1    1    0   
 $EndComp
 $Comp
 L antena:R R52
 U 1 1 5E6936F9
-P 2300 6300
-F 0 "R52" V 2093 6300 50  0000 C CNN
-F 1 "1K" V 2184 6300 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2230 6300 50  0001 C CNN
-F 3 "~" H 2300 6300 50  0001 C CNN
-	1    2300 6300
+P 2100 6350
+F 0 "R52" V 1893 6350 50  0000 C CNN
+F 1 "1K" V 1984 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2030 6350 50  0001 C CNN
+F 3 "~" H 2100 6350 50  0001 C CNN
+	1    2100 6350
 	0    1    1    0   
 $EndComp
 $Comp
 L antena:R R54
 U 1 1 5E693805
-P 2350 6800
-F 0 "R54" V 2143 6800 50  0000 C CNN
-F 1 "1K" V 2234 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 2280 6800 50  0001 C CNN
-F 3 "~" H 2350 6800 50  0001 C CNN
-	1    2350 6800
+P 2150 6850
+F 0 "R54" V 1943 6850 50  0000 C CNN
+F 1 "1K" V 2034 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2080 6850 50  0001 C CNN
+F 3 "~" H 2150 6850 50  0001 C CNN
+	1    2150 6850
 	0    1    1    0   
 $EndComp
 $Comp
 L antena:C C?
 U 1 1 5E6938B9
-P 2700 6550
+P 2500 6600
 AR Path="/5E22D897/5E6938B9" Ref="C?"  Part="1" 
 AR Path="/5E22D897/5E785EBD/5E6938B9" Ref="C37"  Part="1" 
-F 0 "C37" H 2815 6596 50  0000 L CNN
-F 1 "1nF" H 2815 6505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 6400 50  0001 C CNN
-F 3 "~" H 2700 6550 50  0001 C CNN
-	1    2700 6550
+F 0 "C37" H 2615 6646 50  0000 L CNN
+F 1 "1nF" H 2615 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 6450 50  0001 C CNN
+F 3 "~" H 2500 6600 50  0001 C CNN
+	1    2500 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L antena:D_TVS D5
 U 1 1 5E693C1B
-P 2000 6600
-F 0 "D5" V 1954 6679 50  0000 L CNN
-F 1 "D_TVS" V 2045 6679 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-523" H 2000 6600 50  0001 C CNN
-F 3 "~" H 2000 6600 50  0001 C CNN
-	1    2000 6600
+P 1800 6650
+F 0 "D5" V 1754 6729 50  0000 L CNN
+F 1 "D_TVS" V 1845 6729 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 1800 6650 50  0001 C CNN
+F 3 "~" H 1800 6650 50  0001 C CNN
+	1    1800 6650
 	0    1    1    0   
 $EndComp
-Text GLabel 2000 6900 3    50   Input ~ 0
-AGND
+Text GLabel 1800 6950 3    50   Input ~ 0
+GND
 Wire Wire Line
-	2000 6750 2000 6800
+	1800 6800 1800 6850
 Wire Wire Line
-	1400 6300 1550 6300
+	1200 6350 1350 6350
 Wire Wire Line
-	1850 6300 2000 6300
+	1650 6350 1800 6350
 Wire Wire Line
-	2000 6450 2000 6300
-Connection ~ 2000 6300
+	1800 6500 1800 6350
+Connection ~ 1800 6350
 Wire Wire Line
-	2000 6300 2150 6300
-Connection ~ 2000 6800
+	1800 6350 1950 6350
+Connection ~ 1800 6850
 Wire Wire Line
-	2000 6800 2000 6900
+	1800 6850 1800 6950
 Wire Wire Line
-	2450 6300 2700 6300
+	2250 6350 2500 6350
 Wire Wire Line
-	2700 6300 2700 6400
+	2500 6350 2500 6450
 Wire Wire Line
-	2700 6800 2700 6700
-Text GLabel 3050 6300 2    50   Input ~ 0
+	2500 6850 2500 6750
+Text GLabel 2850 6350 2    50   Input ~ 0
 ADC_A6P
 Wire Wire Line
-	3050 6300 2700 6300
-Connection ~ 2700 6300
+	2850 6350 2500 6350
+Connection ~ 2500 6350
 Text GLabel 4950 1950 3    50   Input ~ 0
 ADC_A1GND
-Text GLabel 3000 6800 2    50   Input ~ 0
+Text GLabel 2800 6850 2    50   Input ~ 0
 ADC_A6GND
 Wire Wire Line
-	3000 6800 2700 6800
+	2800 6850 2500 6850
 Wire Wire Line
-	2500 6800 2700 6800
-Connection ~ 2700 6800
+	2300 6850 2500 6850
+Connection ~ 2500 6850
 Wire Wire Line
-	2000 6800 2200 6800
+	1800 6850 2000 6850
 $Comp
 L antena:CP C36
 U 1 1 5E715A92
@@ -1118,13 +1118,13 @@ Wire Notes Line
 Text Notes 850  4000 0    50   ~ 0
 TBA1E
 Wire Notes Line
-	1050 6050 3500 6050
+	850  6100 3300 6100
 Wire Notes Line
-	3500 6050 3500 7250
+	3300 6100 3300 7300
 Wire Notes Line
-	3500 7250 1050 7250
+	3300 7300 850  7300
 Wire Notes Line
-	1050 7250 1050 6050
+	850  7300 850  6100
 Wire Wire Line
 	10800 1800 10600 1800
 Connection ~ 10600 1800
@@ -1165,7 +1165,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 1950 1250 2200
 Text GLabel 1250 2350 3    50   Input ~ 0
-AGND
+GND
 Wire Wire Line
 	1800 2050 1800 2200
 Text GLabel 1800 2350 3    50   Input ~ 0
@@ -1242,20 +1242,245 @@ Wire Wire Line
 Wire Wire Line
 	1500 4800 1600 4800
 $Comp
-L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY?
-U 1 1 5E4129EF
-P 3400 5100
-AR Path="/5E22C01C/5E4129EF" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E22D897/5E785EBD/5E4129EF" Ref="#SUPPLY0115"  Part="1" 
-F 0 "#SUPPLY0115" H 3400 5100 50  0001 C CNN
-F 1 "GND" H 3400 4970 59  0000 C CNN
-F 2 "" H 3400 5100 50  0001 C CNN
-F 3 "" H 3400 5100 50  0001 C CNN
-	1    3400 5100
+L Regulator_Linear:MC78L05_SO8 U?
+U 1 1 5E435E53
+P 4900 6150
+F 0 "U?" H 4900 6392 50  0000 C CNN
+F 1 "MC78L05_SO8" H 4900 6301 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5000 6350 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf" H 5100 6150 50  0001 C CNN
+	1    4900 6150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3400 4900 1    50   Input ~ 0
+$Comp
+L Regulator_Linear:MC79L05_SO8 U?
+U 1 1 5E436935
+P 4900 6950
+F 0 "U?" H 4900 6800 50  0000 C CNN
+F 1 "MC79L05_SO8" H 4900 6700 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4900 6750 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm79l.pdf" H 4900 7000 50  0001 C CNN
+	1    4900 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6450 4900 6650
+Text GLabel 4250 6150 0    50   Input ~ 0
+HVDD_9V
+Wire Wire Line
+	4250 6150 4300 6150
+Text GLabel 4250 6950 0    50   Input ~ 0
+HVSS_9V
+Wire Wire Line
+	4250 6950 4300 6950
+$Comp
+L antena:C C?
+U 1 1 5E4575A9
+P 4300 7200
+AR Path="/5E22D897/5E4575A9" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E4575A9" Ref="C?"  Part="1" 
+F 0 "C?" H 4415 7246 50  0000 L CNN
+F 1 "330n" H 4415 7155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4338 7050 50  0001 C CNN
+F 3 "~" H 4300 7200 50  0001 C CNN
+	1    4300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E457661
+P 4300 6400
+AR Path="/5E22D897/5E457661" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E457661" Ref="C?"  Part="1" 
+F 0 "C?" H 4415 6446 50  0000 L CNN
+F 1 "330n" H 4415 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4338 6250 50  0001 C CNN
+F 3 "~" H 4300 6400 50  0001 C CNN
+	1    4300 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 6250 4300 6150
+Connection ~ 4300 6150
+Wire Wire Line
+	4300 6150 4600 6150
+Wire Wire Line
+	4300 7050 4300 6950
+Connection ~ 4300 6950
+Wire Wire Line
+	4300 6950 4600 6950
+Text GLabel 4300 7450 3    50   Input ~ 0
+GND
+Text GLabel 4300 6650 3    50   Input ~ 0
 GND
 Wire Wire Line
-	3400 4900 3400 5000
+	4300 6650 4300 6550
+Wire Wire Line
+	4300 7450 4300 7350
+$Comp
+L antena:C C?
+U 1 1 5E484205
+P 5400 7200
+AR Path="/5E22D897/5E484205" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E484205" Ref="C?"  Part="1" 
+F 0 "C?" H 5515 7246 50  0000 L CNN
+F 1 "100n" H 5515 7155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 7050 50  0001 C CNN
+F 3 "~" H 5400 7200 50  0001 C CNN
+	1    5400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E4842D7
+P 5400 6400
+AR Path="/5E22D897/5E4842D7" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E4842D7" Ref="C?"  Part="1" 
+F 0 "C?" H 5515 6446 50  0000 L CNN
+F 1 "100n" H 5515 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 6250 50  0001 C CNN
+F 3 "~" H 5400 6400 50  0001 C CNN
+	1    5400 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6150 5400 6150
+Wire Wire Line
+	5400 6150 5400 6250
+Wire Wire Line
+	5400 7050 5400 6950
+Wire Wire Line
+	5400 6950 5200 6950
+Text GLabel 5400 7450 3    50   Input ~ 0
+GND
+Text GLabel 5400 6650 3    50   Input ~ 0
+GND
+Wire Wire Line
+	5400 6650 5400 6550
+Wire Wire Line
+	5400 7450 5400 7350
+Text GLabel 6350 6150 2    50   Input ~ 0
+HVDD
+Text GLabel 6350 6950 2    50   Input ~ 0
+HVSS
+Connection ~ 5400 6150
+Connection ~ 5400 6950
+$Comp
+L antena:C C?
+U 1 1 5E4D8253
+P 5750 6400
+AR Path="/5E22D897/5E4D8253" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E4D8253" Ref="C?"  Part="1" 
+F 0 "C?" H 5865 6446 50  0000 L CNN
+F 1 "10u" H 5865 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 6250 50  0001 C CNN
+F 3 "~" H 5750 6400 50  0001 C CNN
+	1    5750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E4D8303
+P 5750 7200
+AR Path="/5E22D897/5E4D8303" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E4D8303" Ref="C?"  Part="1" 
+F 0 "C?" H 5865 7246 50  0000 L CNN
+F 1 "10u" H 5865 7155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 7050 50  0001 C CNN
+F 3 "~" H 5750 7200 50  0001 C CNN
+	1    5750 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:L L?
+U 1 1 5E4D8424
+P 5950 6150
+F 0 "L?" V 6140 6150 50  0000 C CNN
+F 1 "L" V 6049 6150 50  0000 C CNN
+F 2 "" H 5950 6150 50  0001 C CNN
+F 3 "~" H 5950 6150 50  0001 C CNN
+	1    5950 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antena:L L?
+U 1 1 5E4D8873
+P 5950 6950
+F 0 "L?" V 6140 6950 50  0000 C CNN
+F 1 "L" V 6049 6950 50  0000 C CNN
+F 2 "" H 5950 6950 50  0001 C CNN
+F 3 "~" H 5950 6950 50  0001 C CNN
+	1    5950 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E4D8933
+P 6200 6400
+AR Path="/5E22D897/5E4D8933" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E4D8933" Ref="C?"  Part="1" 
+F 0 "C?" H 6315 6446 50  0000 L CNN
+F 1 "10u" H 6315 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6238 6250 50  0001 C CNN
+F 3 "~" H 6200 6400 50  0001 C CNN
+	1    6200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antena:C C?
+U 1 1 5E4D89DF
+P 6200 7200
+AR Path="/5E22D897/5E4D89DF" Ref="C?"  Part="1" 
+AR Path="/5E22D897/5E785EBD/5E4D89DF" Ref="C?"  Part="1" 
+F 0 "C?" H 6315 7246 50  0000 L CNN
+F 1 "10u" H 6315 7155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6238 7050 50  0001 C CNN
+F 3 "~" H 6200 7200 50  0001 C CNN
+	1    6200 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6150 5750 6150
+Wire Wire Line
+	6100 6150 6200 6150
+Wire Wire Line
+	5750 6250 5750 6150
+Connection ~ 5750 6150
+Wire Wire Line
+	5750 6150 5800 6150
+Wire Wire Line
+	6200 6250 6200 6150
+Connection ~ 6200 6150
+Wire Wire Line
+	6200 6150 6350 6150
+Wire Wire Line
+	5400 6950 5750 6950
+Wire Wire Line
+	5750 7050 5750 6950
+Connection ~ 5750 6950
+Wire Wire Line
+	5750 6950 5800 6950
+Wire Wire Line
+	6100 6950 6200 6950
+Wire Wire Line
+	6200 7050 6200 6950
+Connection ~ 6200 6950
+Wire Wire Line
+	6200 6950 6350 6950
+Text GLabel 5750 6650 3    50   Input ~ 0
+GND
+Text GLabel 6200 6650 3    50   Input ~ 0
+GND
+Wire Wire Line
+	6200 6650 6200 6550
+Wire Wire Line
+	5750 6650 5750 6550
+Text GLabel 5750 7450 3    50   Input ~ 0
+GND
+Text GLabel 6200 7450 3    50   Input ~ 0
+GND
+Wire Wire Line
+	6200 7450 6200 7350
+Wire Wire Line
+	5750 7450 5750 7350
 $EndSCHEMATC

@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 3200 1400 1    50   Input ~ 0
-AGND
+GND
 Text GLabel 3000 1400 1    50   Input ~ 0
 AVDD
 $Comp
@@ -36,13 +36,13 @@ ADC_PAR
 Text GLabel 4800 1450 1    50   Input ~ 0
 ADC_REF_EN_WR
 Text GLabel 4900 1450 1    50   Input ~ 0
-AGND
+GND
 Text GLabel 4700 1450 1    50   Input ~ 0
 AVDD
 Text GLabel 3850 1350 1    50   Input ~ 0
 ADC_RANGE
 Text GLabel 3950 1350 1    50   Input ~ 0
-AGND
+GND
 Text GLabel 3750 1350 1    50   Input ~ 0
 AVDD
 Wire Notes Line
@@ -292,15 +292,15 @@ Wire Wire Line
 Text GLabel 950  1400 1    50   Input ~ 0
 AVDD
 Text GLabel 1150 1400 1    50   Input ~ 0
-AGND
+GND
 Text GLabel 1550 1400 1    50   Input ~ 0
 AVDD
 Text GLabel 1750 1400 1    50   Input ~ 0
-AGND
+GND
 Text GLabel 2100 1400 1    50   Input ~ 0
 AVDD
 Text GLabel 2300 1400 1    50   Input ~ 0
-AGND
+GND
 Wire Notes Line
 	2600 750  2600 2350
 Wire Notes Line

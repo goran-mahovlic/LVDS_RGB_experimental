@@ -39,7 +39,7 @@ $EndComp
 Text GLabel 850  900  1    50   Input ~ 0
 AVDD
 Text GLabel 850  1450 3    50   Input ~ 0
-AGND
+GND
 $Comp
 L antena:C C33
 U 1 1 5E30FC12
@@ -58,7 +58,7 @@ Wire Wire Line
 Text GLabel 1300 900  1    50   Input ~ 0
 AVDD
 Text GLabel 1300 1450 3    50   Input ~ 0
-AGND
+GND
 $Comp
 L antena:C C38
 U 1 1 5E310EB0
@@ -77,7 +77,7 @@ Wire Wire Line
 Text GLabel 1650 900  1    50   Input ~ 0
 AVDD
 Text GLabel 1650 1450 3    50   Input ~ 0
-AGND
+GND
 $Comp
 L antena:C C34
 U 1 1 5E3124A7
@@ -96,7 +96,7 @@ Wire Wire Line
 Text GLabel 2100 900  1    50   Input ~ 0
 AVDD
 Text GLabel 2100 1450 3    50   Input ~ 0
-AGND
+GND
 $Comp
 L antena:C C39
 U 1 1 5E3124B1
@@ -115,7 +115,7 @@ Wire Wire Line
 Text GLabel 850  2050 1    50   Input ~ 0
 AVDD
 Text GLabel 850  2600 3    50   Input ~ 0
-AGND
+GND
 $Comp
 L antena:C C35
 U 1 1 5E31354C
@@ -243,12 +243,6 @@ Wire Wire Line
 	3700 1300 3600 1300
 Wire Wire Line
 	3100 1300 3200 1300
-Text GLabel 2700 3750 3    50   Input ~ 0
-AGND
-Text GLabel 2700 3600 1    50   Input ~ 0
-GND
-Wire Wire Line
-	2700 3600 2700 3750
 Text GLabel 2850 3750 3    50   Input ~ 0
 DVDD
 Text GLabel 2850 3600 1    50   Input ~ 0
@@ -329,15 +323,9 @@ Wire Wire Line
 Wire Wire Line
 	5100 3750 5200 3750
 Wire Wire Line
-	5100 3850 5200 3850
-Wire Wire Line
 	5100 3950 5200 3950
 Wire Wire Line
-	5100 4050 5200 4050
-Wire Wire Line
 	5100 4150 5200 4150
-Wire Wire Line
-	5100 4250 5200 4250
 Wire Wire Line
 	5100 3050 5200 3050
 Wire Wire Line
@@ -373,7 +361,7 @@ ADC_FRSTDATA
 Wire Wire Line
 	7200 4250 7300 4250
 Text GLabel 8500 1950 3    50   Input ~ 0
-ADC_REFGND
+GND
 Text GLabel 7300 3450 2    50   Input ~ 0
 ADC_REF
 Wire Wire Line
@@ -413,7 +401,7 @@ F 3 "~" H 7950 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7250 3050 2    50   Input ~ 0
-ADC_REFGND
+GND
 Wire Wire Line
 	7200 3050 7250 3050
 Wire Wire Line
@@ -422,11 +410,9 @@ Connection ~ 7350 3200
 Wire Wire Line
 	7350 3200 7350 3250
 Text GLabel 8200 3200 2    50   Input ~ 0
-ADC_REFGND
+GND
 Wire Wire Line
 	8100 3200 8200 3200
-Text GLabel 8300 1600 1    50   Input ~ 0
-ADC_REFGND
 Text GLabel 7300 3550 2    50   Input ~ 0
 GND
 Text GLabel 7300 3650 2    50   Input ~ 0
@@ -510,35 +496,25 @@ Wire Wire Line
 Wire Wire Line
 	5050 1150 5200 1150
 Text GLabel 5050 1250 0    50   Input ~ 0
-AGND
+GND
 Text GLabel 5050 1550 0    50   Input ~ 0
-AGND
+GND
 Text GLabel 5050 1850 0    50   Input ~ 0
-AGND
+GND
 Text GLabel 7300 1150 2    50   Input ~ 0
-AGND
+GND
 Text GLabel 7300 1250 2    50   Input ~ 0
-AGND
+GND
 Text GLabel 7300 1350 2    50   Input ~ 0
-AGND
+GND
 Text GLabel 5100 3250 0    50   Input ~ 0
 ADC_A1GND
-Text GLabel 5100 3850 0    50   Input ~ 0
-ADC_A4GND
-Text GLabel 5100 4050 0    50   Input ~ 0
-ADC_A5GND
-Text GLabel 5100 4250 0    50   Input ~ 0
-ADC_A6GND
 Text GLabel 5100 3650 0    50   Input ~ 0
-AGND
+GND
 Text GLabel 5100 3450 0    50   Input ~ 0
-AGND
+GND
 Text GLabel 7300 3350 2    50   Input ~ 0
-AGND
-Text GLabel 8300 1750 3    50   Input ~ 0
-AGND
-Wire Wire Line
-	8300 1600 8300 1750
+GND
 $Comp
 L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY?
 U 1 1 5E40527A
@@ -556,35 +532,24 @@ Text GLabel 3200 3650 1    50   Input ~ 0
 GND
 Wire Wire Line
 	3200 3650 3200 3750
-$Comp
-L EEZ_DIB_MCU_r1B1-eagle-import:GND #SUPPLY?
-U 1 1 5E41D834
-P 4600 1650
-AR Path="/5E22C01C/5E41D834" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5E22D897/5E41D834" Ref="#SUPPLY0116"  Part="1" 
-F 0 "#SUPPLY0116" H 4600 1650 50  0001 C CNN
-F 1 "GND" V 4600 1572 59  0000 R CNN
-F 2 "" H 4600 1650 50  0001 C CNN
-F 3 "" H 4600 1650 50  0001 C CNN
-	1    4600 1650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4700 1650 5200 1650
-Text GLabel 4600 1450 0    50   Input ~ 0
+Text GLabel 5050 1450 0    50   Input ~ 0
 GND
 Wire Wire Line
-	4600 1450 5200 1450
-Text GLabel 3350 3650 1    50   Input ~ 0
-ADC_A4GND
-Text GLabel 3350 3750 3    50   Input ~ 0
-GND
-Text GLabel 3450 3650 1    50   Input ~ 0
-ADC_A5GND
-Wire Wire Line
-	3350 3750 3350 3650
-Text GLabel 3450 3750 3    50   Input ~ 0
+	5050 1450 5200 1450
+Text GLabel 5050 1650 0    50   Input ~ 0
 GND
 Wire Wire Line
-	3450 3750 3450 3650
+	5200 1650 5050 1650
+Wire Wire Line
+	5100 4050 5200 4050
+Wire Wire Line
+	5100 4250 5200 4250
+Text GLabel 5100 4250 0    50   Input ~ 0
+ADC_A6GND
+Wire Wire Line
+	5100 3850 5200 3850
+Text GLabel 5100 3850 0    50   Input ~ 0
+GND
+Text GLabel 5100 4050 0    50   Input ~ 0
+GND
 $EndSCHEMATC

@@ -4652,7 +4652,7 @@ Text GLabel 6350 1800 2    50   Input ~ 0
 DIB_SCLK
 Text GLabel 6350 1900 2    50   Input ~ 0
 DIB_IRQ
-Text GLabel 6350 2050 2    50   Input ~ 0
+Text GLabel 6350 2150 2    50   Input ~ 0
 DIB_NRESET
 Text GLabel 6250 2250 0    50   Input ~ 0
 UART_RX
@@ -4798,8 +4798,6 @@ Text GLabel 6000 1700 0    50   Input ~ 0
 1P
 Text GLabel 6000 1900 0    50   Input ~ 0
 2P
-Text GLabel 6050 2050 0    50   Input ~ 0
-13N
 Wire Wire Line
 	6000 1350 6350 1350
 Wire Wire Line
@@ -4810,8 +4808,6 @@ Wire Wire Line
 	6000 1700 6350 1700
 Wire Wire Line
 	6000 1800 6350 1800
-Wire Wire Line
-	6050 2050 6350 2050
 Wire Wire Line
 	6000 1900 6350 1900
 Wire Notes Line
@@ -5061,7 +5057,7 @@ Text GLabel 4200 3600 1    50   Input ~ 0
 GND
 Wire Wire Line
 	4200 3600 4200 3700
-Text GLabel 6350 2150 2    50   Input ~ 0
+Text GLabel 6350 2500 2    50   Input ~ 0
 DIB_BOOT
 Text GLabel 6050 2150 0    50   Input ~ 0
 13P
