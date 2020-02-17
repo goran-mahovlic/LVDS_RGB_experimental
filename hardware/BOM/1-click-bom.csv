@@ -1,0 +1,69 @@
+References,Qty,Description,Manufacturer,MPN,Manufacturer,MPN,Digikey,Mouser,RS,Newark,Farnell
+"C1,",1,4u7 Capacitor_SMD:C_1206_3216Metric,,CL31A475KPHNNNE,Samsung,CL31A475KPHNNNE,1276-1809-6-ND,,,,
+"C4, C6,",2,10n Capacitor_SMD:C_0805_2012Metric,,CL21B103KBANNNC,Samsung,CL21B103KBANNNC,1276-1015-1-ND,,7666089,,3013470
+"C7, C2, C13, C14, C9, C10, C11, C12, C25, C17, C19, C21, C23, C18, C20, C22, C24, C33, C38, C34, C39, C35, C41, C40,",24,Unpolarized capacitor,,CL21B104KBCNNNC,Samsung,CL21B104KBCNNNC,1276-1003-6-ND,,7666177,,3010150
+"C16, C15,",2,Unpolarized capacitor,,CL21B334KOCNNNC,Samsung,CL21B334KOCNNNC,1276-1797-6-ND,,,,
+"C27,",1,Unpolarized capacitor,,C0805C105K8RAC7800,KEMET,C0805C105K8RACTU,399-1172-1-ND,80C0805C105K8R,8029857,,2409048
+"C29, C26, C28,",3,Unpolarized capacitor,,CL21A106KOQNNNE,Samsung,CL21A106KOQNNNE,1276-1096-6-ND,,,,3013453
+"C30, C32, C5,",3,Unpolarized capacitor,,CL10A225KP8NNNC,Samsung,CL10A225KP8NNNC,1276-1085-6-ND,,7664730,,3010066
+"C31, C36, C51,",3,Unpolarized capacitor,,CL10A475KQ8NNNC,Samsung,CL10A475KQ8NNNC,1276-1045-6-ND,,7664705,,3013399
+"C37, C66, C65,",3,Unpolarized capacitor,,VJ0603Y102KXACW1BC,Vishay,VJ0603Y102KXACW1BC,720-1529-6-ND,77VJ0603Y102KXACBC,,,2407336
+"C46, C3, C8,",3,Unpolarized capacitor,,CL10A105KA8NNNC,Samsung,CL10A105KA8NNNC,1276-1102-1-ND,,7664838,,3013382
+"C54, C55, C42, C43, C44, C45,",6,Unpolarized capacitor,,CL10A106MQ8NNNC,Samsung,CL10A106MQ8NNNC,1276-1119-1-ND,,7664718,,3010063
+"C60, C61,",2,Unpolarized capacitor,,,,,,,,,
+"C62,",1,Unpolarized capacitor,,12101U371KAT2A,AVX,12101U371KAT2A,478-12101U371KAT2ATR-ND,58112101U371KAT2A,,,
+"C64, C63,",2,Unpolarized capacitor,,0603B471K500CT,Walsin Technologies,0603B471K500CT,1292-1438-6-ND,7910603B471K500CT,1763076,,2496859
+"C69, C70, C67, C68,",4,Unpolarized capacitor,,C0603C271J5GACTU,KEMET,C0603C271J5GACTU,399-1067-1-ND,80C0603C271J5G,147207,,1414629
+"C72, C71,",2,Unpolarized capacitor,,VJ0603Y223KXXCW1BC,Vishay,VJ0603Y223KXXCW1BC,720-1611-6-ND,77VJ0603Y223KXXCBC,,,2896441
+"D1,",1,RB751V40T1G or NSR0240 EEZ DIB MCU r1B1:SOD323-R,,RB751V40T1G,ON Semiconductor,RB751V40T1G,RB751V40T1GOSDKR-ND,863RB751V40T1G,6900022,,1459171
+"D2, D3, D4, D6, D7, D5,",6,Bidirectional transient-voltage-suppression diode,,PESD12VL1BA.115,Nexperia,"PESD12VL1BA,115",1727-3808-1-ND,771PESD12VL1BAT/R,508024,,8737363
+"IC1,",1,TPS61169DCKR EEZ DIB MCU r1B1:DCK5,,TPS61169DCKR,Texas Instruments,TPS61169DCKR,296-40821-1-ND,595TPS61169DCKR,,,3119206
+"IC2,",1,TPD4E001DRLR EEZ DIB MCU r1B1:DRL6,,TPD4E001DRLR,Texas Instruments,TPD4E001DRLR,296-21887-6-ND,595TPD4E001DRLR,7099066,,3004243
+"IC3,",1,AR1021-I/SS EEZ DIB MCU r1B1:SOP65P780X200-20N,,AR1021-I/SS,Microchip,AR1021-I/SS,AR1021-I/SS-ND,579AR1021I/SS,7680776,,2218568
+"IC4,",1,M24C32-WMN6P OPA2211:SOIC127P600X170-9N,,M24C32-WMN6P,STMicroelectronics,M24C32-WMN6P,,511M24C32WMN6P,1686383,,1224413
+"J1,",1,"Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J2,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J3,",1,"Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J4, J5,",2,691327310016 691327310016:691327310016,,,,,,,,,
+"J6,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J7,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J8,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J9,",1,"Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J10,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J11,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J12,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J13,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J14,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J15,",1,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J16,",1,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",,MDD01M-09,Mean Well,MDD01M-09,1866-3370-ND,709MDD01M09,,,
+"J17,",1,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"J18,",1,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"L1,",1,DLG-0403-4R7 EEZ DIB MCU r1B1:DE0403,,DLG-0403-4R7,FerroCore,DLG-0403-4R7,,,,,
+"L2, L3, L4",3,Inductor,,CL160808T-6R8K-N,Chilisin,CL160808T-6R8K-N,,,,,
+"LCD_OUT1, LCD_IN1,",2,PCA-6-LA-40-HL-3 EEZ DIB MCU r1B1:FPC_40,,PCA-6-LA-40-HL-3,Adam Tech,PCA-6-LA-40-HL-3,,,,,
+"R2, R1, R49, R48, R47, R46,",6,Resistor,,0805S8J0100T5E,Royal Ohm,0805S8J0100T5E,,,,,
+"R3, R12, R57, R16, R13, R14, R15,",7,Resistor,,0805S8J0103T5E,Royal Ohm,0805S8J0103T5E,,,,,
+"R4,",1,20K Resistor_SMD:R_0805_2012Metric,,0805S8J0203T5E,Royal Ohm,0805S8J0203T5E,,,,,
+"R5,",1,4K7 Resistor_SMD:R_0805_2012Metric,,CQ05S8F4701T5E,,,,,,,
+"R8, R7, R6, R9, R11,",5,Resistor,,0805S8J0101T5E,Royal Ohm,0805S8J0101T5E,,,,,
+"R20, R23, R21, R22, R17, R18, R19, R35, R32,",9,Resistor,,0805S8J0102T5E,Royal Ohm,0805S8J0102T5E,,,,,
+"R24,",1,Resistor,,TC0650B499JT5,Royal Ohm,TC0650B499JT5,,,,,
+"R25,",1,Resistor,,,,,,,,,
+"R27, R26, R50,",3,Resistor,,0805S8F499JT5E,Royal Ohm,0805S8F499JT5E,,,,,
+"R30, R31, R28, R29,",4,Resistor,,CQ06S4J0122T5E,,,,,,,
+"R36, R37, R33, R34,",4,Resistor,,1206S4J0301T5E,Royal Ohm,1206S4J0301T5E,,,,,
+"R40, R41, R38, R39,",4,Resistor,,0805S8J0122T5E,Royal Ohm,0805S8J0122T5E,,,,,
+"R44, R45, R42, R43,",4,Resistor,,0805S8F510KT5E,Royal Ohm,0805S8F510KT5E,,,,,
+"R53, R51, R52, R54,",4,Resistor,,1206S4J0102T5E,Royal Ohm,1206S4J0102T5E,,,,,
+"R55, R56,",2,Resistor,,,,,,,,,
+"TOUCH1,",1,Light emitting diode,,,,,,,,,
+"U1,",1,ADS8586S Package_QFP:LQFP-64_10x10mm_P0.5mm,,ADS8586SIPM,Texas Instruments,ADS8586SIPM,296-47110-ND,595ADS8586SIPM,,,2781392
+"U2,",1,"2.5V 0.1% 10mA Low Noise Precision Voltage Reference, SO-8",,REF5025AIDR,Texas Instruments,REF5025AIDR,296-39165-6-ND,595REF5025AIDR,,,2542845
+"U3,",1,DS90CF364AMTD DS90CF364AMTD:SOP50P800X110-48N,,DS90CF364AMTD,Texas Instruments,DS90CF364AMTD,DS90CF364AMTD-ND,926DS90CF364AMTD,,,
+"U4,",1,DS90CF36B DS90CF364AMTD:SOP50P800X110-48N,,DS90CF364AMTD,Texas Instruments,DS90CF364AMTD,DS90CF364AMTD-ND,926DS90CF364AMTD,,,
+"U5,",1,"Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8",,MC78L05ABDR2G,ON Semiconductor,MC78L05ABDR2G,MC78L05ABDR2GOSDKR-ND,863MC78L05ABDR2G,6889269,,2534293
+"U6,",1,THS4032ID EEZ DIB MCU r1B1:SOIC127P600X173-8N,,THS4032ID,Texas Instruments,THS4032ID,296-7525-5-ND,595THS4032ID,6611167,,8453217
+"U8, U7,",2,THS4551IDGKT Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm,,THS4551IDGKT,Texas Instruments,THS4551IDGKT,296-44771-1-ND,595THS4551IDGKT,,,2643424RL
+"U9,",1,"Negative 100mA -30V Linear Regulator, Fixed Output -5V, SO-8",,MC79L05ABDR2G,ON Semiconductor,MC79L05ABDR2G,MC79L05ABDR2GOSCT-ND,863MC79L05ABDR2G,,,2534290
+"ULX3S_L1, ULX3S_R1,",2,"Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,,,,,
+"ZD1,",1,BZX384-B30.115 EEZ DIB MCU r1B1:SOD323-W,,BZX384-B30.115,Nexperia,"BZX384-B30,115",1727-3649-6-ND,771BZX384B30115,,,2575164
